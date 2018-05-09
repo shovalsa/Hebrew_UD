@@ -2,10 +2,14 @@ import re
 import csv
 import pandas as pd
 import numpy as np
+from collections import Counter
+
 
 dummy = 'dummy_treebank.csv'
 dev_treebank = 'he_htb-ud-dev.conllu'
 training_treebank = 'he_htb-ud-train.conllu'
+test_treebank = 'he_htb-ud-test.conllu'
+
 
 def suit_for_pandas(filepath):
     source = open(filepath, 'r')
@@ -16,14 +20,6 @@ def suit_for_pandas(filepath):
             output.write('%s\t\t\t\t\t\t\t\t\t\n' % line)
         else:
             output.write(line)
-
-def clean_file(data, filepath):
-    source = open('fixed_%s.csv' % filepath, 'r')
-    output = open('fixed_%s' % filepath, 'w')
-
-
-# data = pd.read_csv("modified_%s" % dev_treebank, sep='\t')
-
 
 
 def get_elements(data, col_name, value):
@@ -84,35 +80,71 @@ def get_head(data, dependent):
                     head = data.iloc[int(head.name) + 1]
     return head
 
+def get_context(data, dependent):
+    """
+    shows the head and the sentence of the given dependent
+    :param data:
+    :param dependent:
+    :return:
+    """
+    sentence = dependent
+    while '#' not in str(sentence['INDEX']):
+        sentence = data.iloc[int(sentence.name) - 1]
+    context = [dependent, get_head(data, dependent), sentence['INDEX']]
+    return context
 
-def get_sentences(dataFrame):
-    all_sentences = []
-    for i, v in dataFrame.iterrows():
-        print(type(v))
-        sentence = []
-        if v['INDEX'] == '1':
-            sentence.append(v)
 
-
+def change_dependent(data, extract_col, extract_value, old_dependent_rel, new_dependent_rel, head_rel):
+    name = 0
+    advs = get_elements(data, extract_col, extract_value)
+    for i, v in advs.iterrows():
+        if (get_head(data, v)['DEPREL'] == head_rel) and (v['DEPREL'] == old_dependent_rel):
+            data.at[v.name, 'DEPREL'] = new_dependent_rel
+    return data
 
 
 def make_changes(filepath):
     suit_for_pandas(filepath)
-    data = pd.read_csv("modified_%s" % filepath, sep='\t')
+    data = pd.read_csv("modified_%s" % filepath, sep='\t', quoting=csv.QUOTE_NONE)
     data = naive_change_value(data, 'DEPREL', 'iobj', 'obl')
     data = naive_change_value(data, 'DEPREL', 'acl:inf', 'acl')
     data = change_COL1xCOL2(data, 'UPOSTAG', 'DEPREL', 'PRON', 'amod', new_col2_value='det')
+    data = change_COL1xCOL2(data, 'XPOSTAG', 'DEPREL', 'PRON', 'amod', new_col2_value='det')
     data = change_COL1xFEATS(data, 'DEPREL', 'Prefix=Yes', new_col1_value="compound:affix")
     data = change_COL1xFEATS(data, 'DEPREL', 'VerbType=Cop', old_col1_value='aux', new_col1_value='cop')
     data = naive_change_value(data, 'DEPREL', 'conj:discourse', 'parataxis')
     data = change_COL1xCOL2(data, 'UPOSTAG', 'DEPREL', 'ADV', 'obl:tmod', new_col2_value='advmod')
+    data = change_COL1xCOL2(data, 'XPOSTAG', 'DEPREL', 'ADV', 'obl:tmod', new_col2_value='advmod')
     data = naive_change_value(data, 'DEPREL', 'advmod:inf', 'acl')
     data = naive_change_value(data, 'DEPREL', 'aux:q', 'mark:q')
     data = naive_change_value(data, 'UPOSTAG', 'PART', 'ADP')
+    data = naive_change_value(data, 'XPOSTAG', 'PART', 'ADP')
     data = change_COL1xCOL2(data, 'UPOSTAG', 'DEPREL', 'INTJ', 'advmod', new_col2_value='discourse')
-    data.to_csv('fixed_%s.csv' % filepath, sep='\t', index=False)
+    data = change_COL1xCOL2(data, 'XPOSTAG', 'DEPREL', 'INTJ', 'advmod', new_col2_value='discourse')
+    data = change_dependent(data, 'UPOSTAG', 'ADV', 'dep', 'advmod', 'advmod:phrase')
+    data.to_csv('fixed_%s' % filepath, sep='\t', index=False, header=False, quoting=csv.QUOTE_NONE)
 
 make_changes(dev_treebank)
 
+def inspect(data, dataSeries):
+    postags = []
+    relevant_heads = []
+    for i, v in dataSeries.iterrows():
+        context = get_context(data, v)
+        dependent = context[0]
+        head = context[1]
+        sentence = context[2]
+        if (dependent['UPOSTAG'] == 'ADV') and (head['DEPREL'] == 'advmod:phrase'):
+            relevant_heads.append(head['DEPREL'])
+            print(sentence)
+            print(dependent['INDEX'], dependent['FORM'], dependent['UPOSTAG'])
+            print(head['INDEX'], head['FORM'], head['UPOSTAG'])
+        postags.append(dependent['UPOSTAG'])
 
+    print(Counter(relevant_heads))
+    print(Counter(postags))
 
+    # if get_head(v)['col_1'] == 'some_value':
+    #     print("dependent", v['FORM'])
+    #     print("head", get_head(v)['FORM'])
+    #     print("head", get_head(get_head(v))['FORM'])
