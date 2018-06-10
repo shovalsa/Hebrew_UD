@@ -37,7 +37,7 @@ def add_sentence(df):
             slice = df.iloc[indices[i]:indices[i + 1]] # each 'slice' is the rows that comprise the sentence
         except IndexError:
             slice = df.iloc[indices[i] + 1:] # each 'slice' is the rows that comprise the sentence
-        add_tokens(slice, i)
+        slice = add_tokens(slice, i)
         sentence = [[' '], "# %s" % raw[i].strip(), [' '], [' '], [' '], [' '], [' '], [' ']]
         temp_df.append(pd.DataFrame(dict(zip(columns, sentence))))
         temp_df.append(slice)
@@ -61,8 +61,7 @@ def add_tokens(df, i):
     """
     raw = get_raw_sentences()
     rows_list = []
-    # rows_list = pd.DataFrame([np.zeros(8)],columns=columns)
-    print(rows_list)
+    # rows_list = pd.DataFrame([np.zeros(8)], columns=columns)
     multi_lemma = df[df.duplicated(subset='TOKEN_NO', keep=False)] #returns a full df of the non-standalone lemmas
     for index, row in df.iterrows():
         if (row['line_index'] == multi_lemma['line_index']).any(): #returns true if the line is part of a bigger token (that is, in multi_lemma)
@@ -70,23 +69,26 @@ def add_tokens(df, i):
             sentence = re.sub('\"\s', ' \" ', sentence)
             sentence = re.findall(r"[\w']+|[.,!?;]", sentence)
             token = sentence[row['TOKEN_NO']-1]
-            t = [[' '], [' '], " %s" % token.strip(), [' '], [' '], [' '], [' '], [' ']]
+            t_r = multi_lemma[multi_lemma['TOKEN_NO'] == row['TOKEN_NO']]
+            r = t_r['ID'].tolist()
+            token_range = "%d-%d" % (r[0], r[-1])
+            t = [[' '], token_range, " %s" % token.strip(), [' '], [' '], [' '], [' '], [' ']]
 
             t_df = pd.DataFrame(dict(zip(columns, t)))
             rows_list.append(t_df)
-            rows_list.append(row)
+            rows_list.append(df[df['FORM'] == row['FORM']])
             multi_lemma = multi_lemma[multi_lemma['TOKEN_NO'] != row['TOKEN_NO']]
         else:
-            rows_list.append(row)
-    tmp = pd.concat(rows_list, ignore_index=True)
-    print(tmp.head())
-    return df
+            rows_list.append(df[df['FORM'] == row['FORM']])
+    tmp = pd.concat(rows_list)
+    print(tmp['ID'])
+    return tmp
 
 
 def main():
     df = create_df()
     df = add_sentence(df)
-    # df = df.drop(columns=['line_index'])
-    # df.to_csv('fixed_map.csv', sep='\t', index=False, header=True, quoting=csv.QUOTE_NONE, escapechar=' ')
+    df = df.drop(columns=['line_index', 'TOKEN_NO'])
+    df.to_csv('fixed_map.csv', sep='\t', index=False, header=True, quoting=csv.QUOTE_NONE, escapechar=' ', columns=columns)
 
 main()
