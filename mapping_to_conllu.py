@@ -1,18 +1,29 @@
 """
-1. להוריד עמודה של אינדקסים (העמודה הראשונה בmapping)
-3.  להשתיל כל משפט raw כהערה לפני העץ הרלוונטי שלו
-4. ולהכניס כל טוקן מהמשפט הraw, עם הטווח שלו, לפני המורפמות הרלוונטיות (וזה לפי עמודת מספרי הטוקנים)
-2. להוריד עמודה של מספרי טוקנים (העמודה האחרונה ב mapping)
-5. אחכ צריך להוסיף 3 עמודות ריקות (כלומר שלוש פעמים  _  ) לכל שורה שמציינת מורפמה.
+converts lang.mapping format into lang.conllu format.
+Please provide the code with a mapping file and the raw.input containing the sentences separated by new line.
+Then run:
+$ mapping_to_conllu.py path/to/lang.mapping path/to/raw.input
+
+ It is also possible to provide a tokenizer of your own language, which takes a single sentence and returns a list of tokens.
+ In such a case, please replace tokenizer = None in line 18 with an appropriate import
 """
 import pandas as pd
 import csv
 import re
+import sys
 import numpy as np
 
+try:
+    f, mapping_filepath, raw_filepath = sys.argv # comment this if run from IDE
+except ValueError:
+    raise Exception("Please provide <path/to/lang.mapping> <path/to/raw.input> as arguments")
+tokenizer = None
 
-mapping_filepath = 'he_htb-ud-dev.heblex.mapping'
-raw_filepath = 'dev_sentences.txt'
+# mapping_filepath = 'he_htb-ud-dev.heblex.mapping' # comment this if run from command line
+# raw_filepath = 'dev_sentences.txt' # comment this if run from command line
+
+
+
 columns = ['line_index', 'ID', 'FORM', 'LEMMA', 'CPOSTAG', 'POSTAG', 'FEATS', 'TOKEN_NO']
 
 
@@ -20,7 +31,7 @@ def get_raw_sentences():
     raw = open(raw_filepath, 'r')
     return raw.readlines()
 
-def tokenize(sentence, tokenizer=None):
+def tokenize(sentence, tokenizer=tokenizer):
     """
     Since different languages tokenize sentences differently, this one should be a separate method.
     :param sentence: a standalone sentence (e.g. one line from the raw.input file)
@@ -84,7 +95,7 @@ def add_tokens(df, i):
     multi_lemma = df[df.duplicated(subset='TOKEN_NO', keep=False)] #returns a full df of the non-standalone lemmas
     for index, row in df.iterrows():
         if (row['line_index'] == multi_lemma['line_index']).any(): #returns true if the line is part of a bigger token (that is, in multi_lemma)
-            sentence = tokenize(raw[i])
+            sentence = tokenize(raw[i], tokenizer)
             token = sentence[row['TOKEN_NO']-1]
             morphemes = multi_lemma[multi_lemma['TOKEN_NO'] == row['TOKEN_NO']] # all the morphemes of the token
             morpheme_indices = morphemes['ID'].tolist()
