@@ -20,6 +20,24 @@ def get_raw_sentences():
     raw = open(raw_filepath, 'r')
     return raw.readlines()
 
+def tokenize(sentence, tokenizer=None):
+    """
+    Since different languages tokenize sentences differently, this one should be a separate method.
+    :param sentence: a standalone sentence (e.g. one line from the raw.input file)
+    :param tokenizer: If externally provided, a tokenizer should be such that takes a single sentence as argument
+                        and returns a list of tokens.
+    :return: a list of tokens
+    """
+    if tokenizer == None:
+        u = re.sub('([!#$%&\()*+,-./:;<=>?@\^_|~])', r' \1 ', sentence)
+        u = re.sub('(\s[\'\"`])', r' \1 ', u)
+        u = re.sub('([\'`\"]\s)', r' \1 ', u)
+        u = re.sub('([\'`\"]$)', r' \1 ', u)
+        token_list = re.sub('(^[\'\"`])', r' \1 ', u)
+        token_list = re.findall(r"[\w\"]+|[^\w\s]", token_list)
+        return token_list
+    else:
+        return tokenizer(sentence)
 
 def create_df():
     mapping_df = pd.read_csv(mapping_filepath, sep='\t', header=None, quoting=csv.QUOTE_NONE)
@@ -38,10 +56,11 @@ def add_sentence(df):
         except IndexError:
             slice = df.iloc[indices[i] + 1:] # each 'slice' is the rows that comprise the sentence
         slice = add_tokens(slice, i)
-        sentence = [[' '], "# %s" % raw[i].strip(), [' '], [' '], [' '], [' '], [' '], [' ']]
+        sentence = [['_'], "# text = %s" % raw[i].strip(), [' '], [' '], [' '], [' '], [' '], [' ']]
+        sent_id = [[' '], "# sent_id = %d" % (i+1), [' '], [' '], [' '], [' '], [' '], [' ']]
+        temp_df.append(pd.DataFrame(dict(zip(columns, sent_id))))
         temp_df.append(pd.DataFrame(dict(zip(columns, sentence))))
         temp_df.append(slice)
-        break
     tmp = pd.concat(temp_df)
     return tmp
 
@@ -65,30 +84,32 @@ def add_tokens(df, i):
     multi_lemma = df[df.duplicated(subset='TOKEN_NO', keep=False)] #returns a full df of the non-standalone lemmas
     for index, row in df.iterrows():
         if (row['line_index'] == multi_lemma['line_index']).any(): #returns true if the line is part of a bigger token (that is, in multi_lemma)
-            sentence = re.sub('\s\"', ' \" ', raw[i])
-            sentence = re.sub('\"\s', ' \" ', sentence)
-            sentence = re.findall(r"[\w']+|[.,!?;]", sentence)
+            sentence = tokenize(raw[i])
             token = sentence[row['TOKEN_NO']-1]
-            t_r = multi_lemma[multi_lemma['TOKEN_NO'] == row['TOKEN_NO']]
-            r = t_r['ID'].tolist()
-            token_range = "%d-%d" % (r[0], r[-1])
-            t = [[' '], token_range, " %s" % token.strip(), [' '], [' '], [' '], [' '], [' ']]
+            morphemes = multi_lemma[multi_lemma['TOKEN_NO'] == row['TOKEN_NO']] # all the morphemes of the token
+            morpheme_indices = morphemes['ID'].tolist()
+            token_range = "%d-%d" % (morpheme_indices[0], morpheme_indices[-1]) # something like 15-18
+            t = [[' '], token_range, " %s" % token.strip(), ['_'], ['_'], ['_'], ['_'], ['_']]
 
-            t_df = pd.DataFrame(dict(zip(columns, t)))
-            rows_list.append(t_df)
-            rows_list.append(df[df['FORM'] == row['FORM']])
+            range_and_token = pd.DataFrame(dict(zip(columns, t)))  # token range + token
+            rows_list.append(range_and_token)
+            morpheme = df[df['ID'] == row['ID']]
+            rows_list.append(morpheme) # morpheme
             multi_lemma = multi_lemma[multi_lemma['TOKEN_NO'] != row['TOKEN_NO']]
         else:
-            rows_list.append(df[df['FORM'] == row['FORM']])
+            rows_list.append(df[df['ID'] == row['ID']]) # standalone lemma
     tmp = pd.concat(rows_list)
-    print(tmp['ID'])
     return tmp
 
 
 def main():
     df = create_df()
     df = add_sentence(df)
-    df = df.drop(columns=['line_index', 'TOKEN_NO'])
-    df.to_csv('fixed_map.csv', sep='\t', index=False, header=True, quoting=csv.QUOTE_NONE, escapechar=' ', columns=columns)
+    df.drop(columns=['line_index', 'TOKEN_NO'])
+    df = df.assign(DEPREL='_')
+    df = df.assign(DEPS='_')
+    df = df.assign(MISC='_')
+    columns = ['ID', 'FORM', 'LEMMA', 'CPOSTAG', 'POSTAG', 'FEATS', 'DEPREL', 'DEPS', 'MISC']
+    df.to_csv('fixed_map.conllu', sep='\t', index=False, header=False, quoting=csv.QUOTE_NONE, escapechar=' ', columns=columns)
 
 main()
