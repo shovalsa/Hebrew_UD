@@ -5,7 +5,7 @@ Then run:
 $ mapping_to_conllu.py path/to/lang.mapping path/to/raw.input
 
  It is also possible to provide a tokenizer of your own language, which takes a single sentence and returns a list of tokens.
- In such a case, please replace tokenizer = None in line 18 with an appropriate import
+ In such a case, please replace tokenizer = None in line 16 with an appropriate import
 """
 import pandas as pd
 import csv
@@ -13,14 +13,18 @@ import re
 import sys
 import numpy as np
 
-try:
-    f, mapping_filepath, raw_filepath = sys.argv # comment this if run from IDE
-except ValueError:
-    raise Exception("Please provide <path/to/lang.mapping> <path/to/raw.input> as arguments")
 tokenizer = None
 
-# mapping_filepath = 'he_htb-ud-dev.heblex.mapping' # comment this if run from command line
-# raw_filepath = 'dev_sentences.txt' # comment this if run from command line
+# comment this chunk if run from IDE:
+# try:
+#     f, mapping_filepath, raw_filepath = sys.argv
+# except ValueError:
+#     raise Exception("Please provide <path/to/lang.mapping> <path/to/raw.input> as arguments")
+
+
+# comment this chunk if run from command line:
+mapping_filepath = 'he_htb-ud-dev.heblex.mapping'
+raw_filepath = 'dev_sentences.txt' # comment this if run from command line
 
 
 
@@ -67,8 +71,10 @@ def add_sentence(df):
         except IndexError:
             slice = df.iloc[indices[i] + 1:] # each 'slice' is the rows that comprise the sentence
         slice = add_tokens(slice, i)
-        sentence = [['_'], "# text = %s" % raw[i].strip(), [' '], [' '], [' '], [' '], [' '], [' ']]
-        sent_id = [[' '], "# sent_id = %d" % (i+1), [' '], [' '], [' '], [' '], [' '], [' ']]
+        blank_line = [[' '], [' '], [' '], [' '], [' '], [' '], [' '], [' ']]
+        sent_id = [[' '], "# sent_id = {}".format(i+1), [' '], [' '], [' '], [' '], [' '], [' ']]
+        sentence = [['_'], "# text = {}".format(raw[i].strip()), [' '], [' '], [' '], [' '], [' '], [' ']]
+        temp_df.append(pd.DataFrame(dict(zip(columns, blank_line))))
         temp_df.append(pd.DataFrame(dict(zip(columns, sent_id))))
         temp_df.append(pd.DataFrame(dict(zip(columns, sentence))))
         temp_df.append(slice)
@@ -100,7 +106,7 @@ def add_tokens(df, i):
             morphemes = multi_lemma[multi_lemma['TOKEN_NO'] == row['TOKEN_NO']] # all the morphemes of the token
             morpheme_indices = morphemes['ID'].tolist()
             token_range = "%d-%d" % (morpheme_indices[0], morpheme_indices[-1]) # something like 15-18
-            t = [[' '], token_range, " %s" % token.strip(), ['_'], ['_'], ['_'], ['_'], ['_']]
+            t = [[' '], token_range, "%s" % token.strip(), ['_'], ['_'], ['_'], ['_'], ['_']]
 
             range_and_token = pd.DataFrame(dict(zip(columns, t)))  # token range + token
             rows_list.append(range_and_token)
@@ -120,7 +126,8 @@ def main():
     df = df.assign(DEPREL='_')
     df = df.assign(DEPS='_')
     df = df.assign(MISC='_')
-    columns = ['ID', 'FORM', 'LEMMA', 'CPOSTAG', 'POSTAG', 'FEATS', 'DEPREL', 'DEPS', 'MISC']
-    df.to_csv('fixed_map.conllu', sep='\t', index=False, header=False, quoting=csv.QUOTE_NONE, escapechar=' ', columns=columns)
 
+    columns = ['ID', 'FORM', 'LEMMA', 'CPOSTAG', 'POSTAG', 'FEATS', 'DEPREL', 'DEPS', 'MISC']
+    df.to_csv('fixed_map.conllu', sep='\t', index=False, header=False, quoting=csv.QUOTE_NONE, escapechar='\\', columns=columns)
+    print('Successfully converted .mapping to .conllu')
 main()
