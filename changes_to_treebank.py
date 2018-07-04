@@ -106,6 +106,7 @@ def change_dependent(data, extract_col, extract_value, old_dependent_rel, new_de
 def make_changes(filepath):
     suit_for_pandas(filepath)
     data = pd.read_csv("modified_%s" % filepath, sep='\t', quoting=csv.QUOTE_NONE)
+    data['tuple'] = data['INDEX'] + data['HEAD']
     data = naive_change_value(data, 'DEPREL', 'iobj', 'obl')
     data = naive_change_value(data, 'DEPREL', 'acl:inf', 'acl')
     data = change_COL1xCOL2(data, 'UPOSTAG', 'DEPREL', 'PRON', 'amod', new_col2_value='det')
@@ -124,7 +125,7 @@ def make_changes(filepath):
     data = change_dependent(data, 'UPOSTAG', 'ADV', 'dep', 'advmod', 'advmod:phrase')
     data.to_csv('fixed_%s' % filepath, sep='\t', index=False, header=False, quoting=csv.QUOTE_NONE)
 
-make_changes(dev_treebank)
+make_changes(test_treebank)
 
 def inspect(data, dataSeries):
     postags = []
@@ -148,3 +149,5 @@ def inspect(data, dataSeries):
     #     print("dependent", v['FORM'])
     #     print("head", get_head(v)['FORM'])
     #     print("head", get_head(get_head(v))['FORM'])
+
+
