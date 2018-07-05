@@ -3,7 +3,7 @@ import csv
 import pandas as pd
 import numpy as np
 from collections import Counter
-
+import re
 
 dummy = 'dummy_treebank.csv'
 dev_treebank = 'he_htb-ud-dev.conllu'
@@ -15,11 +15,16 @@ def suit_for_pandas(filepath):
     source = open(filepath, 'r')
     output = open("modified_%s" % filepath, 'w')
     output.write("INDEX	FORM	LEMMA	UPOSTAG	XPOSTAG	FEATS	HEAD	DEPREL	DEPS	MISC\n")
+    sent_id = ''
     for line in source.readlines():
+        if 'sent_id' in line:
+            sent_id = "".join([x for x in line if x.isnumeric()])
         if line[0] == '#':
             output.write('%s\t\t\t\t\t\t\t\t\t\n' % line)
         else:
             output.write(line)
+
+
 
 
 def get_elements(data, col_name, value):
@@ -103,12 +108,34 @@ def change_dependent(data, extract_col, extract_value, old_dependent_rel, new_de
     return data
 
 
+
+
+def flip_aux_xcomp_for_modals(data):
+
+    deps = get_elements(data, 'DEPREL', 'xcomp')
+    for i, v in deps.iterrows():
+        head = get_head(data, v)
+        if 'VerbType=Mod' in head['FEATS']:
+            deps.loc[i, 'DEPREL'] = head['DEPREL']
+            data.loc[head.name, 'DEPREL'] = 'aux'
+            data.loc[i, 'DEPREL'] = deps.loc[i, 'DEPREL']
+
+            deps.loc[i, 'HEAD'] = head['HEAD']
+            data.loc[head.name, 'HEAD'] = v['INDEX']
+            data.loc[i, 'HEAD'] = deps.loc[i, 'HEAD']
+
+            # v['HEAD'] = head['HEAD']
+            # head['HEAD'] = v['INDEX']
+    return data
+
+
 def make_changes(filepath):
     suit_for_pandas(filepath)
     data = pd.read_csv("modified_%s" % filepath, sep='\t', quoting=csv.QUOTE_NONE)
-    data['tuple'] = data['INDEX'] + data['HEAD']
+    # data.columns = ["SENTENCE", "INDEX", "FORM", "LEMMA", "UPOSTAG", "XPOSTAG", "FEATS", "HEAD", "DEPREL", "DEPS", "MISC"]
     data = naive_change_value(data, 'DEPREL', 'iobj', 'obl')
     data = naive_change_value(data, 'DEPREL', 'acl:inf', 'acl')
+    data = naive_change_value(data, 'DEPREL', 'det:quant', 'det')
     data = change_COL1xCOL2(data, 'UPOSTAG', 'DEPREL', 'PRON', 'amod', new_col2_value='det')
     data = change_COL1xCOL2(data, 'XPOSTAG', 'DEPREL', 'PRON', 'amod', new_col2_value='det')
     data = change_COL1xFEATS(data, 'DEPREL', 'Prefix=Yes', new_col1_value="compound:affix")
@@ -123,9 +150,10 @@ def make_changes(filepath):
     data = change_COL1xCOL2(data, 'UPOSTAG', 'DEPREL', 'INTJ', 'advmod', new_col2_value='discourse')
     data = change_COL1xCOL2(data, 'XPOSTAG', 'DEPREL', 'INTJ', 'advmod', new_col2_value='discourse')
     data = change_dependent(data, 'UPOSTAG', 'ADV', 'dep', 'advmod', 'advmod:phrase')
+    data = flip_aux_xcomp_for_modals(data)
     data.to_csv('fixed_%s' % filepath, sep='\t', index=False, header=False, quoting=csv.QUOTE_NONE)
 
-make_changes(test_treebank)
+make_changes(training_treebank)
 
 def inspect(data, dataSeries):
     postags = []
