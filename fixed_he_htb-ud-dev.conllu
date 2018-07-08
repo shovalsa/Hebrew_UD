@@ -1,8 +1,6 @@
 # sent_id = 1									
 									
-									
 # text = עשרות אנשים מגיעים מתאילנד לישראל כשהם נרשמים כמתנדבים, אך למעשה משמשים עובדים שכירים זולים.									
-									
 									
 1	עשרות	עשרות	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	2	nummod	_	_
 2	אנשים	איש	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
@@ -30,9 +28,7 @@
 20	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 2									
 									
-									
 # text = תופעה זו התבררה אתמול בוועדת העבודה והרווחה של הכנסת, שדנה בנושא העסקת עובדים זרים.									
-									
 									
 1	תופעה	תופעה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
 2	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	1	det	_	_
@@ -65,9 +61,7 @@
 23	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 3									
 									
-									
 # text = יו"ר הוועדה, ח"כ אורה נמיר (מערך), טענה כי "מביאים עובדים זרים לישראל על תקן של מתנדבים מתאילנד, רק כדי לא לשלם להם שכר מינימום.									
-									
 									
 1	יו"ר	יו"ר	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	12	nsubj	_	_
 2-3	הוועדה	_	_	_	_	_	_	_	SpaceAfter=No
@@ -110,9 +104,7 @@
 35	.	.	PUNCT	PUNCT	_	12	punct	_	_
 # sent_id = 4									
 									
-									
 # text = מצד אחד רוצה האוצר להוריד את שכר המינימום, ומצד שני מתיר משרד העבודה והרווחה להעסיק עובדים זרים בפחות משכר זה".									
-									
 									
 1-2	מצד	_	_	_	_	_	_	_	_
 1	מ	מ	ADP	ADP	_	2	case	_	_
@@ -157,9 +149,7 @@
 33	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 5									
 									
-									
 # text = נמיר הודיעה כי תפנה לשרי הפנים והעבודה והרווחה ולמזכיר תנועת המושבים, בתביעה לבטל את הזמנתם של 500 עובדים זרים מתאילנד כמתנדבים כביכול.									
-									
 									
 1	נמיר	נמיר	PROPN	PROPN	_	2	nsubj	_	_
 2	הודיעה	הודיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -211,9 +201,7 @@
 38	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 6									
 									
-									
 # text = היא הודיעה כי הוועדה תגבש הצעת חוק בנושא העובדים הזרים, שתכלול איסור על מתן שכר לעובדים מתחת לשכר המינימום ומתן התנאים הסוציאליים המקובלים במקום העבודה.									
-									
 									
 1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	הודיעה	הודיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -273,9 +261,7 @@
 42	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 7									
 									
-									
 # text = כמו כן, תציב הצעת החוק עונשי מאסר והטלת קנסות כבדים למי שיעסיק עובדים זרים בלא רשיון.									
-									
 									
 1	כמו	כמו	ADP	ADP	_	2	case	_	_
 2	כן	_	PRON	PRON	Person=3|PronType=Dem	4	obl	_	SpaceAfter=No
@@ -305,9 +291,7 @@
 22	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 8									
 									
-									
 # text = מרגלית אילת, הממונה על מתן היתרי עבודה לזרים בשירות התעסוקה, מסרה כי תנועת המושבים הפעילה לחץ שיותר לה להביא עובדים זרים מתאילנד.									
-									
 									
 1	מרגלית	מרגלית	PROPN	PROPN	_	17	nsubj	_	_
 2	אילת	אילת	PROPN	PROPN	_	1	flat:name	_	SpaceAfter=No
@@ -352,9 +336,7 @@
 33	.	.	PUNCT	PUNCT	_	17	punct	_	_
 # sent_id = 9									
 									
-									
 # text = היא אמרה כי שירות התעסוקה הציע להביא עובדים מדרום לבנון, אך תנועת המושבים סירבה.									
-									
 									
 1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	אמרה	אמר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -380,9 +362,7 @@
 19	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 10									
 									
-									
 # text = ישראל ארד, סמנכ"ל הביטוח הלאומי, אמר כי ממלא מקום שר העבודה והרווחה, דוד מגן, הקים ועדה בין-משרדית, שהמליצה להגדיל באופן משמעותי את הקנסות למעסיקים.									
-									
 									
 1	ישראל	ישראל	PROPN	PROPN	_	10	nsubj	_	_
 2	ארד	ארד	PROPN	PROPN	_	1	flat:name	_	SpaceAfter=No
@@ -436,9 +416,7 @@
 42	.	.	PUNCT	PUNCT	_	10	punct	_	_
 # sent_id = 11									
 									
-									
 # text = ח"כ אלי דיין (מערך) הגיש הצעת חוק שלפיה יוטל היטל על מעסיקי עובדים זרים, כדי למנוע העדפתם על עובדים ישראליים.									
-									
 									
 1	ח"כ	ח"ך	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	7	nsubj	_	_
 2	אלי	אלי	PROPN	PROPN	_	1	appos	_	_
@@ -472,9 +450,7 @@
 28	.	.	PUNCT	PUNCT	_	7	punct	_	_
 # sent_id = 12									
 									
-									
 # text = חברות המעסיקות עובדים זרים זוכות במכרזים, היות והן מציעות שירותים זולים יותר.									
-									
 									
 1	חברות	חברה	NOUN	NOUN	Gender=Fem|Number=Plur	6	nsubj	_	_
 2-3	המעסיקות	_	_	_	_	_	_	_	_
@@ -498,9 +474,7 @@
 17	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 13									
 									
-									
 # text = ח"כ רן כהן (רץ) אמר כי על הוועדה לפנות לממשלה בדרישה לחסל את העסקת העובדים הזרים לאלתר, על רקע היצע העולים המוכנים לעבוד בכל עבודה בשכר המינימום.									
-									
 									
 1	ח"כ	ח"ך	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	7	dep	_	_
 2	רן	רן	PROPN	PROPN	_	1	appos	_	_
@@ -556,9 +530,7 @@
 42	.	.	PUNCT	PUNCT	_	7	punct	_	_
 # sent_id = 14									
 									
-									
 # text = לדבריו, יש לפנות למשרד העבודה והרווחה בדרישה לבטל בתוך חודש את עבודת העובדים הזרים המועסקים כיום תחת הכותרת "מתנדבים".									
-									
 									
 1-4	לדבריו	_	_	_	_	_	_	_	SpaceAfter=No
 1	ל	ל	ADP	ADP	_	2	case	_	_
@@ -606,9 +578,7 @@
 35	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 15									
 									
-									
 # text = ח"כ יאיר צבן (מפם) אמר כי פרשת המתנדבים התאילנדיים היא "כתם חרפה על פרצופנו הלאומי.									
-									
 									
 1	ח"כ	ח"ך	NOUN	NOUN	Abbr=Yes|Gender=Masc|Number=Sing	7	nsubj	_	_
 2	יאיר	יאיר	PROPN	PROPN	_	1	appos	_	_
@@ -640,9 +610,7 @@
 24	.	.	PUNCT	PUNCT	_	7	punct	_	_
 # sent_id = 16									
 									
-									
 # text = המוח מתפלץ לא רק מהתופעה המבישה אלא גם מדרכי ההערמה.									
-									
 									
 1-2	המוח	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -668,9 +636,7 @@
 17	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 17									
 									
-									
 # text = הראש היהודי ממציא לנו פטנטים בדמות מתנדבים, המשולמים שכר מחפיר".									
-									
 									
 1-2	הראש	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -697,9 +663,7 @@
 18	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 18									
 									
-									
 # text = הוא קרא להפסקת התופעה ולמתן תשלומים רטרואקטיוויים לתאילנדים, שישלימו את שכר המינימום.									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	קרא	קרא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -731,9 +695,7 @@
 22	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 19									
 									
-									
 # text = דוברת שירות התעסוקה מסרה אתמול בתגובה, כי השירות פועל לצמצום מספרם של העובדים הזרים ולהכנסת עולים חדשים במקומם.									
-									
 									
 1	דוברת	דובר	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	5	nsubj	_	_
 2	שירות	שירות	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	compound:smixut	_	_
@@ -779,9 +741,7 @@
 33	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 20									
 									
-									
 # text = "לאחר פעילות נמרצת בשבועות האחרונים, צומצם מספר העובדים הזרים בענף האחיות ב50%.									
-									
 									
 1	"	"	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
 2	לאחר	לאחר	ADP	ADP	_	3	case	_	_
@@ -816,9 +776,7 @@
 24	.	.	PUNCT	PUNCT	_	11	punct	_	_
 # sent_id = 21									
 									
-									
 # text = עד סוף השנה לא תועסק בארץ אף אחות כעובדת זרה".									
-									
 									
 1	עד	עד	ADP	ADP	_	2	case	_	_
 2	סוף	סוף	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	obl	_	_
@@ -841,9 +799,7 @@
 16	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 22									
 									
-									
 # text = הדוברת אמרה כי השירות קורא לחקלאים לדאוג לעובדים ישראליים, במקום לתאילנדים.									
-									
 									
 1-2	הדוברת	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -871,9 +827,7 @@
 19	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 23									
 									
-									
 # text = "השירות לא שינה את המדיניות בנושא העסקת תאילנדים בחקלאות, אלא להיפך, הוא הבהיר לתנועת המושבים שכל עובד ישראלי שיסכים לעבוד בענף החקלאות, ישובץ לעבודה לאלתר".									
-									
 									
 1	"	"	PUNCT	PUNCT	_	0	root	_	SpaceAfter=No
 2-3	השירות	_	_	_	_	_	_	_	_
@@ -931,9 +885,7 @@
 43	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 24									
 									
-									
 # text = מאמרו של תום שגב, "הקרב על סן סימון היה או לא היה" ("הארץ" 105), הגיע לידי רק בימים אלה.									
-									
 									
 1-3	מאמרו	_	_	_	_	_	_	_	_
 1	מאמר_	מאמר	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	27	nsubj	_	_
@@ -978,9 +930,7 @@
 36	.	.	PUNCT	PUNCT	_	27	punct	_	_
 # sent_id = 25									
 									
-									
 # text = למרות שחלפו מאז 24 שנה, ולמרות שאירועי ימים אלה אולי מאפילים על כל דבר אחר, אני מרגיש חובה בשמם של החללים, הפצועים ולוחמי הקרב הזה, כאחד שהיה שם, להתייחס למאמר.									
-									
 									
 1	למרות	למרות	ADP	ADP	_	3	case	_	_
 2-3	שחלפו	_	_	_	_	_	_	_	_
@@ -1047,9 +997,7 @@
 51	.	.	PUNCT	PUNCT	_	22	punct	_	_
 # sent_id = 26									
 									
-									
 # text = קטעי המאמר העוסקים בקרב עצמו, ושרק אליהם אתייחס, מאופיינים בחוסר היגיון ובסילוף עובדות, ומעידים על הכותב כי הוא משולל הבנה טקטית מינימלית וניסיון קרבי משמעותי.									
-									
 									
 1	קטעי	קטע	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	18	nsubj	_	_
 2-3	המאמר	_	_	_	_	_	_	_	_
@@ -1105,9 +1053,7 @@
 42	.	.	PUNCT	PUNCT	_	18	punct	_	_
 # sent_id = 27									
 									
-									
 # text = וכעת לעובדות המצוטטות: כותרת המאמר, "הקרב על סן סימון: היה לא היה", מרמזת כי ייתכן שבמנזר כלל לא התנהל קרב.									
-									
 									
 1-2	וכעת	_	_	_	_	_	_	_	_
 1	ו	ו	CCONJ	CCONJ	_	2	cc	_	_
@@ -1146,16 +1092,14 @@
 29	ב	ב	ADP	ADP	_	31	case	_	_
 30	ה_	ה	DET	DET	PronType=Art	31	det:def	_	_
 31	מנזר	מנזר	NOUN	NOUN	Gender=Masc|Number=Sing	34	obl	_	_
-32	כלל	כלל	ADV	ADV	_	33	advmod	_	_
+32	כלל	כלל	ADV	ADV	_	33	fixed	_	_
 33	לא	לא	ADV	ADV	Polarity=Neg	34	advmod:phrase	_	_
 34	התנהל	התנהל	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	27	advcl	_	_
 35	קרב	קרב	NOUN	NOUN	Gender=Masc|Number=Sing	34	nsubj	_	SpaceAfter=No
 36	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 28									
 									
-									
 # text = לכל אלה המתרשמים ומסתפקים בקריאת הכותרת בלבד, אני יכול להבטיח שאכן התנהל שם קרב, והוא היה אחד הקשים והמפוארים בכל קרבות ישראל.									
-									
 									
 1-2	לכל	_	_	_	_	_	_	_	_
 1	ל	ל	ADP	ADP	_	3	case	_	_
@@ -1205,9 +1149,7 @@
 36	.	.	PUNCT	PUNCT	_	15	punct	_	_
 # sent_id = 29									
 									
-									
 # text = ועל כך תעיד ההיסטוריה, ויעידו עשרות הלוחמים שנשארו בחיים והצליחו לבצע את משימתם על אף האבדות הכבדות.									
-									
 									
 1-2	ועל	_	_	_	_	_	_	_	_
 1	ו	ו	CCONJ	CCONJ	_	8	cc	_	_
@@ -1252,9 +1194,7 @@
 31	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 30									
 									
-									
 # text = במלחמת העצמאות, בקרב על ירושלים, נשארה שכונת קטמון תקועה בלב ירושלים המערבית ושימשה כמרכז כוח ערבי רב ומאורגן.									
-									
 									
 1-2	במלחמת	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -1273,7 +1213,7 @@
 12	נשארה	נשאר	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
 13	שכונת	שכונה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	12	nsubj	_	_
 14	קטמון	קטמון	PROPN	PROPN	_	13	compound:smixut	_	_
-15	תקועה	תקוע	ADJ	ADJ	Gender=Fem|Number=Sing	12	advcl	_	_
+15	תקועה	תקוע	ADJ	ADJ	Gender=Fem|Number=Sing	12	xcomp	_	_
 16-17	בלב	_	_	_	_	_	_	_	_
 16	ב	ב	ADP	ADP	_	17	case	_	_
 17	לב	לב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	15	obl	_	_
@@ -1296,9 +1236,7 @@
 30	.	.	PUNCT	PUNCT	_	12	punct	_	_
 # sent_id = 31									
 									
-									
 # text = השטח החיוני של קטמון לשליטה באזור מסוים או לניצחון בקרב היה מנזר סן סימון, ולכן היה עלינו להשתלט עליו.									
-									
 									
 1-2	השטח	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -1342,9 +1280,7 @@
 31	.	.	PUNCT	PUNCT	_	19	punct	_	_
 # sent_id = 32									
 									
-									
 # text = כתוב: "בחוכמה עשה לך מלחמה".									
-									
 									
 1	כתוב	כתב	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	PUNCT	_	6	punct	_	_
@@ -1361,9 +1297,7 @@
 11	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 33									
 									
-									
 # text = אכן, כך עשתה חטיבת "הראל".									
-									
 									
 1	אכן	אכן	ADV	ADV	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	4	punct	_	_
@@ -1376,9 +1310,7 @@
 9	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 34									
 									
-									
 # text = היא כבשה תחילה את המנזר ואת התנגדות האויב שברה לאחר מכן, בקרב מגננה שהתנהל בתוך המנזר (קרב מגננה מיועד לשבירת כוחות חזקים ממך).									
-									
 									
 1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	כבשה	כבש	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -1427,9 +1359,7 @@
 36	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 35									
 									
-									
 # text = האויב אמנם נשבר; קרב המגננה הפך לניצחון מוחץ; קטמון נפלה וירושלים המערבית אוחדה.									
-									
 									
 1-2	האויב	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -1459,9 +1389,7 @@
 21	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 36									
 									
-									
 # text = המאמר, המצטט ממחקרו של אורי מילשטיין: "מלכתחילה לא היה צריך לכבוש את המנזר...", מצביע על חוסר הבנה אסטרטגית וטקטית בסוגיה זו.									
-									
 									
 1-2	המאמר	_	_	_	_	_	_	_	SpaceAfter=No
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -1507,9 +1435,7 @@
 36	.	.	PUNCT	PUNCT	_	26	punct	_	_
 # sent_id = 37									
 									
-									
 # text = מורשת הקרב שצה"ל אימץ כתוצאה מהקרב על מנזר סן סימון איננה מיתוס.									
-									
 									
 1	מורשת	מורשת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	17	nsubj	_	_
 2-3	הקרב	_	_	_	_	_	_	_	_
@@ -1535,9 +1461,7 @@
 18	.	.	PUNCT	PUNCT	_	17	punct	_	_
 # sent_id = 38									
 									
-									
 # text = היא מבוססת על אותו קרב המגננה שבו אירעו מעשי גבורה עילאיים, ועל קבלת החלטות קשות בתנאי קרב.									
-									
 									
 1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	מבוססת	_	VERB	VERB	Gender=Fem|Number=Sing|Person=1,2,3|VerbForm=Part	0	root	_	_
@@ -1569,9 +1493,7 @@
 24	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 39									
 									
-									
 # text = חוסר ניסיון ועלילה זדונית באים לביטוי בקטע המאמר הדן בנושא "רצח הנזירות".									
-									
 									
 1	חוסר	חוסר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	6	nsubj	_	_
 2	ניסיון	ניסיון	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
@@ -1604,9 +1526,7 @@
 22	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 40									
 									
-									
 # text = כל ישראלי המנוסה בקרב לילה בשטח בנוי (כמנזר סן סימון) יודע, כי תוך כדי פריצה בחשכה קודם כל יורים בכל דבר שנע ממולך.									
-									
 									
 1	כל	כול	DET	DET	Definite=Cons	2	det	_	_
 2	ישראלי	ישראלי	NOUN	NOUN	Gender=Masc|Number=Sing	17	nsubj	_	_
@@ -1639,7 +1559,7 @@
 24	ה_	ה	DET	DET	PronType=Art	25	det:def	_	_
 25	חשכה	חשכה	NOUN	NOUN	Gender=Fem|Number=Sing	22	nmod	_	_
 26	קודם	קודם	ADV	ADV	_	28	advmod:phrase	_	_
-27	כל	כול	DET	DET	Definite=Cons	26	advmod	_	_
+27	כל	כול	DET	DET	Definite=Cons	26	fixed	_	_
 28	יורים	ירה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	17	ccomp	_	_
 29-30	בכל	_	_	_	_	_	_	_	_
 29	ב	ב	ADP	ADP	_	31	case	_	_
@@ -1655,9 +1575,7 @@
 37	.	.	PUNCT	PUNCT	_	17	punct	_	_
 # sent_id = 41									
 									
-									
 # text = ואכן, כך קרה בפריצה למנזר החשוך לחלוטין.									
-									
 									
 1-2	ואכן	_	_	_	_	_	_	_	SpaceAfter=No
 1	ו	ו	CCONJ	CCONJ	_	5	cc	_	_
@@ -1680,9 +1598,7 @@
 15	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 42									
 									
-									
 # text = לא נהרגו "נזירות", אלא נשים ערביות, כנראה משרתות במנזר.									
-									
 									
 1	לא	לא	ADV	ADV	Polarity=Neg	2	advmod	_	_
 2	נהרגו	נהרג	VERB	VERB	Gender=Fem,Masc|HebBinyan=NIFAL|Number=Plur|Person=3|Tense=Past|Voice=Mid	0	root	_	_
@@ -1703,17 +1619,13 @@
 16	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 43									
 									
-									
 # text = חבל.									
-									
 									
 1	חבל	חבל	ADV	ADV	_	0	root	_	SpaceAfter=No
 2	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 44									
 									
-									
 # text = איש לא התכוון לכך.									
-									
 									
 1	איש	איש	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
 2	לא	לא	ADV	ADV	Polarity=Neg	3	advmod	_	_
@@ -1724,9 +1636,7 @@
 6	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 45									
 									
-									
 # text = ציטוט מהמאמר: "בעת שנורתה, (הנזירה) עסקה בטיפול בפצועים".									
-									
 									
 1	ציטוט	ציטוט	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 2-4	מהמאמר	_	_	_	_	_	_	_	SpaceAfter=No
@@ -1758,18 +1668,14 @@
 22	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 46									
 									
-									
 # text = איזה פצועים?									
-									
 									
 1	איזה	איזה	DET	DET	Definite=Cons	2	det	_	_
 2	פצועים	פצוע	NOUN	NOUN	Gender=Masc|Number=Plur	0	root	_	SpaceAfter=No
 3	?	?	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 47									
 									
-									
 # text = הרי כותב המאמר קובע, פסקה קודם לכן, כי המנזר היה ריק ממגינים.									
-									
 									
 1	הרי	הרי	CCONJ	CCONJ	_	5	advmod	_	_
 2	כותב	כותב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -1797,9 +1703,7 @@
 20	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 48									
 									
-									
 # text = אני הייתי שם, וכל תיאור הגווייה ("זה היה מראה איום של דם ובשר ואיברי מין") הוא שקר וכזב.									
-									
 									
 1	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	הייתי	היה	VERB	VERB	Gender=Fem,Masc|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbType=Cop	0	root	_	_
@@ -1837,9 +1741,7 @@
 29	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 49									
 									
-									
 # text = לא היה כאן רצח נזירות, אלא ניסיון לרצח טוהר הנשק של הפלמ"ח בטוהר עט הסופרים של הכותב.									
-									
 									
 1	לא	לא	ADV	ADV	Polarity=Neg	2	advmod	_	_
 2	היה	היה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	0	root	_	_
@@ -1874,9 +1776,7 @@
 25	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 50									
 									
-									
 # text = הידיעה שפורסמה תחת הכותרת: "הורים בבית הספר בנווה-מונוסון נגד טיול לירושלים; טוענים: הפגנה פוליטית"; ("הארץ", 0192), הטרידה אותי מאוד.									
-									
 									
 1-2	הידיעה	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -1932,9 +1832,7 @@
 43	.	.	PUNCT	PUNCT	_	39	punct	_	_
 # sent_id = 51									
 									
-									
 # text = נילי מנדלר, שמסרה את הידיעה מפי הורים (אין יודעים אם מדובר בהורה בודד, או בקבוצת הורים מסוימת), כתבה כי "אחד ההורים, שהחזיר למנהלת את הספח החוזר שבו הביע התנגדות להשתתפות ילדו בטיול, טען כי "זהו חינוך פוליטי כאשר ילדינו משמשים אמצעי חי להפגנות".									
-									
 									
 1	נילי	נילי	PROPN	PROPN	_	28	nsubj	_	_
 2	מנדלר	מנדלר	PROPN	PROPN	_	1	flat:name	_	SpaceAfter=No
@@ -2029,9 +1927,7 @@
 75	.	.	PUNCT	PUNCT	_	28	punct	_	_
 # sent_id = 52									
 									
-									
 # text = לשם איזון הנושא, עלי לציין כי אני נמנה על ההורים שהביעו את הסכמתם לקיום הטיול.									
-									
 									
 1	לשם	לשם	ADP	ADP	_	2	case	_	_
 2	איזון	איזון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nmod	_	_
@@ -2067,9 +1963,7 @@
 25	.	.	PUNCT	PUNCT	_	7	punct	_	_
 # sent_id = 53									
 									
-									
 # text = לא רק שאין זה עניין פוליטי אלא זה נושא חינוכי-לאומי ממדרגה ראשונה.									
-									
 									
 1	לא	לא	ADV	ADV	Polarity=Neg	2	advmod	_	_
 2	רק	רק	ADV	ADV	_	6	advmod	_	_
@@ -2092,9 +1986,7 @@
 17	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 54									
 									
-									
 # text = אני גם מוכן להסתכן ולשער כי ההורה, או קבוצת ההורים שהתנגדה לטיול, מסתתרים תחת המעטה של טיעון פוליטי נבוב ולמעשה הם פוחדים לשלוח את ילדיהם שמא איזה ערבי ינעץ בהם סכין בגב.									
-									
 									
 1	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 2	גם	גם	ADV	ADV	_	3	advmod	_	_
@@ -2156,9 +2048,7 @@
 48	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 55									
 									
-									
 # text = אני מוכן, ורוצה, לשלוח את הילד שלי לירושלים עם זר פרחים ועם קופסת ממתקים, כדי להביע הוקרה ועידוד לנכד של אבא קובנר, שחטף סכין בראש מידי אותו מרצח שפל שדקר למוות שלושה יהודים בשכונת בקעה.									
-									
 									
 1	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	מוכן	מוכן	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	7	aux	_	SpaceAfter=No
@@ -2229,9 +2119,7 @@
 55	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 56									
 									
-									
 # text = אני רוצה שהילד שלי יסתכל בעיניים של הילד הפגוע ויגיד לו: "אתה לא לבדך בירושלים, כי גם אנחנו הגרים בנווה-מונסון, אתך בלב איתן ביחד".									
-									
 									
 1	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	dep	_	_
 2	רוצה	רצה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
@@ -2293,9 +2181,7 @@
 46	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 57									
 									
-									
 # text = אני מוכן להעיד כי גם אבי ז"ל, שלקח אותי באוטובוס לירושלים בשנת תרצ"ח כאשר הערבים ירו על כביש באב אל-ואד, אמר לי: "אלי! אם תשמע יריות תתכופף, אבל אל תפחד".									
-									
 									
 1	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	מוכן	מוכן	AUX	AUX	Gender=Masc|Number=Sing|Person=1,2,3|VerbType=Mod	3	aux	_	_
@@ -2356,9 +2242,7 @@
 49	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 58									
 									
-									
 # text = ולכן אני אומר לכל ילדי ישראל: אל תפחדו! סעו לירושלים, אפילו אם יורים או אם מתעופפים שם סכינים.									
-									
 									
 1-2	ולכן	_	_	_	_	_	_	_	_
 1	ו	ו	CCONJ	CCONJ	_	0	root	_	_
@@ -2390,9 +2274,7 @@
 25	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 59									
 									
-									
 # text = הפטיש הכבד שהנחית הפועל הערבי על ראשיהם של מעסיקו וחברו, הסכין שידו של איש המרכול תקעה באחד הספקים, ורצח המסעדן בעין כרם זה לא מכבר על-ידי אחד מעובדיו, אף הוא ערבי, מעלה מנבכי הזיכרון את הפתגם: "המגדל נחש שפיפון בביתו, אל יופתע אם ימצא עצמו מוכש".									
-									
 									
 1-2	הפטיש	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -2509,9 +2391,7 @@
 90	.	.	PUNCT	PUNCT	_	64	punct	_	_
 # sent_id = 60									
 									
-									
 # text = אני כותב זאת בצער וברגשי אשם; פעם חשבתי אחרת (על הערבים, לא על הנחשים).									
-									
 									
 1	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	כותב	כתב	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
@@ -2543,21 +2423,17 @@
 24	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 61									
 									
-									
 # text = מסתבר שהייתי תמים.									
-									
 									
 1	מסתבר	הסתבר	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|VerbForm=Part	0	root	_	_
 2-3	שהייתי	_	_	_	_	_	_	_	_
 2	ש	ש	SCONJ	SCONJ	_	4	mark	_	_
 3	הייתי	היה	VERB	VERB	Gender=Fem,Masc|Number=Sing|Person=1|Polarity=Pos|Tense=Past|VerbType=Cop	4	cop	_	_
-4	תמים	תמים	ADJ	ADJ	Gender=Masc|Number=Sing	1	advcl	_	SpaceAfter=No
+4	תמים	תמים	ADJ	ADJ	Gender=Masc|Number=Sing	1	xcomp	_	SpaceAfter=No
 5	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 62									
 									
-									
 # text = מאמר המערכת שהתפרסם תחת הכותרת "יחדל נא מילוא להתלבט" ("הארץ", 111), תובע למצות את הדין עם המפכ"ל וקציני המשטרה הבכירים בגלל מחדליהם באירועי הר הבית.									
-									
 									
 1	מאמר	מאמר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	24	nsubj	_	_
 2-3	המערכת	_	_	_	_	_	_	_	_
@@ -2620,9 +2496,7 @@
 47	.	.	PUNCT	PUNCT	_	24	punct	_	_
 # sent_id = 63									
 									
-									
 # text = זהו כישלונו היחיד עד כה של המפכ"ל, שנגרם רק בגלל העובדה שהוא סמך יותר מדי על קציניו הבכירים.									
-									
 									
 1	זהו	זהו	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	2	nsubj	_	_
 2-4	כישלונו	_	_	_	_	_	_	_	_
@@ -2652,7 +2526,7 @@
 20	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 21	סמך	סמך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	18	acl:relcl	_	_
 22	יותר	יותר	ADV	ADV	_	21	advmod:phrase	_	_
-23	מדי	מדי	ADV	ADV	HebSource=ConvUncertainHead	22	advmod	_	_
+23	מדי	מדי	ADV	ADV	HebSource=ConvUncertainHead	22	fixed	_	_
 24	על	על	ADP	ADP	_	25	case	_	_
 25-27	קציניו	_	_	_	_	_	_	_	_
 25	קצין_	קצין	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	21	obl	_	_
@@ -2664,9 +2538,7 @@
 30	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 64									
 									
-									
 # text = אם כל נושא משרה יפוטר מיד עם השגיאה הראשונה, תסבול המדינה מסבב בלתי פוסק של בעלי תפקידים בכירים, חסרי ניסיון וחסרי ביטחון.									
-									
 									
 1	אם	אם	SCONJ	SCONJ	_	5	mark	_	_
 2	כל	כול	DET	DET	Definite=Cons	3	det	_	_
@@ -2705,9 +2577,7 @@
 30	.	.	PUNCT	PUNCT	_	13	punct	_	_
 # sent_id = 65									
 									
-									
 # text = מתקבל הרושם שהיחידים במדינה הזו שאינם צריכים לחשוש מתוצאות מעשיהם הם הפוליטיקאים.									
-									
 									
 1	מתקבל	התקבל	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|VerbForm=Part	0	root	_	_
 2-3	הרושם	_	_	_	_	_	_	_	_
@@ -2743,9 +2613,7 @@
 24	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 66									
 									
-									
 # text = אלה לא נופלים כתוצאה משגיאות או ממחדלים, או אפילו מהתנהגות פסולה, אלא רק בשל משחקי כוח פוליטיים.									
-									
 									
 1	אלה	אלה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	3	nsubj	_	_
 2	לא	לא	ADV	ADV	Polarity=Neg	3	advmod	_	_
@@ -2777,9 +2645,7 @@
 24	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 67									
 									
-									
 # text = המלצה לפיטורי שר או נושא משרה פוליטית, מצד בית המשפט העליון או מצד ועדת חקירה נופלת תמיד על אוזניים ערלות; אבל כשאפשר להטיל את האשמה על קצין צבא או משטרה, מוטל גורלם של אלה על כף המאזניים.									
-									
 									
 1	המלצה	המלצה	NOUN	NOUN	Gender=Fem|Number=Sing	20	nsubj	_	_
 2-3	לפיטורי	_	_	_	_	_	_	_	_
@@ -2839,9 +2705,7 @@
 49	.	.	PUNCT	PUNCT	_	20	punct	_	_
 # sent_id = 68									
 									
-									
 # text = אני תמה על "הארץ" שהזדרז לשחק לידיהם של הפוליטיקאים, המעוניינים להיפטר מהמפכ"ל הנוכחי.									
-									
 									
 1	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	dep	_	_
 2	תמה	_	VERB	VERB	VerbForm=Part	0	root	_	_
@@ -2879,9 +2743,7 @@
 27	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 69									
 									
-									
 # text = בעיתונים רבים פורסם מכתבה של מלי פיליפסבורן, יו"ר ארגון נפגעי המשכנתאות וחסרי הדיור, תחת הכותרת "אל תיגעו במשכנתא".									
-									
 									
 1-2	בעיתונים	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -2924,9 +2786,7 @@
 32	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 70									
 									
-									
 # text = ברצוני להדגיש משפט אחד בדבריה: "אנו, נפגעי המשכנתאות, נקלענו למצבנו הקשה לא בגלל ריבית נמוכה, אלא בגלל האינפלציה וההצמדה".									
-									
 									
 1-4	ברצוני	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -2977,9 +2837,7 @@
 40	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 71									
 									
-									
 # text = מלים כדורבנות, התואמות במדויק את מה שהחתום מטה טען במשך שנים רבות.									
-									
 									
 1	מלים	מילה	NOUN	NOUN	Gender=Fem|Number=Plur	0	root	_	_
 2-3	כדורבנות	_	_	_	_	_	_	_	SpaceAfter=No
@@ -3004,9 +2862,7 @@
 18	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 72									
 									
-									
 # text = זו לא הריבית שסיבכה את מקבלי המשכנתאות או לקוחות הבנקים האחרים.									
-									
 									
 1	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
 2	לא	לא	ADV	ADV	Polarity=Neg	4	advmod	_	_
@@ -3032,9 +2888,7 @@
 17	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 73									
 									
-									
 # text = יתר-על-כן, הריבית בישראל במיוחד על משכנתאות היא מהנמוכות ביותר בעולם, אם לא הנמוכה שבהן.									
-									
 									
 1	יתר	יתר	NOUN	NOUN	Gender=Masc|Number=Sing	17	advmod	_	SpaceAfter=No
 2	-	-	PUNCT	PUNCT	_	1	fixed	_	SpaceAfter=No
@@ -3074,9 +2928,7 @@
 30	.	.	PUNCT	PUNCT	_	17	punct	_	_
 # sent_id = 74									
 									
-									
 # text = ובאשר להצמדה ולאינפלציה הכתובת אינה הבנקים.									
-									
 									
 1-2	ובאשר	_	_	_	_	_	_	_	_
 1	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
@@ -3100,9 +2952,7 @@
 15	.	.	PUNCT	PUNCT	_	14	punct	_	_
 # sent_id = 75									
 									
-									
 # text = ב16 באוקטובר הגיע אל העיר דה מוין, במערב התיכון של ארצות הברית, הנשיא גורג בוש.									
-									
 									
 1-3	ב16	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	3	case	_	_
@@ -3140,9 +2990,7 @@
 27	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 76									
 									
-									
 # text = כאן הוא גם נתקל בהפגנה הראשונה נגד מלחמה במפרץ הפרסי.									
-									
 									
 1	כאן	כאן	ADV	ADV	_	4	advmod	_	_
 2	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
@@ -3167,9 +3015,7 @@
 17	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 77									
 									
-									
 # text = "לא נשפוך דם למען נפט", קראו לעברו כמה צעירים באסיפת בחירות לטובת מועמד רפובליקאי.									
-									
 									
 1	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
 2	לא	לא	ADV	ADV	Polarity=Neg	3	advmod	_	_
@@ -3197,9 +3043,7 @@
 21	.	.	PUNCT	PUNCT	_	9	punct	_	_
 # sent_id = 78									
 									
-									
 # text = "לא נפט", כעס הנשיא, "מדובר פה בתוקפנות גלויה".									
-									
 									
 1	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
 2	לא	לא	ADV	ADV	Polarity=Neg	3	det	_	_
@@ -3222,9 +3066,7 @@
 17	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 79									
 									
-									
 # text = איובה היא מקום לא-שגרתי.									
-									
 									
 1	איובה	איובה	PROPN	PROPN	_	3	nsubj:cop	_	_
 2	היא	הוא	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	3	cop	_	_
@@ -3235,9 +3077,7 @@
 7	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 80									
 									
-									
 # text = אומרים עליה, שיש בה יותר ארגונים פציפיסטיים לקילומטר מרובע מאשר בכל מדינה אחרת של ארה"ב.									
-									
 									
 1	אומרים	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
 2-3	עליה	_	_	_	_	_	_	_	SpaceAfter=No
@@ -3268,9 +3108,7 @@
 22	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 81									
 									
-									
 # text = פציפיזם אינו מוגבל באיובה לסטודנטים רדיקליים, אפשר למצוא אותו גם בין חקלאים ופועלי חרושת.									
-									
 									
 1	פציפיזם	פציפיזם	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
 2	אינו	אינו	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Polarity=Neg|VerbForm=Part|VerbType=Cop	3	advmod	_	_
@@ -3298,9 +3136,7 @@
 20	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 82									
 									
-									
 # text = איובה היא מאסמי הדגנים של ארה"ב, ולפרנסתה היא מייצאת אותם למדינות כברית המועצות.									
-									
 									
 1	איובה	איובה	PROPN	PROPN	_	4	nsubj:cop	_	_
 2	היא	הוא	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|VerbForm=Part|VerbType=Cop	4	cop	_	_
@@ -3336,9 +3172,7 @@
 25	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 83									
 									
-									
 # text = ב0891 נקלעה איובה, יחד עם מדינות חקלאיות אחרות במערב התיכון, לסחרור קשה: הנשיא גימי קרטר החליט להטיל חרם דגנים על הסובייטים, בגלל פלישתם לאפגניסטן.									
-									
 									
 1-2	ב0891	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -3389,9 +3223,7 @@
 39	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 84									
 									
-									
 # text = איובה שילמה את המחיר עד אמצע שנות ה80.									
-									
 									
 1	איובה	איובה	PROPN	PROPN	_	2	nsubj	_	_
 2	שילמה	שילם	VERB	VERB	Gender=Fem|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -3408,9 +3240,7 @@
 11	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 85									
 									
-									
 # text = כלכלתה היתה שקועה במיתון קשה, בשעה שרוב המדינות האחרות בארה"ב נהנו משגשוג חסר תקדים.									
-									
 									
 1-3	כלכלתה	_	_	_	_	_	_	_	_
 1	כלכלה_	כלכלה	NOUN	NOUN	Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -3447,9 +3277,7 @@
 25	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 86									
 									
-									
 # text = לא רק מניעים אלטרואיסטיים מעוררים איפוא באיובה התנגדות למלחמות, אלא גם מניעים תועלתניים.									
-									
 									
 1	לא	לא	ADV	ADV	Polarity=Neg	2	advmod	_	_
 2	רק	רק	ADV	ADV	_	3	advmod	_	_
@@ -3472,9 +3300,7 @@
 17	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 87									
 									
-									
 # text = כאן אין אוהבים ביותר את הרעיון של מלחמה במפרץ הפרסי.									
-									
 									
 1	כאן	כאן	ADV	ADV	_	3	advmod	_	_
 2	אין	_	ADV	ADV	Polarity=Neg	3	advmod	_	_
@@ -3496,9 +3322,7 @@
 15	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 88									
 									
-									
 # text = יום אחד בשבוע שעבר מרח העיתון המקומי "דה מוין רגיסטר" כותרת ענקית לרוחב מלוא העמוד הראשון של מוספו היומי.									
-									
 									
 1	יום	יום	NOUN	NOUN	Gender=Masc|Number=Sing	8	dep	_	_
 2	אחד	אחד	NUM	NUM	Gender=Masc|Number=Sing	1	nummod	_	_
@@ -3544,9 +3368,7 @@
 33	.	.	PUNCT	PUNCT	_	8	punct	_	_
 # sent_id = 89									
 									
-									
 # text = ", אמרה הכותרת באנגלית, "שלום עכשיו".									
-									
 									
 1	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	3	punct	_	_
@@ -3565,9 +3387,7 @@
 13	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 90									
 									
-									
 # text = לצד האותיות האדומות הציב העיתון את סמל תנועת ההתנגדות למלחמת וייטנאם.									
-									
 									
 1	לצד	לצד	ADP	ADP	_	3	case	_	_
 2-3	האותיות	_	_	_	_	_	_	_	_
@@ -3593,9 +3413,7 @@
 17	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 91									
 									
-									
 # text = ביום אחר פירסם העיתון בעמוד מאמרי המערכת שלו קריקטורה מקפיאת דם.									
-									
 									
 1-2	ביום	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -3621,9 +3439,7 @@
 17	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 92									
 									
-									
 # text = נראה בה מלאך המוות חבוש כאפייה, ומפיו בוקעות המלים: "קרא את שפתיי, גורג לא תהיה עוד וייטנאם".									
-									
 									
 1	נראה	נראה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
 2-3	בה	_	_	_	_	_	_	_	_
@@ -3661,9 +3477,7 @@
 30	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 93									
 									
-									
 # text = "גורג" הוא כמובן גורג בוש.									
-									
 									
 1	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
 2	גורג	גורג	PROPN	PROPN	_	6	nsubj:cop	_	SpaceAfter=No
@@ -3675,9 +3489,7 @@
 8	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 94									
 									
-									
 # text = "קרא את שפתיי..." היא פאראפראזה על סיסמת הבחירות הכוזבת של הנשיא מ8891, "קראו את שפתיי לא יהיו מסים חדשים".									
-									
 									
 1	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
 2	קרא	קרא	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Mood=Imp|Number=Sing|Person=2|Voice=Act	8	nsubj:cop	_	_
@@ -3715,9 +3527,7 @@
 30	.	.	PUNCT	PUNCT	_	8	punct	_	_
 # sent_id = 95									
 									
-									
 # text = במהלך נשף התרמה לטום הארקין, הסנאטור הדמוקרטי שהעמיד את עצמו השבוע לבחירה חוזרת, הסביר לי באריכות אחד הנוכחים כיצד יכולה ארה"ב ליישב את סכסוך המפרץ הפרסי, "אם רק תביא את העניין לפני בית המשפט הבין-לאומי" בהאג.									
-									
 									
 1-2	במהלך	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	3	case	_	_
@@ -3795,9 +3605,7 @@
 59	.	.	PUNCT	PUNCT	_	22	punct	_	_
 # sent_id = 96									
 									
-									
 # text = התבוננתי בבן שיחי בהפתעה ניכרת.									
-									
 									
 1	התבוננתי	התבונן	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Sing|Person=1|Tense=Past	0	root	_	_
 2-3	בבן	_	_	_	_	_	_	_	_
@@ -3814,9 +3622,7 @@
 10	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 97									
 									
-									
 # text = טיעונים כאלה, שפעם היו מקובלים בין ליברלים בארה"ב, לא שמעתי כבר הרבה זמן.									
-									
 									
 1	טיעונים	טיעון	NOUN	NOUN	Gender=Masc|Number=Plur	16	obj	_	_
 2-4	כאלה	_	_	_	_	_	_	_	SpaceAfter=No
@@ -3843,9 +3649,7 @@
 20	.	.	PUNCT	PUNCT	_	16	punct	_	_
 # sent_id = 98									
 									
-									
 # text = במעמקי המערב התיכון של ארה"ב קל להאמין שהעולם נברא בצלם אמריקה, שהוא מלא אנשים הגיוניים ופרגמטיים, ושהאותוריטה המוסרית של מוסד שאיש, כולל ארה"ב, מעולם לא לקח ברצינות תעשה רושם מיידי על סדאם חוסיין.									
-									
 									
 1-2	במעמקי	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -3898,7 +3702,7 @@
 39	ארה"ב	ארה"ב	PROPN	PROPN	Abbr=Yes	36	appos	_	SpaceAfter=No
 40	,	,	PUNCT	PUNCT	_	39	punct	_	_
 41	מעולם	מעולם	ADV	ADV	_	43	advmod:phrase	_	_
-42	לא	לא	ADV	ADV	HebSource=ConvUncertainHead|Polarity=Neg	41	advmod	_	_
+42	לא	לא	ADV	ADV	HebSource=ConvUncertainHead|Polarity=Neg	41	fixed	_	_
 43	לקח	לקח	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	34	acl:relcl	_	_
 44-45	ברצינות	_	_	_	_	_	_	_	_
 44	ב	ב	ADP	ADP	_	45	case	_	_
@@ -3912,9 +3716,7 @@
 52	.	.	PUNCT	PUNCT	_	9	punct	_	_
 # sent_id = 99									
 									
-									
 # text = המשבר במפרץ הפרסי לא היה נושא בחירות מרכזי באיובה.									
-									
 									
 1-2	המשבר	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -3937,9 +3739,7 @@
 15	.	.	PUNCT	PUNCT	_	10	punct	_	_
 # sent_id = 100									
 									
-									
 # text = טום הארקין הליברלי, ויריבו הרפובליקאי השמרן טום טקי, אמנם לא יכלו להסכים על שום עניין, אבל נטו להסכים על המפרץ הפרסי.									
-									
 									
 1	טום	טום	PROPN	PROPN	_	19	nsubj	_	_
 2	הארקין	הארקין	PROPN	PROPN	_	1	flat:name	_	_
@@ -3982,9 +3782,7 @@
 33	.	.	PUNCT	PUNCT	_	19	punct	_	_
 # sent_id = 101									
 									
-									
 # text = שניהם תומכים בנשיא, ושניהם מאמינים בצורך בזהירות.									
-									
 									
 1	שניהם	שניים	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	תומכים	תמך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
@@ -4007,9 +3805,7 @@
 15	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 102									
 									
-									
 # text = בימי המלחמה הקרה היה טוקי אנטי-קומוניסט נלהב, והארקין היה יונה נלהבת.									
-									
 									
 1-2	בימי	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -4036,9 +3832,7 @@
 19	.	.	PUNCT	PUNCT	_	11	punct	_	_
 # sent_id = 103									
 									
-									
 # text = טוקי תמך בכל סעיף הוצאות צבאיות אפשרי, וחייב את המאבק להפלת ממשלת ניקרגואה; הארקין רצה קיצוצים ניכרים בתקציב הביטחון, ועמד בראש המאבק בסנאט נגד הסיוע לקונטראס.									
-									
 									
 1	טוקי	טוקי	PROPN	PROPN	_	2	nsubj	_	_
 2	תמך	תמך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -4098,9 +3892,7 @@
 44	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 104									
 									
-									
 # text = במפרץ הפרסי שניהם נצים יוניים, או יונים נציות, במידה כמעט שווה.									
-									
 									
 1-3	במפרץ	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	3	case	_	_
@@ -4125,9 +3917,7 @@
 18	.	.	PUNCT	PUNCT	_	7	punct	_	_
 # sent_id = 105									
 									
-									
 # text = בהעדר קומוניזם יש פרגמטיזם ואל פני השטח חוזרת גם מידה הגונה של בדלנות אינסטינקטיווית, אפיון היסטורי של מדינות המערב התיכון האמריקאי.									
-									
 									
 1-2	בהעדר	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	3	case	_	_
@@ -4166,9 +3956,7 @@
 29	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 106									
 									
-									
 # text = במהלך מערכת הבחירות הקרין מטהו של טוקי תשדיר טלוויזיה, שאחד מסעיפיו היה התנגדות לסיוע חוץ.									
-									
 									
 1-2	במהלך	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	3	case	_	_
@@ -4204,9 +3992,7 @@
 26	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 107									
 									
-									
 # text = בעיני השדולה הפרו-ישראלית בוואשינגטון, התנגדות לסיוע חוץ מעמידה את המתנגד מחוץ למחנה גם אם אינה מוסבת ספציפית על ישראל.									
-									
 									
 1-2	בעיני	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -4250,9 +4036,7 @@
 32	.	.	PUNCT	PUNCT	_	16	punct	_	_
 # sent_id = 108									
 									
-									
 # text = פעילים פרו-ישראליים עודדו מאז ומעולם יהודים לתרום כספים למועמדים, הנאבקים נגד מתנגדי סיוע החוץ.									
-									
 									
 1	פעילים	פעיל	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
 2	פרו	פרו	ADV	ADV	Prefix=Yes	4	compound:affix	_	SpaceAfter=No
@@ -4282,9 +4066,7 @@
 22	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 109									
 									
-									
 # text = ממילא, טום הארקין, תומך עקיב בסיוע החוץ, היה אחד המקבלים הגדולים ביותר של תרומות יהודיות בשש השנים האחרונות.									
-									
 									
 1	ממילא	ממילא	ADV	ADV	_	16	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	16	punct	_	_
@@ -4324,9 +4106,7 @@
 29	.	.	PUNCT	PUNCT	_	16	punct	_	_
 # sent_id = 110									
 									
-									
 # text = לפי מקור יהודי באיובה, הארקין קיבל 002 אלף דולר מוועדי פעולה פוליטיים פרו-ישראליים בכל רחבי ארה"ב.									
-									
 									
 1	לפי	לפי	ADP	ADP	_	2	case	_	_
 2	מקור	מקור	NOUN	NOUN	Gender=Masc|Number=Sing	8	obl	_	_
@@ -4356,9 +4136,7 @@
 23	.	.	PUNCT	PUNCT	_	8	punct	_	_
 # sent_id = 111									
 									
-									
 # text = טוקי קיבל רק 52 אלף.									
-									
 									
 1	טוקי	טוקי	PROPN	PROPN	_	2	nsubj	_	_
 2	קיבל	קיבל	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -4368,9 +4146,7 @@
 6	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 112									
 									
-									
 # text = ב48 תיאר מנכ"ל אייפא"ק טום דאיין את הארקין כאחד מששה או שבעה סנאטורים, שנבחרו בזכות "כסף יהודי".									
-									
 									
 1-2	ב48	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -4403,9 +4179,7 @@
 25	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 113									
 									
-									
 # text = זו היתה התרברבות לא-דיסקרטית, ואין ספק שיימנע ממנה השנה.									
-									
 									
 1	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
 2	היתה	היה	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	3	cop	_	_
@@ -4428,9 +4202,7 @@
 16	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 114									
 									
-									
 # text = אף-על-פי-כן, שתדלנים פרו-ישראליים בוואשינגטון חככו השבוע את ידיהם בשביעות רצון למשמע הידיעה, שהארקין גבר על טוקי בהפרש משכנע של 10%.									
-									
 									
 1	אף	אף	CCONJ	CCONJ	_	5	advmod	_	SpaceAfter=No
 2	-	-	PUNCT	PUNCT	_	5	punct	_	SpaceAfter=No
@@ -4481,9 +4253,7 @@
 40	.	.	PUNCT	PUNCT	_	15	punct	_	_
 # sent_id = 115									
 									
-									
 # text = הוא הסנאטור הדמוקרטי הראשון בתולדות איובה הנבחר לתקופת כהונה שנייה.									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2-3	הסנאטור	_	_	_	_	_	_	_	_
@@ -4510,9 +4280,7 @@
 17	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 116									
 									
-									
 # text = הוא גם יודע, שבלי תרומות מחוץ לגבולות מדינתו הקטנה, יתקשה לאסוף די כסף לניהול מערכת הבחירות הטלוויזיונית היקרה, שבלעדיה אין פוליטיקאים אמריקאיים מסוגלים לנצח.									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	גם	גם	ADV	ADV	_	3	advmod	_	_
@@ -4566,9 +4334,7 @@
 40	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 117									
 									
-									
 # text = חזקה על הארקין, שיצביע גם בעתיד בעד חוק סיוע החוץ.									
-									
 									
 1	חזקה	חזקה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 2	על	על	ADP	ADP	_	3	case	_	_
@@ -4591,9 +4357,7 @@
 16	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 118									
 									
-									
 # text = מזכירות איגוד הפועלים החקלאיים הציעה אתמול שהממשלה תשלם מענק חודשי של 500 ש"ח, נוסף לשכר הרגיל, לכל ישראלי שיעבוד בקטיף ההדרים במשך שלושה חודשים לפחות.									
-									
 									
 1	מזכירות	מזכירות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	nsubj	_	_
 2	איגוד	איגוד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	compound:smixut	_	_
@@ -4645,9 +4409,7 @@
 39	.	.	PUNCT	PUNCT	_	7	punct	_	_
 # sent_id = 119									
 									
-									
 # text = מזכיר איגוד הפועלים החקלאיים, חיים אביבי, מסר שההצעה הועלתה לנוכח המחסור בעובדי קטיף המורגש כבר כעת ויוחרף בחודש הבא, כשהקטיף יהיה בעיצומו, בעיקר עקב היעדרות עובדים מהשטחים.									
-									
 									
 1	מזכיר	מזכיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	11	nsubj	_	_
 2	איגוד	איגוד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	compound:smixut	_	_
@@ -4678,7 +4440,7 @@
 22-23	המורגש	_	_	_	_	_	_	_	_
 22	ה	ה	SCONJ	SCONJ	_	23	mark	_	_
 23	מורגש	הורגש	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Pass	18	acl:relcl	_	_
-24	כבר	כבר	ADV	ADV	HebSource=ConvUncertainHead	25	advmod	_	_
+24	כבר	כבר	ADV	ADV	HebSource=ConvUncertainHead	25	fixed	_	_
 25	כעת	כעת	ADV	ADV	_	23	advmod:phrase	_	_
 26-27	ויוחרף	_	_	_	_	_	_	_	_
 26	ו	ו	CCONJ	CCONJ	_	27	cc	_	_
@@ -4713,9 +4475,7 @@
 50	.	.	PUNCT	PUNCT	_	11	punct	_	_
 # sent_id = 120									
 									
-									
 # text = המעסיקים אינם מצפים שיצליחו למשוך מספר ניכר של עובדים ישראליים לקטיף, בגלל השכר הנמוך המשולם לעבודה זו מעט מעל שכר המינימום במשק.									
-									
 									
 1-2	המעסיקים	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -4763,9 +4523,7 @@
 35	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 121									
 									
-									
 # text = בשבוע הבא ידון מנכ"ל התאחדות האיכרים, שלמה רייזמן, עם מנכ"ל שירות התעסוקה, דוד מנע, בדרישת ההתאחדות לשכנע עולים חדשים הלומדים באולפנים לעבוד בקטיף.									
-									
 									
 1-3	בשבוע	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	3	case	_	_
@@ -4817,9 +4575,7 @@
 39	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 122									
 									
-									
 # text = רייזמן מציע שהממשלה תסבסד מחצית מעלות העסקתם של העולים בקטיף.									
-									
 									
 1	רייזמן	רייזמן	PROPN	PROPN	_	2	nsubj	_	_
 2	מציע	הציע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
@@ -4847,9 +4603,7 @@
 19	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 123									
 									
-									
 # text = מזכירות איגוד הפועלים החקלאיים אישרה אתמול נקיטת עיצומים אם עד סוף השבוע הבא לא יושג הסכם שכר לשנתיים הבאות, במסגרתו יועלה שכר העובדים ב20%.									
-									
 									
 1	מזכירות	מזכירות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	nsubj	_	_
 2	איגוד	איגוד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	compound:smixut	_	_
@@ -4901,9 +4655,7 @@
 39	.	.	PUNCT	PUNCT	_	7	punct	_	_
 # sent_id = 124									
 									
-									
 # text = הסכם השכר פג באפריל.									
-									
 									
 1	הסכם	הסכם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj	_	_
 2-3	השכר	_	_	_	_	_	_	_	_
@@ -4916,9 +4668,7 @@
 7	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 125									
 									
-									
 # text = יו"ר רשות שדות התעופה, אריה גרוסבורד, נהרג ביום שני בתאונת דרכים בארצות-הברית.									
-									
 									
 1	יו"ר	יו"ר	NOUN	NOUN	Abbr=Yes|Definite=Cons|Gender=Masc|Number=Sing	10	nsubj	_	_
 2	רשות	רשות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	compound:smixut	_	_
@@ -4949,9 +4699,7 @@
 22	.	.	PUNCT	PUNCT	_	10	punct	_	_
 # sent_id = 126									
 									
-									
 # text = גרוסבורד נהג לבדו במכונית, בדרכו מהעיר מיניאפוליס באינדיאנה לנמל התעופה שלה.									
-									
 									
 1	גרוסבורד	גרוסבורד	PROPN	PROPN	_	2	nsubj	_	_
 2	נהג	נהג	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -4986,9 +4734,7 @@
 24	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 127									
 									
-									
 # text = משאית פגעה במכוניתו, והוא נהרג במקום.									
-									
 									
 1	משאית	משאית	NOUN	NOUN	Gender=Fem|Number=Sing	2	nsubj	_	_
 2	פגעה	פגע	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -5009,9 +4755,7 @@
 14	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 128									
 									
-									
 # text = אריה גרוסבורד אמור היה לטוס ממיניאפוליס לשיקאגו, וממנה לניו-יורק.									
-									
 									
 1	אריה	אריה	PROPN	PROPN	_	3	nsubj	_	_
 2	גרוסבורד	גרוסבורד	PROPN	PROPN	_	1	flat:name	_	_
@@ -5037,9 +4781,7 @@
 18	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 129									
 									
-									
 # text = שם היה אמור להיפגש עם אשתו, שעשתה בבוסטון.									
-									
 									
 1	שם	שם	ADV	ADV	_	3	advmod	_	_
 2	היה	היה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	3	cop	_	_
@@ -5060,9 +4802,7 @@
 14	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 130									
 									
-									
 # text = בני הזוג גרוסבורד תוכננו לשוב היום אחרי-הצהריים לישראל.									
-									
 									
 1	בני	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	nsubj	_	_
 2-3	הזוג	_	_	_	_	_	_	_	_
@@ -5076,16 +4816,14 @@
 9	-	-	PUNCT	PUNCT	_	11	punct	_	SpaceAfter=No
 10-11	הצהריים	_	_	_	_	_	_	_	_
 10	ה	ה	DET	DET	PronType=Art	11	det:def	_	_
-11	צהריים	צהריים	NOUN	NOUN	Gender=Masc|Number=Plur	7	advmod	_	_
+11	צהריים	צהריים	NOUN	NOUN	Gender=Masc|Number=Plur	7	fixed	_	_
 12-13	לישראל	_	_	_	_	_	_	_	SpaceAfter=No
 12	ל	ל	ADP	ADP	_	13	case	_	_
 13	ישראל	ישראל	PROPN	PROPN	_	6	obl	_	_
 14	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 131									
 									
-									
 # text = דבר מותו של גרוסבורד נודע רק אתמול בצהריים לרשות שדות התעופה.									
-									
 									
 1	דבר	דבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	7	nsubj	_	_
 2-4	מותו	_	_	_	_	_	_	_	_
@@ -5095,12 +4833,12 @@
 5	של	של	ADP	ADP	Case=Gen	6	case:gen	_	_
 6	גרוסבורד	גרוסבורד	PROPN	PROPN	_	2	nmod:poss	_	_
 7	נודע	נודע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
-8	רק	רק	ADV	ADV	_	9	advmod	_	_
+8	רק	רק	ADV	ADV	_	9	fixed	_	_
 9	אתמול	אתמול	ADV	ADV	_	7	advmod:phrase	_	_
 10-12	בצהריים	_	_	_	_	_	_	_	_
 10	ב	ב	ADP	ADP	_	12	case	_	_
 11	ה_	ה	DET	DET	PronType=Art	12	det:def	_	_
-12	צהריים	צהריים	NOUN	NOUN	Gender=Masc|Number=Plur	9	advmod	_	_
+12	צהריים	צהריים	NOUN	NOUN	Gender=Masc|Number=Plur	9	fixed	_	_
 13-14	לרשות	_	_	_	_	_	_	_	_
 13	ל	ל	ADP	ADP	_	14	case	_	_
 14	רשות	רשות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	obl	_	_
@@ -5111,9 +4849,7 @@
 18	.	.	PUNCT	PUNCT	_	7	punct	_	_
 # sent_id = 132									
 									
-									
 # text = הגורמים, שטיפלו בדבר בארץ, לא קישרו את שמו עם תפקידו.									
-									
 									
 1-2	הגורמים	_	_	_	_	_	_	_	SpaceAfter=No
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -5146,9 +4882,7 @@
 23	.	.	PUNCT	PUNCT	_	14	punct	_	_
 # sent_id = 133									
 									
-									
 # text = משטרת מיניאפוליס מצאה במכוניתו את מזוודותיו עם תגי הזיהוי.									
-									
 									
 1	משטרת	משטרה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	nsubj	_	_
 2	מיניאפוליס	מיניאפוליס	PROPN	PROPN	_	1	compound:smixut	_	_
@@ -5171,9 +4905,7 @@
 16	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 134									
 									
-									
 # text = המשטרה דיווחה למחלקת המדינה האמריקאית, שהעבירה את המידע לקונסוליה הישראלית בשיקאגו, המטפלת באזור מיניאפוליס.									
-									
 									
 1-2	המשטרה	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -5217,9 +4949,7 @@
 29	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 135									
 									
-									
 # text = הקונסוליה בשיקאגו הבריקה לירושלים.									
-									
 									
 1-2	הקונסוליה	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -5234,9 +4964,7 @@
 8	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 136									
 									
-									
 # text = ממשרד החוץ בירושלים נשלח שליח להודיע על דבר המוות לבני המשפחה, אולם לא היה איש בדירתו.									
-									
 									
 1-2	ממשרד	_	_	_	_	_	_	_	_
 1	מ	מ	ADP	ADP	_	2	case	_	_
@@ -5274,9 +5002,7 @@
 27	.	.	PUNCT	PUNCT	_	7	punct	_	_
 # sent_id = 137									
 									
-									
 # text = רק אחר-כך נמצא כרטיס ביקור, ובו שמו ותוארו של גרוסבורד כמנהל מפעל פרטי.									
-									
 									
 1	רק	רק	ADV	ADV	HebSource=ConvUncertainHead	4	dep	_	_
 2	אחר	אחר	ADP	ADP	_	4	case	_	SpaceAfter=No
@@ -5309,9 +5035,7 @@
 25	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 138									
 									
-									
 # text = אנשי משרד החוץ התקשרו אתמול למפעל, ורק אז התברר כי מדובר ביו"ר רשות שדות התעופה.									
-									
 									
 1	אנשי	איש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	nsubj	_	_
 2	משרד	משרד	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	compound:smixut	_	_
@@ -5327,7 +5051,7 @@
 10	,	,	PUNCT	PUNCT	_	5	punct	_	_
 11-12	ורק	_	_	_	_	_	_	_	_
 11	ו	ו	CCONJ	CCONJ	_	14	cc	_	_
-12	רק	רק	ADV	ADV	_	13	advmod	_	_
+12	רק	רק	ADV	ADV	_	13	fixed	_	_
 13	אז	אז	ADV	ADV	_	14	advmod:phrase	_	_
 14	התברר	התברר	VERB	VERB	Gender=Masc|HebBinyan=HITPAEL|Number=Sing|Person=3|Tense=Past	5	conj	_	_
 15	כי	כי	SCONJ	SCONJ	_	16	mark	_	_
@@ -5343,9 +5067,7 @@
 23	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 139									
 									
-									
 # text = גרוסבורד, בן 95 במותו, השאיר אחריו אם, אחות, רעיה, בן ושתי בנות.									
-									
 									
 1	גרוסבורד	גרוסבורד	PROPN	PROPN	_	10	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	1	punct	_	_
@@ -5375,11 +5097,9 @@
 23	.	.	PUNCT	PUNCT	_	10	punct	_	_
 # sent_id = 140									
 									
-									
 # text = עדיין לא נקבע מועד להלווייתו.									
 									
-									
-1	עדיין	עדיין	ADV	ADV	_	2	advmod	_	_
+1	עדיין	עדיין	ADV	ADV	_	2	fixed	_	_
 2	לא	לא	ADV	ADV	Polarity=Neg	3	advmod:phrase	_	_
 3	נקבע	נקבע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
 4	מועד	מועד	NOUN	NOUN	Gender=Masc|Number=Sing	3	nsubj	_	_
@@ -5391,9 +5111,7 @@
 9	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 141									
 									
-									
 # text = מרכז המידע לזכויות האדם בשטחים, "בצלם", מפרסם מפעם לפעם דפי מידע ובהם פרטים על הנעשה בשטחים בתחומים שונים.									
-									
 									
 1	מרכז	מרכז	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	nsubj	_	_
 2-3	המידע	_	_	_	_	_	_	_	_
@@ -5443,9 +5161,7 @@
 36	.	.	PUNCT	PUNCT	_	16	punct	_	_
 # sent_id = 142									
 									
-									
 # text = הסגנון ענייני מאוד, בדרך כלל יש בו נגיעה לענייני חוק.									
-									
 									
 1-2	הסגנון	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -5469,9 +5185,7 @@
 16	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 143									
 									
-									
 # text = "בצלם" נוהג להפיץ את דפי המידע שלו בין בעלי עניין שונים, חלקם בעלי משרות במערכת המשפט.									
-									
 									
 1	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
 2	בצלם	בצלם	PROPN	PROPN	_	4	nsubj	_	SpaceAfter=No
@@ -5506,9 +5220,7 @@
 26	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 144									
 									
-									
 # text = בימים אלה התקבל במשרדי הארגון מכתב ממשרד המשפטים, על נייר רשמי, וזה לשונו: "הנדון החוברת שלכם.									
-									
 									
 1-2	בימים	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -5554,9 +5266,7 @@
 32	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 145									
 									
-									
 # text = רצ"ב מוחזר אליכם החומר שנשלח אלי.									
-									
 									
 1	רצ"ב	רצ"ב	ADV	ADV	Abbr=Yes	2	advmod	_	_
 2	מוחזר	הוחזר	VERB	VERB	Gender=Masc|HebBinyan=HUFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -5575,9 +5285,7 @@
 11	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 146									
 									
-									
 # text = כמותו אתם שולחים אלי מדי פעם והוא נזרק ישר לפח.									
-									
 									
 1-2	כמותו	_	_	_	_	_	_	_	_
 1	כמותו	כמו	ADP	ADP	_	2	case	_	_
@@ -5601,9 +5309,7 @@
 16	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 147									
 									
-									
 # text = אבקשכם לשלוח אלי חומר זה.									
-									
 									
 1-2	אבקשכם	_	_	_	_	_	_	_	_
 1	אבקשכם	_	VERB	VERB	_	0	root	_	_
@@ -5617,9 +5323,7 @@
 8	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 148									
 									
-									
 # text = מען עבודתי מיועד לקבלת חומר עבודה בלבד".									
-									
 									
 1	מען	מען	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nsubj	_	_
 2-4	עבודתי	_	_	_	_	_	_	_	_
@@ -5637,9 +5341,7 @@
 12	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 149									
 									
-									
 # text = על החתום נגה ענתבי, הממונה על נוסח החוק ורשומות.									
-									
 									
 1	על	על	ADP	ADP	_	3	case	_	_
 2-3	החתום	_	_	_	_	_	_	_	_
@@ -5662,9 +5364,7 @@
 15	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 150									
 									
-									
 # text = ולמי שיספר פעם את סיפורה של שגרת החיים בימים המטורפים האלה, הנה הערת שוליים.									
-									
 									
 1-3	ולמי	_	_	_	_	_	_	_	_
 1	ו	ו	CCONJ	CCONJ	_	3	cc	_	_
@@ -5701,9 +5401,7 @@
 26	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 151									
 									
-									
 # text = על חשבונות המים שעיריית ירושלים שלחה בימים אלה לתושבים הודפסה הנחיה בזו הלשון: "אם יש לך מיכל מים על גג הבית, אנא דאג לנעילת הכניסה אל הגג, כדי למנוע מאנשים זרים לזהם או להרעיל את מי השתייה".									
-									
 									
 1	על	על	ADP	ADP	_	2	case	_	_
 2	חשבונות	חשבון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	15	obl	_	_
@@ -5777,9 +5475,7 @@
 57	.	.	PUNCT	PUNCT	_	15	punct	_	_
 # sent_id = 152									
 									
-									
 # text = הסתיו אתנו.									
-									
 									
 1-2	הסתיו	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -5790,9 +5486,7 @@
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 153									
 									
-									
 # text = העלים מזהיבים.									
-									
 									
 1-2	העלים	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -5801,9 +5495,7 @@
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 154									
 									
-									
 # text = קצה של שנה נוספת נראה במעורפל באופק, ועדיין לא זכית במענק "גאונות" של קרן מקארתור.									
-									
 									
 1-3	קצה	_	_	_	_	_	_	_	_
 1	קץ_	קץ	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	_
@@ -5821,7 +5513,7 @@
 12	,	,	PUNCT	PUNCT	_	7	punct	_	_
 13-14	ועדיין	_	_	_	_	_	_	_	_
 13	ו	ו	CCONJ	CCONJ	_	16	cc	_	_
-14	עדיין	עדיין	ADV	ADV	_	15	advmod	_	_
+14	עדיין	עדיין	ADV	ADV	_	15	fixed	_	_
 15	לא	לא	ADV	ADV	Polarity=Neg	16	advmod:phrase	_	_
 16	זכית	זכה	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=2|Tense=Past|Voice=Act	7	conj	_	_
 17-18	במענק	_	_	_	_	_	_	_	_
@@ -5836,9 +5528,7 @@
 25	.	.	PUNCT	PUNCT	_	7	punct	_	_
 # sent_id = 155									
 									
-									
 # text = גם אני לא.									
-									
 									
 1	גם	גם	ADV	ADV	_	2	det	_	_
 2	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	0	root	_	_
@@ -5846,9 +5536,7 @@
 4	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 156									
 									
-									
 # text = פרסום רשימת הזוכים השנה, כמו תמיד, די בו כדי לגרום לסופרים, לאמנים, לאקדמאים ולפעילים במסגרות שונות ברחבי ארצות הברית כולה לצפות לרשימת השנה הבאה, כשבלבם מקננת התקווה שאולי גם הם ייכללו בה.									
-									
 									
 1	פרסום	פרסום	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
 2	רשימת	רשימה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	compound:smixut	_	_
@@ -5928,9 +5616,7 @@
 59	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 157									
 									
-									
 # text = אחרי ככלות הכל, 63 הזוכים אם לשפוט על פי הכתוב עליהם בעיתונות אינם נראים מיוחדים כל כך.									
-									
 									
 1	אחרי	אחרי	ADP	ADP	_	3	case	_	_
 2-3	ככלות	_	_	_	_	_	_	_	_
@@ -5958,15 +5644,13 @@
 19	עיתונות	עיתונות	NOUN	NOUN	Gender=Fem|Number=Sing	14	obl	_	_
 20	אינם	אינו	VERB	VERB	Gender=Masc|Number=Plur|Person=3|Polarity=Neg|VerbForm=Part|VerbType=Cop	21	advmod	_	_
 21	נראים	נראה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Mid	0	root	_	_
-22	מיוחדים	מיוחד	ADJ	ADJ	Gender=Masc|HebSource=ConvUncertainLabel|Number=Plur	21	advmod	_	_
+22	מיוחדים	מיוחד	ADJ	ADJ	Gender=Masc|HebSource=ConvUncertainLabel|Number=Plur	21	xcomp	_	_
 23	כל	כול	DET	DET	Definite=Cons	22	advmod	_	_
 24	כך	כך	ADV	ADV	_	23	fixed	_	SpaceAfter=No
 25	.	.	PUNCT	PUNCT	_	21	punct	_	_
 # sent_id = 158									
 									
-									
 # text = אבל כמובן, לאחר בדיקה קפדנית, מתברר שזה בדיוק מה שהם מיוחדים.									
-									
 									
 1	אבל	אבל	CCONJ	CCONJ	_	8	cc	_	_
 2	כמובן	כמובן	ADV	ADV	_	8	advmod	_	SpaceAfter=No
@@ -5988,9 +5672,7 @@
 16	.	.	PUNCT	PUNCT	_	8	punct	_	_
 # sent_id = 159									
 									
-									
 # text = קחו למשל את מריה ואראלה.									
-									
 									
 1	קחו	לקח	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Mood=Imp|Number=Plur|Person=2|Voice=Act	0	root	_	_
 2	למשל	למשל	CCONJ	CCONJ	_	1	advmod	_	_
@@ -6000,9 +5682,7 @@
 6	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 160									
 									
-									
 # text = בתחילה היא מצטיירת כמו כל מארגנת קהילתית אחרת.									
-									
 									
 1-2	בתחילה	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	4	advmod	_	_
@@ -6017,9 +5697,7 @@
 10	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 161									
 									
-									
 # text = אבל במבט מקרוב מתברר שהיא נמנתה עם מקימי גנאדאס דל ואיה, קואופרטיב לגידול כבשים ולאריגה בלוס אוחוס, ניו-מקסיקו.									
-									
 									
 1	אבל	אבל	CCONJ	CCONJ	_	6	cc	_	_
 2-3	במבט	_	_	_	_	_	_	_	_
@@ -6059,9 +5737,7 @@
 30	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 162									
 									
-									
 # text = האם אתם יכולים להתעלות על כך?									
-									
 									
 1	האם	האם	ADV	ADV	PronType=Int	3	mark:q	_	_
 2	אתם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
@@ -6072,9 +5748,7 @@
 7	?	?	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 163									
 									
-									
 # text = וישנם גם הזוכים המיוחדים במובן היותר שנוי במחלוקת של המלה.									
-									
 									
 1-2	וישנם	_	_	_	_	_	_	_	_
 1	ו	ו	CCONJ	CCONJ	_	2	cc	_	_
@@ -6104,9 +5778,7 @@
 19	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 164									
 									
-									
 # text = למרות שמענקי קרן מקארתור נועדו לשחרר את המוכשרים מנטל ההשתכרות למחייתם, כמה מענקים מגיעים תמיד לאנשים שאינם בדיוק נאבקים כדי לזכות בהכרה ובחופש יצירה (הדוגמה העיקרית של השנה היא סוזן זונטג).									
-									
 									
 1	למרות	למרות	ADP	ADP	_	6	case	_	_
 2-3	שמענקי	_	_	_	_	_	_	_	_
@@ -6172,9 +5844,7 @@
 50	.	.	PUNCT	PUNCT	_	22	punct	_	_
 # sent_id = 165									
 									
-									
 # text = אם בכל זאת אתם רוצים סבסוד למחשבותיכם ולמעשיכם, עליכם להשיג אותו בדרך המיושנת: לפנות לקרן, ולשכנע אנשים בעלי כסף שאתם זכאים לחלק ממנו.									
-									
 									
 1	אם	אם	SCONJ	SCONJ	_	6	mark	_	_
 2-3	בכל	_	_	_	_	_	_	_	_
@@ -6236,9 +5906,7 @@
 46	.	.	PUNCT	PUNCT	_	19	punct	_	_
 # sent_id = 166									
 									
-									
 # text = להלן כמה עצות.									
-									
 									
 1	להלן	להלן	ADV	ADV	_	0	root	_	_
 2	כמה	כמה	DET	DET	Definite=Cons	3	det	_	_
@@ -6246,9 +5914,7 @@
 4	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 167									
 									
-									
 # text = עצה מספר 1: הצטרפו לגופים.									
-									
 									
 1	עצה	עצה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
 2	מספר	מספר	NOUN	NOUN	Gender=Masc|HebSource=ConvUncertainLabel|Number=Sing	1	nmod	_	_
@@ -6261,9 +5927,7 @@
 8	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 168									
 									
-									
 # text = כמעט אף אחד משבעה מיליארדי הדולרים שקרנות אמריקאיות מחלקות מדי שנה אינו מיועד ליחידים.									
-									
 									
 1	כמעט	כמעט	ADV	ADV	_	3	det	_	_
 2	אף	אף	DET	DET	Definite=Cons	3	det	_	_
@@ -6290,9 +5954,7 @@
 19	.	.	PUNCT	PUNCT	_	16	punct	_	_
 # sent_id = 169									
 									
-									
 # text = זו אחת הסיבות לכך שמענקי מקארתור מבוקשים כל כך.									
-									
 									
 1	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	4	nsubj	_	_
 2	אחת	אחת	NUM	NUM	Definite=Cons|Gender=Fem|Number=Sing	4	nummod	_	_
@@ -6312,9 +5974,7 @@
 13	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 170									
 									
-									
 # text = בדרך כלל מופנה הכסף לקולגים, למכוני מחקר, (כולל צוותות חשיבה), לקבוצות לשירות קהילתי, למוזיאונים, לספריות ולארגונים אחרים שלא למטרות רווח.									
-									
 									
 1-2	בדרך	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	4	advmod	_	_
@@ -6367,9 +6027,7 @@
 39	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 171									
 									
-									
 # text = משום כך, ראשית כל עליך לחשוב על קבלת תפקיד חשוב באחד ממאות הגופים הללו.									
-									
 									
 1	משום	משום	SCONJ	SCONJ	_	2	case	_	_
 2	כך	כך	PRON	PRON	Person=3|PronType=Dem	7	nmod	_	SpaceAfter=No
@@ -6397,9 +6055,7 @@
 20	.	.	PUNCT	PUNCT	_	7	punct	_	_
 # sent_id = 172									
 									
-									
 # text = אז תוכל לתור אחר כסף באורח עצמאי פחות או יותר, אפילו לייסד במשך הזמן מכון משלך במסגרת המכון נותן החסות, למרות שנותן החסות שלך ירצה אחוז שמן מהמענק כדי לכסות "הוצאות קבועות".									
-									
 									
 1	אז	אז	ADV	ADV	_	2	advmod	_	_
 2	תוכל	_	AUX	AUX	Gender=Masc|Number=Sing|Person=2|Tense=Fut|VerbType=Mod	3	aux	_	_
@@ -6462,9 +6118,7 @@
 49	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 173									
 									
-									
 # text = אם אתה מעדיף לפעול בלי איש ביניים, אתה יכול להקים ארגון משלך שלא למטרות רווח.									
-									
 									
 1	אם	אם	SCONJ	SCONJ	_	3	mark	_	_
 2	אתה	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	dep	_	_
@@ -6490,9 +6144,7 @@
 20	.	.	PUNCT	PUNCT	_	10	punct	_	_
 # sent_id = 174									
 									
-									
 # text = כך נהג איל ההון בעל המודעות החברתית טד טרנר, כאשר מימן את "ההתאחדות לעולם טוב יותר", המבקשת מענקים מקרנות כדי להפיק סרטי טלוויזיה דוקומנטריים.									
-									
 									
 1	כך	כך	ADV	ADV	_	2	advmod	_	_
 2	נהג	נהג	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -6539,9 +6191,7 @@
 36	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 175									
 									
-									
 # text = לפעמים, אחרי שקיבל מימון פטור ממס באמצעות ההתאחדות שלו שלא למטרות רווח מקרין טרנר את הסרטים הדוקומנטריים ברשת הטלוויזיה שלו הקיימת בהחלט כדי לשאת רווחים וברשתות אחרות כמוה.									
-									
 									
 1	לפעמים	לפעמים	ADV	ADV	_	19	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	19	punct	_	_
@@ -6602,9 +6252,7 @@
 44	.	.	PUNCT	PUNCT	_	19	punct	_	_
 # sent_id = 176									
 									
-									
 # text = אבל אל תטרחו לדווח לשלטונות המקומיים.									
-									
 									
 1	אבל	אבל	CCONJ	CCONJ	_	3	cc	_	_
 2	אל	_	ADV	ADV	_	3	advmod	_	_
@@ -6620,9 +6268,7 @@
 10	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 177									
 									
-									
 # text = הגבול בין "שלא למטרות רווח" ובין "למטרות רווח" מטושטש מאוד, ובדרך כלל הכל חוקי למהדרין.									
-									
 									
 1-2	הגבול	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -6660,9 +6306,7 @@
 28	.	.	PUNCT	PUNCT	_	18	punct	_	_
 # sent_id = 178									
 									
-									
 # text = הדוגמה הידועה ביותר לשמצה מהתקופה האחרונה היא השימוש בכספי קרן גאנט לרכישת אלפי עותקים של האוטוביוגרפיה של יו"ר גאנט לשעבר, אלאן נויהארט.									
-									
 									
 1-2	הדוגמה	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -6709,9 +6353,7 @@
 34	.	.	PUNCT	PUNCT	_	15	punct	_	_
 # sent_id = 179									
 									
-									
 # text = הדבר סייע להכניס את הספר לרשימת רבי-המכר של "ניו יורק טיימס", מעמד שבדרך כלל גורר בעקבותיו מכירת עשרות אלפי עותקים נוספים.									
-									
 									
 1-2	הדבר	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -6755,9 +6397,7 @@
 34	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 180									
 									
-									
 # text = עצה מספר 2.									
-									
 									
 1	עצה	עצה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 2	מספר	מספר	NOUN	NOUN	Gender=Masc|HebSource=ConvUncertainLabel|Number=Sing	1	nmod	_	_
@@ -6765,9 +6405,7 @@
 4	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 181									
 									
-									
 # text = לך להיות זמר אופרה או ביולוג מולקולרי.									
-									
 									
 1	לך	הלך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Mood=Imp|Number=Sing|Person=2|Voice=Act	0	root	_	_
 2	להיות	היה	VERB	VERB	Polarity=Pos|VerbForm=Inf|VerbType=Cop	1	xcomp	_	_
@@ -6779,9 +6417,7 @@
 8	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 182									
 									
-									
 # text = בספר "צדקה מתחילה מבית" התלוננה תרזה אודנדל על מחזוריות הפילנטרופיה.									
-									
 									
 1-3	בספר	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	3	case	_	_
@@ -6805,9 +6441,7 @@
 17	.	.	PUNCT	PUNCT	_	10	punct	_	_
 # sent_id = 183									
 									
-									
 # text = חלק נכבד מתרומותיהן של קרנות (ושל חברות ואנשים עשירים) מגיע לבסוף לנקודת ההתחלה שלהן: לדרגים העליונים של החברה, למוזיאונים, לאולמות קונצרטים ולתיאטראות קהילתיים, שסוג האנשים היכול להרשות לעצמו לתרום תרומות צדקה הוא המנהל אותם ופוקד אותם.									
-									
 									
 1	חלק	חלק	NOUN	NOUN	Gender=Masc|Number=Sing	17	nsubj	_	_
 2	נכבד	נכבד	ADJ	ADJ	Gender=Masc|Number=Sing	1	amod	_	_
@@ -6898,9 +6532,7 @@
 67	.	.	PUNCT	PUNCT	_	17	punct	_	_
 # sent_id = 184									
 									
-									
 # text = 51% מכספי הקרנות מופנים לפעילויות תרבותיות.									
-									
 									
 1	51	51	NUM	NUM	_	2	nummod	_	SpaceAfter=No
 2	%	%	NOUN	NOUN	Gender=Masc|Number=Plur,Sing	7	nsubj	_	_
@@ -6918,9 +6550,7 @@
 11	.	.	PUNCT	PUNCT	_	7	punct	_	_
 # sent_id = 185									
 									
-									
 # text = לדעת אנשים העשויים לחשוב על קדימויות חברתיות נאצלות יותר מאשר הקמת סביבה תומכת לאופרה, זה שיעור גבוה מאוד.									
-									
 									
 1-2	לדעת	_	_	_	_	_	_	_	_
 1	ל	ל	ADP	ADP	_	2	case	_	_
@@ -6950,9 +6580,7 @@
 23	.	.	PUNCT	PUNCT	_	20	punct	_	_
 # sent_id = 186									
 									
-									
 # text = למרבה המזל, כשליש מהכסף מועבר לפרויקטים שהתועלת בהם קונקרטית יותר, כגון שירותי בריאות או מחקרים בתחומי הרפואה או מדעי הטבע.									
-									
 									
 1-2	למרבה	_	_	_	_	_	_	_	_
 1	ל	ל	ADP	ADP	_	4	case	_	_
@@ -7001,9 +6629,7 @@
 35	.	.	PUNCT	PUNCT	_	11	punct	_	_
 # sent_id = 187									
 									
-									
 # text = קצת יותר משליש מושקע בשטח ההפקר הגדול שבו מתחרים על תשומת הלב רעיונות ותוכניות במדעי החברה ובתחום המדיניות הציבורית.									
-									
 									
 1	קצת	קצת	ADV	ADV	HebSource=ConvUncertainHead	4	dep	_	_
 2	יותר	יותר	ADV	ADV	_	4	dep	_	_
@@ -7053,9 +6679,7 @@
 34	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 188									
 									
-									
 # text = בתוככי אזור זה, שבירתו היא ואשינגטון, העצות הבאות הן הישימות ביותר.									
-									
 									
 1-2	בתוככי	_	_	_	_	_	_	_	_
 1	ב	בתוככי	ADP	ADP	_	2	case	_	_
@@ -7085,9 +6709,7 @@
 21	.	.	PUNCT	PUNCT	_	19	punct	_	_
 # sent_id = 189									
 									
-									
 # text = עצה מספר 3.									
-									
 									
 1	עצה	עצה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 2	מספר	מספר	NOUN	NOUN	Gender=Masc|HebSource=ConvUncertainLabel|Number=Sing	1	nmod	_	_
@@ -7095,9 +6717,7 @@
 4	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 190									
 									
-									
 # text = הייה מודע להשלכות המרובות של עבודתך.									
-									
 									
 1	הייה	היה	VERB	VERB	Gender=Masc|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbType=Cop	2	cop	_	_
 2	מודע	מודע	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	_
@@ -7116,9 +6736,7 @@
 12	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 191									
 									
-									
 # text = "אתה מתבונן בנושא שיהיה בעל ערך לגיטימי למחקר, ובו בזמן יכבוש את דמיונו של פקיד התוכנית", אומר וורן מילר, איש מדעי המדינה באוניברסיטת אריזונה.									
-									
 									
 1	"	"	PUNCT	PUNCT	_	3	punct	_	SpaceAfter=No
 2	אתה	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
@@ -7173,9 +6791,7 @@
 42	.	.	PUNCT	PUNCT	_	31	punct	_	_
 # sent_id = 192									
 									
-									
 # text = במשך עשרות שנים שימש מילר מגייס מענקים מרכזי לפרויקט חקר הבחירות הארציות, מחקר על התנהגות מצביעים שבעקבותיו נכתב ב1960 החיבור הקלאסי "המצביע האמריקאי".									
-									
 									
 1	במשך	במשך	ADP	ADP	_	3	case	_	_
 2	עשרות	עשרות	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	3	nummod	_	_
@@ -7225,9 +6841,7 @@
 37	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 193									
 									
-									
 # text = מאז המשיך במחקר והגדיל את מאגר הנתונים שלו.									
-									
 									
 1	מאז	מאז	ADV	ADV	_	2	advmod	_	_
 2	המשיך	המשיך	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -7249,9 +6863,7 @@
 14	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 194									
 									
-									
 # text = עצה מספר 4.									
-									
 									
 1	עצה	עצה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 2	מספר	מספר	NOUN	NOUN	Gender=Masc|HebSource=ConvUncertainLabel|Number=Sing	1	nmod	_	_
@@ -7259,9 +6871,7 @@
 4	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 195									
 									
-									
 # text = תבטיח להציל את העולם.									
-									
 									
 1	תבטיח	הבטיח	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=2|Tense=Fut|Voice=Act	0	root	_	_
 2	להציל	הציל	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	1	xcomp	_	_
@@ -7272,9 +6882,7 @@
 6	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 196									
 									
-									
 # text = על פי כל הדיווחים חלה בעשורים האחרונים ירידה תלולה בתמיכה בעבודות מחקר במדעי החברה שאין להן יישום מעשי מידי.									
-									
 									
 1	על	על	ADP	ADP	_	5	case	_	_
 2	פי	פה	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	1	fixed	_	_
@@ -7318,9 +6926,7 @@
 31	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 197									
 									
-									
 # text = מילר זוכר שבשנות ה05 וה06 הוא יכול היה להסתמך על סיוע מקרנות פורד ורוקפלר.									
-									
 									
 1	מילר	מילר	PROPN	PROPN	_	2	nsubj	_	_
 2	זוכר	זכר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
@@ -7351,9 +6957,7 @@
 22	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 198									
 									
-									
 # text = ניסיונו האחרון של מילר להשיג כספים מקרן פורד היה בתחילת שנות ה07.									
-									
 									
 1-3	ניסיונו	_	_	_	_	_	_	_	_
 1	ניסיון_	ניסיון	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	_
@@ -7381,9 +6985,7 @@
 19	.	.	PUNCT	PUNCT	_	13	punct	_	_
 # sent_id = 199									
 									
-									
 # text = אז הוא גילה עניין בגורמים המשפיעים על שיעור המצביעים, ופקיד התוכנית גילה עניין בשיעור המצביעים הנמוך בקרב בני מיעוטים.									
-									
 									
 1	אז	אז	ADV	ADV	_	3	advmod	_	_
 2	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -7425,9 +7027,7 @@
 30	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 200									
 									
-									
 # text = נראה היה שזה זיווג טוב.									
-									
 									
 1	נראה	נראה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Mid	0	root	_	_
 2	היה	היה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	1	cop	_	_
@@ -7439,9 +7039,7 @@
 7	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 201									
 									
-									
 # text = מילר הדגיש שיעד המחקר יהיה איתור מחסומים המונעים מבני מיעוטים להצביע, דבר שלדעתו עשוי היה להיות צעד ראשון לקראת העלאת שיעור ההצבעה.									
-									
 									
 1	מילר	מילר	PROPN	PROPN	_	2	nsubj	_	_
 2	הדגיש	הדגיש	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -7484,9 +7082,7 @@
 33	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 202									
 									
-									
 # text = אך זה לא היה מספיק טוב לקרן.									
-									
 									
 1	אך	אך	CCONJ	CCONJ	_	6	cc	_	_
 2	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
@@ -7501,9 +7097,7 @@
 10	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 203									
 									
-									
 # text = קרן פורד רצתה להיות בטוחה שהמחקר יגדיר במפורש את הדרכים להעלאת שיעור המצביעים בקרב מיעוטים.									
-									
 									
 1	קרן	קרן	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	3	nsubj	_	_
 2	פורד	פורד	PROPN	PROPN	_	1	flat:name	_	_
@@ -7532,9 +7126,7 @@
 21	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 204									
 									
-									
 # text = מילר לא יכול היה להבטיח זאת במצפון נקי.									
-									
 									
 1	מילר	מילר	PROPN	PROPN	_	3	nsubj	_	_
 2	לא	לא	ADV	ADV	Polarity=Neg	3	advmod	_	_
@@ -7549,9 +7141,7 @@
 10	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 205									
 									
-									
 # text = מאז 7791 מומן פרויקט חקר הבחירות הארציות על-ידי קרן המדע הארצית, התומכת הגדולה ביותר במדעי חברה בסיסיים.									
-									
 									
 1-2	מאז	_	_	_	_	_	_	_	_
 1	מ	מ	ADP	ADP	_	3	case	_	_
@@ -7592,9 +7182,7 @@
 29	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 206									
 									
-									
 # text = עצה מספר 5.									
-									
 									
 1	עצה	עצה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 2	מספר	מספר	NOUN	NOUN	Gender=Masc|HebSource=ConvUncertainLabel|Number=Sing	1	nmod	_	_
@@ -7602,9 +7190,7 @@
 4	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 207									
 									
-									
 # text = הייה קטליזטור לשינוי.									
-									
 									
 1	הייה	היה	VERB	VERB	Gender=Masc|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbType=Cop	0	root	_	_
 2	קטליזטור	קטליזאטור	NOUN	NOUN	Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -7614,9 +7200,7 @@
 5	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 208									
 									
-									
 # text = יש אנשים המתקשים להבטיח בפרצוף פוקר שהם יציעו פתרון לבעיה חברתית מרכזית.									
-									
 									
 1	יש	יש	VERB	VERB	HebExistential=True	0	root	_	_
 2	אנשים	איש	NOUN	NOUN	Gender=Masc|Number=Plur	1	nsubj	_	_
@@ -7641,9 +7225,7 @@
 17	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 209									
 									
-									
 # text = לאנשים אלה מומלץ ליהפך לקטליזטורים: לקבץ יחד אנשים רבים היכולים להבטיח פתרונות או שלפחות יכולים היו, אילו סגרו אותם במרכז ועידות במשך ימים, להציע פתרון.									
-									
 									
 1-2	לאנשים	_	_	_	_	_	_	_	_
 1	ל	ל	ADP	ADP	_	2	case	_	_
@@ -7688,9 +7270,7 @@
 35	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 210									
 									
-									
 # text = הקרנות אוהבות יותר ויותר סימנים מוחשיים כאלה להשפעה שיש לכנסים ולהתוועדויות.									
-									
 									
 1-2	הקרנות	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -7723,9 +7303,7 @@
 22	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 211									
 									
-									
 # text = בעיקר הן אוהבות לאסוף אנשים שאילולא כן אפשר שלא היו נפגשים לעולם: אקדמאים ופוליטיקאים, ביורוקרטים ונבחרי ציבור, פנאטים של השמאל ופנאטים של הימין.									
-									
 									
 1	בעיקר	בעיקר	ADV	ADV	_	3	advmod	_	_
 2	הן	הוא	PRON	PRON	Gender=Fem|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
@@ -7770,9 +7348,7 @@
 34	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 212									
 									
-									
 # text = וזכרו: אפשר שפקיד התוכנית של הקרן יצטרף גם הוא למסע; הקפידו איפוא בבחירת האתר.									
-									
 									
 1-2	וזכרו	_	_	_	_	_	_	_	SpaceAfter=No
 1	ו	ו	CCONJ	CCONJ	_	18	cc	_	_
@@ -7808,9 +7384,7 @@
 25	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 213									
 									
-									
 # text = אומרים שמרכז הוועידות והלימודים של קרן רוקפלר בבלאגיו שבאיטליה הוא מקום טוב לחישול קונסנזוס על בעיות דחופות של העולם.									
-									
 									
 1	אומרים	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
 2-3	שמרכז	_	_	_	_	_	_	_	_
@@ -7850,9 +7424,7 @@
 29	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 214									
 									
-									
 # text = גם אם לא ייווצר קונסנסוס חדש מאלכימיה זו, קרוב לוודאי שייצא כרך של ניירות.									
-									
 									
 1	גם	גם	ADV	ADV	_	4	advmod	_	_
 2	אם	אם	SCONJ	SCONJ	_	4	mark	_	_
@@ -7878,9 +7450,7 @@
 19	.	.	PUNCT	PUNCT	_	11	punct	_	_
 # sent_id = 215									
 									
-									
 # text = בקרב אקדמאים שאינם מוזמנים לוועידות אלה שוררת ציניות רבה באשר למטר כרכי המאמרים והניירות המונפקים בחסות קרנות.									
-									
 									
 1	בקרב	בקרב	ADP	ADP	_	2	case	_	_
 2	אקדמאים	אקדמאי	NOUN	NOUN	Gender=Masc|Number=Plur	9	obl	_	_
@@ -7917,9 +7487,7 @@
 26	.	.	PUNCT	PUNCT	_	9	punct	_	_
 # sent_id = 216									
 									
-									
 # text = אין זה סביר שעל שולחנות עיתונאים ומעצבי מדיניות רובצים כל כרכי "אמריקן אקונומיק ריוויו" של שלוש השנים האחרונות, אך בהחלט הגיוני שיש להם כמה כרכים המספקים מידע בנושא נתון במינונים קטנים וחזקים.									
-									
 									
 1	אין	_	ADV	ADV	Polarity=Neg	3	advmod	_	_
 2	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
@@ -7979,9 +7547,7 @@
 46	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 217									
 									
-									
 # text = עצה מספר 6.									
-									
 									
 1	עצה	עצה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 2	מספר	מספר	NOUN	NOUN	Gender=Masc|HebSource=ConvUncertainLabel|Number=Sing	1	nmod	_	_
@@ -7989,9 +7555,7 @@
 4	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 218									
 									
-									
 # text = ערוך בדיקה מחודשת, נוקבת וקטלנית, לדוגמות ליברליות עייפות.									
-									
 									
 1	ערוך	ערך	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Mood=Imp|Number=Sing|Person=2|Voice=Act	0	root	_	_
 2	בדיקה	בדיקה	NOUN	NOUN	Gender=Fem|Number=Sing	1	obj	_	_
@@ -8010,9 +7574,7 @@
 13	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 219									
 									
-									
 # text = זה כ02 שנה מתאמצת חבורת שמרנים, ביניהם אירווינג קריסטול, להשיג סובסידיה פילנטרופית להוגים רבים יותר מהימין.									
-									
 									
 1	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Dem	4	advmod	_	_
 2-3	כ02	_	_	_	_	_	_	_	_
@@ -8044,9 +7606,7 @@
 24	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 220									
 									
-									
 # text = הם סבורים שיש אירוניה בכך שמענקי קרנות באים בדרך כלל מטיפוסים שמרניים, אך הקרן לובשת לעיתים קרובות חזות של שמאלה מהמרכז בהנהגת הפילנטרופואידים (המונח שטבע דווייט מקדונלד בקרן פורד), שבסופו של דבר מנהלים אותם.									
-									
 									
 1	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	סבורים	סבר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
@@ -8077,7 +7637,7 @@
 21	קרן	קרן	NOUN	NOUN	Gender=Fem|Number=Sing	22	nsubj	_	_
 22	לובשת	לבש	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	11	conj	_	_
 23	לעיתים	לעתים	ADV	ADV	_	22	advmod:phrase	_	_
-24	קרובות	קרוב	ADJ	ADJ	Gender=Fem|Number=Plur	23	advmod	_	_
+24	קרובות	קרוב	ADJ	ADJ	Gender=Fem|Number=Plur	23	fixed	_	_
 25	חזות	חזות	NOUN	NOUN	Gender=Fem|Number=Sing	22	obj	_	_
 26	של	של	ADP	ADP	Case=Gen	27	case:gen	_	_
 27	שמאלה	שמאלה	ADV	ADV	_	25	nmod:poss	_	_
@@ -8121,9 +7681,7 @@
 57	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 221									
 									
-									
 # text = קריסטול וחבריו השמרנים עשו שני דברים: ראשית, הם עודדו חברות לתעל את הפילנטרופיה שלהן ליוצאים מן הכלל של כלל זה, כמו קרן גון מ.									
-									
 									
 1	קריסטול	קריסטול	PROPN	PROPN	_	8	nsubj	_	_
 2-5	וחבריו	_	_	_	_	_	_	_	_
@@ -8170,9 +7728,7 @@
 37	.	.	PUNCT	PUNCT	_	8	punct	_	_
 # sent_id = 222									
 									
-									
 # text = שנית, הם עודדו את היוצאים מן הכלל להפעיל השפעה מודעת יותר על עיצוב מדיניות בדרג ארצי.									
-									
 									
 1	שנית	שנית	ADV	ADV	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	4	punct	_	_
@@ -8200,9 +7756,7 @@
 21	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 223									
 									
-									
 # text = אנשים במרכז אותה תנועה מדגישים כי לא היתה זו מזימה של הימין.									
-									
 									
 1	אנשים	איש	NOUN	NOUN	Gender=Masc|Number=Plur	6	nsubj	_	_
 2-3	במרכז	_	_	_	_	_	_	_	_
@@ -8223,9 +7777,7 @@
 15	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 224									
 									
-									
 # text = "איש לא אמר הבה ניצור אווירה שבה נוכל לבחור נשיא שמרן", זוכר לזלי לנקובסקי, אחד השותפים למזימה.									
-									
 									
 1	"	"	PUNCT	PUNCT	_	4	punct	_	SpaceAfter=No
 2	איש	איש	NOUN	NOUN	Gender=Masc|Number=Sing	4	nsubj	_	_
@@ -8259,9 +7811,7 @@
 27	.	.	PUNCT	PUNCT	_	17	punct	_	_
 # sent_id = 225									
 									
-									
 # text = לנקובסקי, שניהל את קרן סמית-ריצרדסון וכיום מנהל את מכון הדסון, אומר כי הרעיון לא היה כל-כך לתת מענקים לחשיבה הימנית כשלעצמה, אלא לתגמל חלופות לכל החשיבה השמאלית שקיבלה עד אז תגמולים ומימון.									
-									
 									
 1	לנקובסקי	לנקובסקי	PROPN	PROPN	_	17	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	1	punct	_	_
@@ -8329,9 +7879,7 @@
 53	.	.	PUNCT	PUNCT	_	17	punct	_	_
 # sent_id = 226									
 									
-									
 # text = הוא וקריסטול והאחרים פשוט חשו ש"קיים מגוון שלם של נושאים הראויים לבדיקה".									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 2-3	וקריסטול	_	_	_	_	_	_	_	_
@@ -8361,9 +7909,7 @@
 21	.	.	PUNCT	PUNCT	_	8	punct	_	_
 # sent_id = 227									
 									
-									
 # text = הם פשוט תהו, נזכר לנקובסקי, "למי יש רעיונות מעניינים?".									
-									
 									
 1	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
 2	פשוט	פשוט	ADV	ADV	_	3	advmod	_	_
@@ -8384,9 +7930,7 @@
 16	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 228									
 									
-									
 # text = ובכן, התברר שבעלי הרעיונות המעניינים היו אנשים כמו רוברט בורק, מרטין פלדסטיין, צארלס מאריי ואלן בלום שגם הודות לתמיכה הפילנטרופית שקיבלו בשנות ה70 ואו בראשית שנות ה80 אין צורך להציגם בציבור.									
-									
 									
 1	ובכן	ובכן	ADV	ADV	_	3	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	3	punct	_	_
@@ -8457,9 +8001,7 @@
 52	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 229									
 									
-									
 # text = אם אתה משמיע באוזני השמרנים רמז לכך שקריסטול ושות הפכו את הקערה על פיה, ולכן כיום כסף ימני הוא החולש בכיפה בעולם הרעיונות, הם יפנו אותך לרשימת הקרנות הפילנטרופיות הגדולות ביותר, ויזכירו לך שמבין הקרנות השמרניות אולין, סמית-ריצרדסון, לינד והרי בראדלו, פיו, שרה סקאיף רק פיו כלולה ברשימת הגדולות.									
-									
 									
 1	אם	אם	SCONJ	SCONJ	_	3	mark	_	_
 2	אתה	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
@@ -8572,18 +8114,14 @@
 85	.	.	PUNCT	PUNCT	_	40	punct	_	_
 # sent_id = 230									
 									
-									
 # text = בהחלט נכון.									
-									
 									
 1	בהחלט	בהחלט	ADV	ADV	_	2	advmod	_	_
 2	נכון	נכון	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 231									
 									
-									
 # text = ולא זו בלבד, אלא נכון גם שקרן מקארתור, הדוגמה השכיחה ביותר לליברליזם המבולבל של שנות ה60, אכן ראויה לתיאור זה.									
-									
 									
 1-2	ולא	_	_	_	_	_	_	_	_
 1	ו	ו	CCONJ	CCONJ	_	0	root	_	_
@@ -8628,9 +8166,7 @@
 33	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 232									
 									
-									
 # text = לפני כמה שנים תרמה הקרן 82000 דולר לאוניברסיטת קיימברידג לניסיונו של סטיוון הוקינג לאחד את תיאוריית הקוונטים ותיאוריית היחסות של איינשטיין.									
-									
 									
 1	לפני	לפני	ADP	ADP	_	3	case	_	_
 2	כמה	כמה	DET	DET	Definite=Cons	3	det	_	_
@@ -8670,9 +8206,7 @@
 30	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 233									
 									
-									
 # text = כיום היתה תיאוריה כזו בחזקת מציאה גם במחיר כפול.									
-									
 									
 1	כיום	כיום	ADV	ADV	_	8	advmod	_	_
 2	היתה	היה	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	8	cop	_	_
@@ -8693,9 +8227,7 @@
 14	.	.	PUNCT	PUNCT	_	8	punct	_	_
 # sent_id = 234									
 									
-									
 # text = אבל כמה כסף העניקה קרן מקארתור לפיסיקאים מבריקים המתעמקים בבעיה זו ואינם סובלים משיתוק טרגי בעקבות מחלה מנוונת חסרת רחמים?									
-									
 									
 1	אבל	אבל	CCONJ	CCONJ	_	4	cc	_	_
 2	כמה	כמה	DET	DET	Definite=Cons	3	det	_	_
@@ -8730,9 +8262,7 @@
 26	?	?	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 235									
 									
-									
 # text = עם זאת, גם הקרנות בעלות השמות הגדולים אינן בהכרח מעיינות החשיבה הליברלית הסטריאוטיפית כפי שלעתים קרובות מתארים אותן.									
-									
 									
 1	עם	עם	ADP	ADP	_	2	case	_	_
 2	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	14	nmod	_	SpaceAfter=No
@@ -8773,9 +8303,7 @@
 29	.	.	PUNCT	PUNCT	_	14	punct	_	_
 # sent_id = 236									
 									
-									
 # text = קרן רוקפלר אמנם מוכנה לחלק פה ושם 52000 דולר ללימוד "פמיניזם ותיאוריה מוסרית: מבוא לאתיקה לחברות פוסט-תעשייתיות".									
-									
 									
 1	קרן	קרן	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	nsubj	_	_
 2	רוקפלר	רוקפלר	PROPN	PROPN	_	1	flat:name	_	_
@@ -8812,9 +8340,7 @@
 28	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 237									
 									
-									
 # text = אבל אתה יכול לעיין בעשרות דפי דו"ח רוקפלר השנתי בלי למצוא פריט הוצאה שקל כל כך ללעוג לו.									
-									
 									
 1	אבל	אבל	CCONJ	CCONJ	_	3	cc	_	_
 2	אתה	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
@@ -8845,9 +8371,7 @@
 23	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 238									
 									
-									
 # text = אשר לקרן פורד שמרנים מתלוננים שמדיניות העדפת שחורים כקיזוז לאפליית העבר (עצה מספר 7, היה שחור) שהיא נוקטת, היא שריד לליברליזם קדום.									
-									
 									
 1	אשר	אשר	SCONJ	SCONJ	_	3	case	_	_
 2-3	לקרן	_	_	_	_	_	_	_	_
@@ -8892,9 +8416,7 @@
 34	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 239									
 									
-									
 # text = ואין ספק שחלק נכבד מבין 50 אלף הצקים שעליהם חותמת הקרן נמסר לקבוצות כמו "פראפראז", כדי "לשרטט את מסלול המורשת השחורה באיסט סייד התחתית של ניו-יורק".									
-									
 									
 1-2	ואין	_	_	_	_	_	_	_	_
 1	ו	ו	CCONJ	CCONJ	_	2	cc	_	_
@@ -8954,9 +8476,7 @@
 46	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 240									
 									
-									
 # text = עם זאת, "טובת הכלל", הדו"ח הגדול על סעד שפרסמה קרן פורד ב9891, סיפק תמיכה מנומקת (בגיבוי קונסנזוס רחב להפתיע של שמות מפורסמים) לתוכנית עבודה וסעד נוקשה ויקרה למדי, שאמנם הבטיחה מקומות עבודה, אבל גם קבעה שכל אדם ייזרק מרשימות מקבלי הסעד כעבור שנתיים.									
-									
 									
 1	עם	עם	ADP	ADP	_	2	case	_	_
 2	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	23	obl	_	SpaceAfter=No
@@ -9039,9 +8559,7 @@
 66	.	.	PUNCT	PUNCT	_	23	punct	_	_
 # sent_id = 241									
 									
-									
 # text = נוסף על כל זה, אין זה משנה עד כמה גדול מספרן של הקרנות במרכז ומעט שמאלה ממנו.									
-									
 									
 1	נוסף	נוסף	VERB	VERB	Gender=Masc|Number=Sing|Person=1,2,3|VerbForm=Part	4	case	_	_
 2	על	על	ADP	ADP	_	4	case	_	_
@@ -9053,7 +8571,7 @@
 8	משנה	שינה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
 9	עד	עד	ADP	ADP	_	11	advmod	_	_
 10	כמה	כמה	DET	DET	Definite=Cons	9	fixed	_	_
-11	גדול	גדול	ADJ	ADJ	Gender=Masc|Number=Sing	8	advcl	_	_
+11	גדול	גדול	ADJ	ADJ	Gender=Masc|Number=Sing	8	xcomp	_	_
 12-14	מספרן	_	_	_	_	_	_	_	_
 12	מספר_	מספר	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	_
 13	_של_	של	ADP	ADP	_	14	case:gen	_	_
@@ -9076,9 +8594,7 @@
 26	.	.	PUNCT	PUNCT	_	8	punct	_	_
 # sent_id = 242									
 									
-									
 # text = כאשר מגיעים הדברים למדיניות ציבורית, כסף שמרן מקבל יותר תמורת הדולר שלו.									
-									
 									
 1	כאשר	כאשר	SCONJ	SCONJ	_	2	mark	_	_
 2	מגיעים	הגיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	11	advcl	_	_
@@ -9104,9 +8620,7 @@
 18	.	.	PUNCT	PUNCT	_	11	punct	_	_
 # sent_id = 243									
 									
-									
 # text = די לתת מבט בצוותות החשיבה, הצינורות העיקריים בין הקרנות לבין הדיון הציבורי.									
-									
 									
 1	די	די	ADV	ADV	_	0	root	_	_
 2	לתת	נתן	VERB	VERB	HebBinyan=PAAL|VerbForm=Inf|Voice=Act	1	xcomp	_	_
@@ -9138,9 +8652,7 @@
 21	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 244									
 									
-									
 # text = קרנות שמרניות נמנעו בתבונה מלהגביל את התמיכה הפיננסית שלהן לצוותות חשיבה שמרניים.									
-									
 									
 1	קרנות	קרן	NOUN	NOUN	Gender=Fem|Number=Plur	3	nsubj	_	_
 2	שמרניות	שמרני	ADJ	ADJ	Gender=Fem|Number=Plur	1	amod	_	_
@@ -9169,9 +8681,7 @@
 19	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 245									
 									
-									
 # text = בעוד הפורדים והרוקפלרים הפכו למקורות פחות מהימנים של תמיכה במחקר, נשאו תמיד מוסדות כמו ברוקינגס את עיניהם לקרנות שמרניות כדי למלא את החסר.									
-									
 									
 1	בעוד	בעוד	ADP	ADP	_	9	mark	_	_
 2-3	הפורדים	_	_	_	_	_	_	_	_
@@ -9216,9 +8726,7 @@
 34	.	.	PUNCT	PUNCT	_	17	punct	_	_
 # sent_id = 246									
 									
-									
 # text = עצה מספר 8.									
-									
 									
 1	עצה	עצה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 2	מספר	מספר	NOUN	NOUN	Gender=Masc|HebSource=ConvUncertainLabel|Number=Sing	1	nmod	_	_
@@ -9226,9 +8734,7 @@
 4	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 247									
 									
-									
 # text = הייה שבשבת רוח של רוח התקופה.									
-									
 									
 1	הייה	היה	VERB	VERB	Gender=Masc|Mood=Imp|Number=Sing|Person=2|Polarity=Pos|VerbType=Cop	2	cop	_	_
 2	שבשבת	שבשבת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	0	root	_	_
@@ -9241,9 +8747,7 @@
 8	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 248									
 									
-									
 # text = כמו כל דבר אחר, נושאים הזוכים לסבסוד נכבד באים והולכים.									
-									
 									
 1	כמו	כמו	ADP	ADP	_	3	case	_	_
 2	כל	כול	DET	DET	Definite=Cons	3	det	_	_
@@ -9265,9 +8769,7 @@
 15	.	.	PUNCT	PUNCT	_	12	punct	_	_
 # sent_id = 249									
 									
-									
 # text = בסוף שנות ה07 הרבו למשל לדבר בתחום היחסים הבין-לאומיים על "הדיאלוג בין צפון ודרום" ועל "תלות הדדית", והרבה כסף הוקדש להגות על מדינות העולם השלישי.									
-									
 									
 1-2	בסוף	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -9328,9 +8830,7 @@
 45	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 250									
 									
-									
 # text = אז באו הפלישה לאפגניסטן ורונלד רייגן ונאום אימפריית הרשע.									
-									
 									
 1	אז	אז	ADV	ADV	_	2	advmod	_	_
 2	באו	בא	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -9354,12 +8854,10 @@
 15	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 251									
 									
-									
 # text = לפתע פתאום לא היה הנושא החם ביחסים הבין-לאומיים תלות הדדית גלובלית, אלא ביטחון לאומי.									
 									
-									
 1	לפתע	לפתע	ADV	ADV	_	16	advmod:phrase	_	_
-2	פתאום	פתאום	ADV	ADV	HebSource=ConvUncertainHead	1	advmod	_	_
+2	פתאום	פתאום	ADV	ADV	HebSource=ConvUncertainHead	1	fixed	_	_
 3	לא	לא	ADV	ADV	Polarity=Neg	16	advmod	_	_
 4	היה	היה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	16	cop	_	_
 5-6	הנושא	_	_	_	_	_	_	_	_
@@ -9387,9 +8885,7 @@
 23	.	.	PUNCT	PUNCT	_	16	punct	_	_
 # sent_id = 252									
 									
-									
 # text = הקרנות הלא-שמרניות היו בעיקר אלה שפרסמו מחקרים לאין-ספור בשאלה כיצד לשמור על השלום.									
-									
 									
 1-2	הקרנות	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -9424,9 +8920,7 @@
 25	.	.	PUNCT	PUNCT	_	9	punct	_	_
 # sent_id = 253									
 									
-									
 # text = עכשיו, כשהמלחמה הקרה חלפה, מנסים כולם למצוא משפטים ומטבעות לשון חדשים שילכדו את תשומת לבם של פקידי תוכניות.									
-									
 									
 1	עכשיו	עכשיו	ADV	ADV	_	10	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	8	punct	_	_
@@ -9463,9 +8957,7 @@
 28	.	.	PUNCT	PUNCT	_	10	punct	_	_
 # sent_id = 254									
 									
-									
 # text = עצה מספר 9.									
-									
 									
 1	עצה	עצה	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
 2	מספר	מספר	NOUN	NOUN	Gender=Masc|HebSource=ConvUncertainLabel|Number=Sing	1	nmod	_	_
@@ -9473,9 +8965,7 @@
 4	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 255									
 									
-									
 # text = גייס והפקע לרשותך טרמינולוגיה קיימת.									
-									
 									
 1	גייס	גייס	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Mood=Imp|Number=Sing|Person=2|Voice=Act	0	root	_	_
 2-3	והפקע	_	_	_	_	_	_	_	_
@@ -9489,9 +8979,7 @@
 8	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 256									
 									
-									
 # text = נראה שיעד המשחק הוא לחטוף "ביטחון לאומי", נושא רב-שנתי עמיד, ולנווט אותו לתחום המומחיות שלך.									
-									
 									
 1	נראה	נראה	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Mid	0	root	_	_
 2-3	שיעד	_	_	_	_	_	_	_	_
@@ -9531,9 +9019,7 @@
 29	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 257									
 									
-									
 # text = בעלי המודעות הסביבתית הכלל-עולמית מדגישים שכעת אי-אפשר כמעט להבדיל בין ביטחון לאומי לבין "ביטחון כדור הארץ".									
-									
 									
 1	בעלי	בעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	10	nsubj	_	_
 2-3	המודעות	_	_	_	_	_	_	_	_
@@ -9570,9 +9056,7 @@
 28	.	.	PUNCT	PUNCT	_	10	punct	_	_
 # sent_id = 258									
 									
-									
 # text = הטיפוסים לובשי החליפות הכהות, השייכים לזרם מרכזי יותר, אומרים ששום מדינה אינה יכולה להיות בטוחה אם לא יהיה "מבנה ביטחון אירופי יציב".									
-									
 									
 1-2	הטיפוסים	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -9615,9 +9099,7 @@
 33	.	.	PUNCT	PUNCT	_	16	punct	_	_
 # sent_id = 259									
 									
-									
 # text = וכלכלנים בחבורת מקדמי המדיניות התעשייתית, יחד עם מחנכים בחבורת החינוך למצוינות, ניסו בעורמה לשים ידם על כספי מדיניות החוץ, בטענה שבעתיד יוגדר הביטחון הלאומי במונחים של כושר תחרות כלכלי, לא של עוצמה צבאית.									
-									
 									
 1-2	וכלכלנים	_	_	_	_	_	_	_	_
 1	ו	ו	CCONJ	CCONJ	_	21	cc	_	_
@@ -9692,9 +9174,7 @@
 56	.	.	PUNCT	PUNCT	_	21	punct	_	_
 # sent_id = 260									
 									
-									
 # text = לגבי אנשים אלה סדאם חוסיין הוא מטרד.									
-									
 									
 1	לגבי	לגבי	ADP	ADP	_	2	case	_	_
 2	אנשים	איש	NOUN	NOUN	Gender=Masc|Number=Plur	7	nmod	_	_
@@ -9706,9 +9186,7 @@
 8	.	.	PUNCT	PUNCT	_	7	punct	_	_
 # sent_id = 261									
 									
-									
 # text = אבל סדאם חוסיין היה מתת-שמים לכל המומחים לפיקוח רב-צדדי על הנשק, הטוענים זה שנים שיש להפסיק את הזרמתו של נשק מתוחכם לדיקטטורים רברבנים בעולם השלישי.									
-									
 									
 1	אבל	אבל	CCONJ	CCONJ	_	7	cc	_	_
 2	סדאם	סדאם	PROPN	PROPN	_	7	nsubj	_	_
@@ -9765,9 +9243,7 @@
 43	.	.	PUNCT	PUNCT	_	7	punct	_	_
 # sent_id = 262									
 									
-									
 # text = מדובר בקומץ אנשים שניסו למשוך אליהם כספי מענקים בעת שהעולם המטיר דולרים עלאסטרטגיה גרעינית ופיקוח רב-צדדי על הנשק.									
-									
 									
 1	מדובר	דובר	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Pass	0	root	_	_
 2-3	בקומץ	_	_	_	_	_	_	_	_
@@ -9809,9 +9285,7 @@
 30	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 263									
 									
-									
 # text = עובדה זו שימשה יסוד לתלונה שכיחה בתחום הפילנטרופיה: התמקדותם של קרנות וצוותות חשיבה במגמות אופנתיות גורמת לכך שהחברה בקושי ערוכה לגלים היסטוריים חדשים.									
-									
 									
 1	עובדה	עובדה	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
 2	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	1	det	_	_
@@ -9860,9 +9334,7 @@
 36	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 264									
 									
-									
 # text = גיימס אלן סמית, מחבר הספר "הברוקרים של הרעיונות: צוותות חשיבה ועלייתה של עלית מדיניות חדשה", אומר כי ההתמקדות בבעיות מדיניות דוחקות, ודעיכת האמונה בערכו של מחקר בסיסי במדעי החברה, הותירו אותנו ללא מאגר נרחב של מומחים, שממנו ניתן לשאוב כאשר יתעורר הצורך.									
-									
 									
 1	גיימס	גיימס	PROPN	PROPN	_	27	nsubj	_	_
 2	אלן	אלן	PROPN	PROPN	_	1	flat:name	_	_
@@ -9950,18 +9422,14 @@
 70	.	.	PUNCT	PUNCT	_	27	punct	_	_
 # sent_id = 265									
 									
-									
 # text = זה נכון.									
-									
 									
 1	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 2	נכון	נכון	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 3	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 266									
 									
-									
 # text = אחרי הכל, כמה מחקרים בחסות קרנות הוקדשו בתקופת האובססיה הממושכת למלחמה הקרה לניסיון לגלות באיזו מידה אדם כמו סדאם חוסיין עלול להיות מסוכן?									
-									
 									
 1	אחרי	אחרי	ADP	ADP	_	2	case	_	_
 2	הכל	הכיל	NOUN	NOUN	_	9	parataxis	_	SpaceAfter=No
@@ -10007,9 +9475,7 @@
 34	?	?	PUNCT	PUNCT	_	9	punct	_	_
 # sent_id = 267									
 									
-									
 # text = כמה מחקרים שאלו כיצד להפוך כלכלה סטליניסטית לכלכלת שוק חופשי?									
-									
 									
 1	כמה	כמה	DET	DET	Definite=Cons	2	det	_	_
 2	מחקרים	מחקר	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
@@ -10026,9 +9492,7 @@
 12	?	?	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 268									
 									
-									
 # text = יש סימוכין לדעה שכיום אלו הן שתי הבעיות הדוחקות ביותר של העולם.									
-									
 									
 1	יש	יש	VERB	VERB	HebExistential=True	0	root	_	_
 2	סימוכין	סימוכין	NOUN	NOUN	Gender=Masc|Number=Plur	1	nsubj	_	_
@@ -10056,9 +9520,7 @@
 19	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 269									
 									
-									
 # text = אך אפשר לומר בביטחון, שאף לא דולר אחד מבין למעלה מ05 מיליארד הדולרים שהוציאו קרנות בין 9791 ל9891 לא הוקדש להבהרתן.									
-									
 									
 1	אך	אך	CCONJ	CCONJ	_	2	cc	_	_
 2	אפשר	אפשר	AUX	AUX	VerbType=Mod	3	aux	_	_
@@ -10101,9 +9563,7 @@
 32	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 270									
 									
-									
 # text = האם הכסף דוחף את הרעיונות או שמא זוכים הרעיונות לתמיכה כספית בזכות ערכם והחידוש שבהם?									
-									
 									
 1	האם	האם	ADV	ADV	PronType=Int	4	mark:q	_	_
 2-3	הכסף	_	_	_	_	_	_	_	_
@@ -10140,9 +9600,7 @@
 26	?	?	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 271									
 									
-									
 # text = כדי לענות על שאלות אלו עליך להשתקע קודם לכל באי-אלו הרהורים קוסמיים על טבעה של ההיסטוריה, ולהקדיש מחשבה לדיאלקטיקה הגליאנית, לתיאוריות על מקומו של האדם הגדול בהיסטוריה וכך הלאה.									
-									
 									
 1	כדי	כדי	ADP	ADP	_	2	case	_	_
 2	לענות	ענה	VERB	VERB	VerbForm=Inf	7	advcl	_	_
@@ -10156,7 +9614,7 @@
 9	קודם	קודם	ADV	ADV	_	8	advmod:phrase	_	_
 10-11	לכל	_	_	_	_	_	_	_	_
 10	ל	ל	ADP	ADP	_	11	case	_	_
-11	הכל	כול	DET	DET	Definite=Cons	9	advmod	_	_
+11	הכל	כול	DET	DET	Definite=Cons	9	fixed	_	_
 12-13	באי	_	_	_	_	_	_	_	SpaceAfter=No
 12	ב	ב	ADP	ADP	_	16	case	_	_
 13	אי	אי	ADV	ADV	Prefix=Yes	16	compound:affix	_	_
@@ -10209,9 +9667,7 @@
 50	.	.	PUNCT	PUNCT	_	7	punct	_	_
 # sent_id = 272									
 									
-									
 # text = וזה אינו מבצע מהסוג שיש לגשת אליו ללא מימון נכבד.									
-									
 									
 1-2	וזה	_	_	_	_	_	_	_	_
 1	ו	ו	CCONJ	CCONJ	_	4	cc	_	_
@@ -10235,9 +9691,7 @@
 16	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 273									
 									
-									
 # text = היכולת לחזות תוצאות בחירות בארצות הברית באמצעות סקרי דעת קהל עשויה להצטמצם בשנים הבאות עד למינימום.									
-									
 									
 1-2	היכולת	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -10272,9 +9726,7 @@
 25	.	.	PUNCT	PUNCT	_	14	punct	_	_
 # sent_id = 274									
 									
-									
 # text = כישלונות חיזוי כבר נראו בכמה ממירוצי הבחירות של השבוע.									
-									
 									
 1	כישלונות	כישלון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	nsubj	_	_
 2	חיזוי	חיזוי	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
@@ -10296,9 +9748,7 @@
 14	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 275									
 									
-									
 # text = האשמה אינה בשיטה או במדגם, אלא בשתי עובדות: (1) אמריקאים אינם מתעניינים ביותר בתהליך האלקטורלי, וגם אלה היודעים בעד מי היו רוצים להצביע אינם יודעים עד הרגע האחרון אם יטרחו להצביע.									
-									
 									
 1-2	האשמה	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -10362,9 +9812,7 @@
 50	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 276									
 									
-									
 # text = רק 35% מהם הצביעו ביום ג בבחירות לקונגרס ולמושלי המדינות.									
-									
 									
 1	רק	רק	ADV	ADV	_	3	det	_	_
 2	35	35	NUM	NUM	_	3	nummod	_	SpaceAfter=No
@@ -10395,9 +9843,7 @@
 21	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 277									
 									
-									
 # text = (2) תחנת הקלפי שוב אינה מקום ההצבעה ההכרחי היחיד.									
-									
 									
 1	(	(	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
 2	2	2	NUM	NUM	_	9	parataxis	_	SpaceAfter=No
@@ -10421,9 +9867,7 @@
 16	.	.	PUNCT	PUNCT	_	9	punct	_	_
 # sent_id = 278									
 									
-									
 # text = בקליפורניה הצביעו השנה לא פחות מ20% מבעלי זכות הבחירה בדואר, לא מפני שהיו בארץ אחרת, או ביבשת אחרת, אלא מפני שהעדיפו את הנוחות הכרוכה במילוי טופסי ההצבעה בין כותלי ביתם.									
-									
 									
 1-2	בקליפורניה	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -10492,9 +9936,7 @@
 51	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 279									
 									
-									
 # text = ייתכן מאוד שבהצבעה בקלפי היתה ידה של המועמדת הדמוקרטית למושל, דיאן פיינסטיין, על העליונה.									
-									
 									
 1	ייתכן	ייתכן	AUX	AUX	VerbType=Mod	0	root	_	_
 2	מאוד	מאוד	ADV	ADV	_	1	advmod	_	_
@@ -10534,9 +9976,7 @@
 29	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 280									
 									
-									
 # text = כנראה רק בזכות ההצבעה בדואר הצליח לבסוף הסנאטור פיט ווילסון לנצח, בהפרש קטן.									
-									
 									
 1	כנראה	כנראה	ADV	ADV	_	9	advmod	_	_
 2	רק	רק	ADV	ADV	_	3	advmod	_	_
@@ -10564,9 +10004,7 @@
 20	.	.	PUNCT	PUNCT	_	9	punct	_	_
 # sent_id = 281									
 									
-									
 # text = משימתם של עורכי סקרים בשנים הבאות תהיה לברר תחילה האם הנשאל מתכוון להצביע, ובאם אין הוא מתכוון להצביע הייתכן שבכל זאת יצביע באמצעות הדואר.									
-									
 									
 1-3	משימתם	_	_	_	_	_	_	_	_
 1	משימה_	משימה	NOUN	NOUN	Definite=Def|Gender=Fem|Number=Sing	12	nsubj	_	_
@@ -10615,9 +10053,7 @@
 37	.	.	PUNCT	PUNCT	_	12	punct	_	_
 # sent_id = 282									
 									
-									
 # text = לד"ר גון סילר, נשיא אוניברסיטת בוסטון שהתמודד על כהונת מושל מסצוסטס, היתה תיאוריה שלמה על אי-ההתאמה של סקרי דעת קהל למציאות האלקטורלית.									
-									
 									
 1-2	לד"ר	_	_	_	_	_	_	_	_
 1	ל	ל	ADP	ADP	_	2	case	_	_
@@ -10659,9 +10095,7 @@
 33	.	.	PUNCT	PUNCT	_	16	punct	_	_
 # sent_id = 283									
 									
-									
 # text = הוא היה קורבן של אי-התאמה כזאת.									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	היה	היה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	3	cop	_	_
@@ -10677,9 +10111,7 @@
 11	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 284									
 									
-									
 # text = הסקרים חזו לו תבוסה ניצחת בבחירות המוקדמות של המפלגה הדמוקרטית, בחודש ספטמבר.									
-									
 									
 1-2	הסקרים	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -10712,9 +10144,7 @@
 22	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 285									
 									
-									
 # text = הוא הדהים את מפלגתו, את מדינתו ואת ארה"ב בניצחון.									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	הדהים	הדהים	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -10740,9 +10170,7 @@
 18	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 286									
 									
-									
 # text = במהלך מערכת הבחירות הכללית העלה סילבר את ההסבר הבא לאי-ההתאמות.									
-									
 									
 1-2	במהלך	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	3	case	_	_
@@ -10773,9 +10201,7 @@
 20	.	.	PUNCT	PUNCT	_	8	punct	_	_
 # sent_id = 287									
 									
-									
 # text = "אמריקאים", אמר, "מתרעמים על עצם השאלה איך תצביע.									
-									
 									
 1	"	"	PUNCT	PUNCT	_	8	punct	_	SpaceAfter=No
 2	אמריקאים	אמריקני	NOUN	NOUN	Gender=Masc|Number=Plur	8	nsubj	_	SpaceAfter=No
@@ -10795,9 +10221,7 @@
 15	.	.	PUNCT	PUNCT	_	8	punct	_	_
 # sent_id = 288									
 									
-									
 # text = סוף סוף, כל עניין ההצבעה החופשית הוא פונקציה של סודיותה.									
-									
 									
 1	סוף	סוף	NOUN	NOUN	Gender=Masc|Number=Sing	11	advmod	_	_
 2	סוף	סוף	NOUN	NOUN	Gender=Masc|Number=Sing	1	fixed	_	SpaceAfter=No
@@ -10820,9 +10244,7 @@
 16	.	.	PUNCT	PUNCT	_	11	punct	_	_
 # sent_id = 289									
 									
-									
 # text = כאשר מטלפן אליהם מישהו, שאין הם מכירים, ושואל, איך תצביעו, אין הם בטוחים לעולם מיהו, ומדוע הוא שואל.									
-									
 									
 1	כאשר	כאשר	SCONJ	SCONJ	_	2	mark	_	_
 2	מטלפן	טילפן	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	20	advcl	_	_
@@ -10858,9 +10280,7 @@
 28	.	.	PUNCT	PUNCT	_	20	punct	_	_
 # sent_id = 290									
 									
-									
 # text = אולי הוא השכן?									
-									
 									
 1	אולי	אולי	ADV	ADV	_	4	advmod	_	_
 2	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
@@ -10870,9 +10290,7 @@
 5	?	?	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 291									
 									
-									
 # text = אולי הוא ידיד, המנסה להכשילם?									
-									
 									
 1	אולי	אולי	ADV	ADV	_	3	advmod	_	_
 2	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
@@ -10887,9 +10305,7 @@
 9	?	?	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 292									
 									
-									
 # text = אולי הוא הבוס, המתכוון לעשות טיהור פוליטי במשרד?									
-									
 									
 1	אולי	אולי	ADV	ADV	_	4	advmod	_	_
 2	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
@@ -10910,9 +10326,7 @@
 14	?	?	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 293									
 									
-									
 # text = ואז הם מתרגזים ומשקרים".									
-									
 									
 1-2	ואז	_	_	_	_	_	_	_	_
 1	ו	ו	CCONJ	CCONJ	_	5	cc	_	_
@@ -10926,9 +10340,7 @@
 8	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 294									
 									
-									
 # text = ביום ששמעתי את התיאוריה הזו מפי סילבר פרסם העיתון "בוסטון גלוב" סקר, שהראה לראשונה יתרון לסילבר על פני יריבו הרפובליקאי, ויליאם וולד.									
-									
 									
 1-3	ביום	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	3	case	_	_
@@ -10981,9 +10393,7 @@
 39	.	.	PUNCT	PUNCT	_	14	punct	_	_
 # sent_id = 295									
 									
-									
 # text = כעבור שבוע התרחב היתרון עד 9%, ובמסצוסטס היו אנשים משוכנעים בניצחונו של סילבר.									
-									
 									
 1	כעבור	כעבור	ADP	ADP	_	2	case	_	_
 2	שבוע	שבוע	NOUN	NOUN	Gender=Masc|Number=Sing	3	obl	_	_
@@ -11012,9 +10422,7 @@
 22	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 296									
 									
-									
 # text = הוא נוצח השבוע בהפרש של שני אחוזים.									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	נוצח	נוצח	VERB	VERB	Gender=Masc|HebBinyan=PUAL|Number=Sing|Person=3|Tense=Past|Voice=Pass	0	root	_	_
@@ -11028,9 +10436,7 @@
 9	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 297									
 									
-									
 # text = סילבר היה אולי הדמות הפוליטית המרתקת, המורכבת והמסוכנת ביותר במערכת הבחירות של 0991.									
-									
 									
 1	סילבר	סילבר	PROPN	PROPN	_	5	nsubj	_	_
 2	היה	היה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	5	cop	_	_
@@ -11064,9 +10470,7 @@
 23	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 298									
 									
-									
 # text = הוא אינטלקטואל רודני, שהתייחס בבוז מתנשא לכל שאלה שנשאל, ולכל הערה של יריב פוליטי.									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	אינטלקטואל	אינטלקטואל	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
@@ -11098,9 +10502,7 @@
 23	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 299									
 									
-									
 # text = הוא השמיע הכרזות שערורייתיות בגנות מיעוטים אתניים ונגד קבוצות אוכלוסייה חלשות.									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	השמיע	השמיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -11120,9 +10522,7 @@
 14	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 300									
 									
-									
 # text = הוא גידף ברבים את יריבו ("בן כלבה, תוקע סכין בגב", אמר עליו בראיון עיתונאי).									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	גידף	גידף	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -11160,9 +10560,7 @@
 29	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 301									
 									
-									
 # text = הוא צווח על עיתונאים מפורסמים ברשתות טלוויזיה ארציות.									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	צווח	צווח	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -11177,9 +10575,7 @@
 10	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 302									
 									
-									
 # text = לעומת זאת הוא גם השמיע מסר פוליטי רב-תוכן, שבו הדגיש יותר מכל עניין אחר את משבר החינוך באמריקה, והציע חלופות רציניות.									
-									
 									
 1	לעומת	לעומת	ADP	ADP	_	2	case	_	_
 2	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	5	obl	_	_
@@ -11199,9 +10595,9 @@
 15	הדגיש	הדגיש	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	6	acl:relcl	_	_
 16	יותר	יותר	ADV	ADV	_	15	advmod:phrase	_	_
 17-18	מכל	_	_	_	_	_	_	_	_
-17	מ	מ	ADP	ADP	_	16	dep	_	_
+17	מ	מ	ADP	ADP	_	16	fixed	_	_
 18	כל	כול	DET	DET	Definite=Cons	19	det	_	_
-19	עניין	עניין	NOUN	NOUN	Gender=Masc|Number=Sing	16	dep	_	_
+19	עניין	עניין	NOUN	NOUN	Gender=Masc|Number=Sing	16	fixed	_	_
 20	אחר	אחר	ADJ	ADJ	Gender=Masc|Number=Sing	19	amod	_	_
 21	את	את	ADP	ADP	Case=Acc	22	case:acc	_	_
 22	משבר	משבר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	16	obj	_	_
@@ -11220,9 +10616,7 @@
 32	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 303									
 									
-									
 # text = הוא שכנע הרבה משומעיו שיש לו המיומנות הנחוצה להיות מושל.									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	שכנע	שכנע	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -11249,9 +10643,7 @@
 18	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 304									
 									
-									
 # text = אבל מזגו והליכותיו הטילו פחד על סביבותיו.									
-									
 									
 1	אבל	אבל	CCONJ	CCONJ	_	9	cc	_	_
 2-4	מזגו	_	_	_	_	_	_	_	_
@@ -11273,9 +10665,7 @@
 15	.	.	PUNCT	PUNCT	_	9	punct	_	_
 # sent_id = 305									
 									
-									
 # text = אם על פרנקלין דלאנו רוזוולט אמרו שיש לו "מוח ממדרגה שנייה וטמפרמנט ממדרגה ראשונה", הנה על סילבר היה אפשר לומר בדיוק את ההיפך.									
-									
 									
 1	אם	אם	SCONJ	SCONJ	_	6	mark	_	_
 2	על	על	ADP	ADP	_	3	case	_	_
@@ -11318,9 +10708,7 @@
 33	.	.	PUNCT	PUNCT	_	27	punct	_	_
 # sent_id = 306									
 									
-									
 # text = ב32 באוקטובר התפעלה ממנו בעלת טור בעיתון "בוסטון גלוב" במלים היאות למעריצה בת 21: "הוא עשה בחודשים אחדים למען צחות הדיבור מה שלקח לחברה שנים כדי לעשות למען טלוויזיה צבעונית... אם דיבור היה ספורט אולימפי, הוא היה זוכה במדליית הזהב... סילבר כה טוב, עד שהוא גורם לאנגלית להישמע כמו צרפתית... אם ייבחר, תהיה לכולנו ההזדמנות ללמוד ממנו להיות סטודנטים בכיתתו הענקית, הנקראת מסצוסטס".									
-									
 									
 1-3	ב32	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	3	case	_	_
@@ -11448,9 +10836,7 @@
 103	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 307									
 									
-									
 # text = אבל בדיוק הרעיון הזה הצורך להיות ארבע שנים ארוכות סטודנטים בכיתתו של פרופסור יהיר שלח מספר מפתיע של אנשי שמאל לזרועותיו של הרפובליקן השמרן ויליאם וולד.									
-									
 									
 1	אבל	אבל	CCONJ	CCONJ	_	21	cc	_	_
 2	בדיוק	בדיוק	ADV	ADV	_	4	det	_	_
@@ -11499,9 +10885,7 @@
 38	.	.	PUNCT	PUNCT	_	21	punct	_	_
 # sent_id = 308									
 									
-									
 # text = הוא לבבי, חייכן, מסוגל להתבדח על חשבון עצמו, ולוקח את החיים קצת פחות ברצינות.									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	לבבי	לבבי	ADJ	ADJ	Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
@@ -11529,9 +10913,7 @@
 21	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 309									
 									
-									
 # text = אילו ניצח סילבר, יתכן מאוד שהיה מנסה בעוד שנתיים, או בעוד שש שנים, להתמודד על הנשיאות.									
-									
 									
 1	אילו	אילו	CCONJ	CCONJ	_	2	case	_	_
 2	ניצח	ניצח	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	5	obl	_	_
@@ -11559,9 +10941,7 @@
 22	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 310									
 									
-									
 # text = אלי ויזל, פרופסור באוניברסיטת בוסטון, שסילבר התאמץ הרבה למען זכייתו בפרס נובל לשלום, תמך בגלוי במועמדותו למשרת המושל.									
-									
 									
 1	אלי	אלי	PROPN	PROPN	_	23	nsubj	_	_
 2	ויזל	ויזל	PROPN	PROPN	_	1	flat:name	_	SpaceAfter=No
@@ -11606,9 +10986,7 @@
 33	.	.	PUNCT	PUNCT	_	23	punct	_	_
 # sent_id = 311									
 									
-									
 # text = הוא היה אפילו מסוגל לראותו מכהן בבית הלבן.									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	היה	היה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	4	cop	_	_
@@ -11628,9 +11006,7 @@
 13	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 312									
 									
-									
 # text = "מדוע לא?", שאל.									
-									
 									
 1	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
 2	מדוע	מדוע	ADV	ADV	PronType=Int	7	obl	_	_
@@ -11642,9 +11018,7 @@
 8	.	.	PUNCT	PUNCT	_	7	punct	_	_
 # sent_id = 313									
 									
-									
 # text = "גם על רונלד רייגן איש לא היה מאמין".									
-									
 									
 1	"	"	PUNCT	PUNCT	_	9	punct	_	SpaceAfter=No
 2	גם	גם	ADV	ADV	_	9	advmod	_	_
@@ -11659,9 +11033,7 @@
 11	.	.	PUNCT	PUNCT	_	9	punct	_	_
 # sent_id = 314									
 									
-									
 # text = ההשוואה הזו, על כל תוצאותיה, תיחסך מאתנו.									
-									
 									
 1-2	ההשוואה	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -11684,9 +11056,7 @@
 15	.	.	PUNCT	PUNCT	_	12	punct	_	_
 # sent_id = 315									
 									
-									
 # text = סילבר חזר השבוע לאוניברסיטה, כועס ומתוסכל יותר מאי-פעם.									
-									
 									
 1	סילבר	סילבר	PROPN	PROPN	_	2	nsubj	_	_
 2	חזר	חזר	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
@@ -11709,9 +11079,7 @@
 16	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 316									
 									
-									
 # text = המפלגות הפוליטיות בארה"ב מתחילות כבר את הכנותיהן לקראת הסיבוב הבא, ב2991.									
-									
 									
 1-2	המפלגות	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -11743,9 +11111,7 @@
 21	.	.	PUNCT	PUNCT	_	7	punct	_	_
 # sent_id = 317									
 									
-									
 # text = אז ייבחר לא רק הקונגרס, אלא גם הנשיא.									
-									
 									
 1	אז	אז	ADV	ADV	_	2	advmod	_	_
 2	ייבחר	נבחר	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Fut|Voice=Mid	0	root	_	_
@@ -11763,9 +11129,7 @@
 12	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 318									
 									
-									
 # text = רק ארבע פעמים ב521 השנה האחרונות לא הצליח נשיא לחזור ולהיבחר, אם רצה.									
-									
 									
 1	רק	רק	ADV	ADV	_	3	det	_	_
 2	ארבע	ארבע	NUM	NUM	Gender=Fem|Number=Sing	3	nummod	_	_
@@ -11792,9 +11156,7 @@
 19	.	.	PUNCT	PUNCT	_	11	punct	_	_
 # sent_id = 319									
 									
-									
 # text = עד לפני חודשיים לא היתה סיבה טובה להניח שגורג בוש יהיה המקרה החמישי.									
-									
 									
 1	עד	עד	ADP	ADP	_	3	case	_	_
 2	לפני	לפני	ADP	ADP	_	3	case	_	_
@@ -11818,9 +11180,7 @@
 17	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 320									
 									
-									
 # text = אבל מאז נכשל בוש בטיפולו בפרשת התקציב, הסתבך בהתכתשויות-סרק עם הדמוקרטים, ונכנע לבסוף לאורך כל הדרך, שוררת בין דמוקרטים התחושה שיש להם סיכוי ממשי להוציא את בוש מן הבית הלבן בעוד שנתיים.									
-									
 									
 1	אבל	אבל	CCONJ	CCONJ	_	32	cc	_	_
 2-3	מאז	_	_	_	_	_	_	_	_
@@ -11890,9 +11250,7 @@
 53	.	.	PUNCT	PUNCT	_	32	punct	_	_
 # sent_id = 321									
 									
-									
 # text = יש לא מעט רפובליקאים הנוטים להסכים אתם.									
-									
 									
 1	יש	יש	VERB	VERB	HebExistential=True	0	root	_	_
 2	לא	לא	ADV	ADV	Polarity=Neg	4	det	_	_
@@ -11908,9 +11266,7 @@
 10	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 322									
 									
-									
 # text = עכשיו נבחנים המועמדים ל1992.									
-									
 									
 1	עכשיו	עכשיו	ADV	ADV	_	2	advmod	_	_
 2	נבחנים	נבחן	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Mid	0	root	_	_
@@ -11923,9 +11279,7 @@
 7	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 323									
 									
-									
 # text = הבחירות של השבוע יכלו להעניק דחיפה נאה לשניים מן הפוליטיקאים המוזכרים ביותר: המושל רב-הכריזמה של מדינת ניו יורק, מריו קואומו, ששמו מתרוצץ בהקשרים נשיאותיים מאז 4891; והסנאטור מניו גרסי, האינטלקטואל וכוכב הכדורסל המהולל של שנות ה06, ביל בראדלי.									
-									
 									
 1-2	הבחירות	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -12013,9 +11367,7 @@
 67	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 324									
 									
-									
 # text = ניצחונות שניהם לא הועמדו אף דקה אחת בספק במהלך מערכת הבחירות.									
-									
 									
 1	ניצחונות	ניצחון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	nsubj	_	_
 2	שניהם	שניים	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	1	compound:smixut	_	_
@@ -12037,9 +11389,7 @@
 15	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 325									
 									
-									
 # text = השאלה היחידה היתה באיזה הפרש ירסקו יריבים רפובליקאיים בני בלי שם.									
-									
 									
 1-2	השאלה	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -12061,9 +11411,7 @@
 15	.	.	PUNCT	PUNCT	_	9	punct	_	_
 # sent_id = 326									
 									
-									
 # text = בראדלי ניצח לבסוף בהפרש של שלושה אחוזים.									
-									
 									
 1	בראדלי	בראדלי	PROPN	PROPN	_	2	nsubj	_	_
 2	ניצח	ניצח	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -12077,9 +11425,7 @@
 9	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 327									
 									
-									
 # text = במוצאי יום הבחירות התבוננו רפובליקאים באי-אמון בתוצאות, ואמרו באנחה עמוקה כי אילו היו משכילים לעמוד על גודל ההזדמנות בניו גרסי, היו מתגייסים לעזרת המועמדת הרפובליקאית, כריסטין טוד ויטמן.									
-									
 									
 1-2	במוצאי	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -12140,9 +11486,7 @@
 46	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 328									
 									
-									
 # text = מאחר שהכול ראו בה שיה מובלת לטבח, היא נשארה עם תקציב בחירות קטן ב90% מזה של בראדלי.									
-									
 									
 1	מאחר	מאחר	CCONJ	CCONJ	_	4	case	_	_
 2-3	שהכול	_	_	_	_	_	_	_	_
@@ -12177,9 +11521,7 @@
 26	.	.	PUNCT	PUNCT	_	14	punct	_	_
 # sent_id = 329									
 									
-									
 # text = מריו קואומו היה המועמד הטבעי ביותר לנשיאות מאז נשא נאום מלהיב באוזני ועידת המפלגה הדמוקרטית, בקיץ 4891.									
-									
 									
 1	מריו	מריו	PROPN	PROPN	_	5	nsubj	_	_
 2	קואומו	קואומו	PROPN	PROPN	_	1	flat:name	_	_
@@ -12217,9 +11559,7 @@
 27	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 330									
 									
-									
 # text = כשרון הדיבור שלו, העומק האינטלקטואלי, הנעימות והחמימות שכנעו אנשים רבים בארה"ב שהוא יהיה יום אחד התשובה הדמוקרטית לרונלד רייגן.									
-									
 									
 1	כשרון	כישרון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	17	nsubj	_	_
 2-3	הדיבור	_	_	_	_	_	_	_	_
@@ -12268,9 +11608,7 @@
 34	.	.	PUNCT	PUNCT	_	17	punct	_	_
 # sent_id = 331									
 									
-									
 # text = העובדה שנחל ניצחון כל כך לא מרשים על יריבים כל כך לא מרשימים אינה אומרת בהכרח שסיכויו להתמודד על הבית הלבן אבדו לנצח.									
-									
 									
 1-2	העובדה	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -12310,9 +11648,7 @@
 31	.	.	PUNCT	PUNCT	_	17	punct	_	_
 # sent_id = 332									
 									
-									
 # text = היא אומרת לעומת זאת, שמשהו מן הקסם שלו אבד.									
-									
 									
 1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	אומרת	אמר	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
@@ -12333,9 +11669,7 @@
 14	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 333									
 									
-									
 # text = על סנאטורים אומרים כי אין לך אחד מהם שאינו רואה את עצמו, כך או אחרת, מועמד פוטנציאלי לנשיאות.									
-									
 									
 1	על	על	ADP	ADP	_	2	case	_	_
 2	סנאטורים	סנטור	NOUN	NOUN	Gender=Masc|Number=Plur	3	obl	_	_
@@ -12369,9 +11703,7 @@
 26	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 334									
 									
-									
 # text = במאה הזו נבחרו שני סנאטורים לנשיאים, ושלושה נשיאים אחרים כיהנו בסנאט בזמן כלשהו של הקריירה שלהם.									
-									
 									
 1-3	במאה	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	3	case	_	_
@@ -12411,9 +11743,7 @@
 28	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 335									
 									
-									
 # text = לעומת זאת הגיעו לנשיאות חמישה מושלי מדינות.									
-									
 									
 1	לעומת	לעומת	ADP	ADP	_	2	case	_	_
 2	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	obl	_	_
@@ -12428,9 +11758,7 @@
 10	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 336									
 									
-									
 # text = כהונת מושל במדינה גדולה היא קרש קפיצה אל מרכז תשומת הלב הלאומית.									
-									
 									
 1	כהונת	כהונה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	7	nsubj:cop	_	_
 2	מושל	מושל	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
@@ -12453,9 +11781,7 @@
 16	.	.	PUNCT	PUNCT	_	7	punct	_	_
 # sent_id = 337									
 									
-									
 # text = בארץ המתעניינת קודם כל ביכולת הביצוע, כהונת הנשיא נתפסת לעתים קרובות באותו אופן שנתפסת כהונת מנכ"ל תעשיית המכוניות קרייזלר.									
-									
 									
 1-2	בארץ	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -12464,7 +11790,7 @@
 3	ה	ה	SCONJ	SCONJ	_	4	mark	_	_
 4	מתעניינת	התעניין	VERB	VERB	Gender=Fem|HebBinyan=HITPAEL|Number=Sing|Person=1,2,3|VerbForm=Part	2	acl:relcl	_	_
 5	קודם	קודם	ADV	ADV	_	4	advmod:phrase	_	_
-6	כל	כול	DET	DET	Definite=Cons	5	advmod	_	_
+6	כל	כול	DET	DET	Definite=Cons	5	fixed	_	_
 7-8	ביכולת	_	_	_	_	_	_	_	_
 7	ב	ב	ADP	ADP	_	8	case	_	_
 8	יכולת	יכולת	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	4	obl	_	_
@@ -12478,7 +11804,7 @@
 14	נשיא	נשיא	NOUN	NOUN	Gender=Masc|Number=Sing	12	compound:smixut	_	_
 15	נתפסת	נתפס	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Mid	0	root	_	_
 16	לעתים	לעתים	ADV	ADV	_	15	advmod:phrase	_	_
-17	קרובות	קרוב	ADJ	ADJ	Gender=Fem|Number=Plur	16	advmod	_	_
+17	קרובות	קרוב	ADJ	ADJ	Gender=Fem|Number=Plur	16	fixed	_	_
 18-19	באותו	_	_	_	_	_	_	_	_
 18	ב	ב	ADP	ADP	_	20	case	_	_
 19	אותו	_	PRON	PRON	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	det	_	_
@@ -12496,9 +11822,7 @@
 29	.	.	PUNCT	PUNCT	_	15	punct	_	_
 # sent_id = 338									
 									
-									
 # text = הבחירות האלה מתנהלות על מיומנות, לא על אידיאולוגיה", הכריז חגיגית מייקל דוקאקיס, כאשר נבחר למועמד הדמוקרטי לנשיאות.									
-									
 									
 1-2	הבחירות	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -12536,9 +11860,7 @@
 29	.	.	PUNCT	PUNCT	_	14	punct	_	_
 # sent_id = 339									
 									
-									
 # text = הצלחתה הכלכלית של מדינתו, מסצוסטס, היתה צריכה להיות האישור לדרגת מיומנותו.									
-									
 									
 1-3	הצלחתה	_	_	_	_	_	_	_	_
 1	הצלחה_	הצלחה	NOUN	NOUN	Definite=Def|Gender=Fem|Number=Sing	14	nsubj	_	_
@@ -12571,9 +11893,7 @@
 23	.	.	PUNCT	PUNCT	_	14	punct	_	_
 # sent_id = 340									
 									
-									
 # text = בסופו של דבר התברר שההצלחה היתה כישלון, ודוקאקיס הובס.									
-									
 									
 1-4	בסופו	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -12597,9 +11917,7 @@
 17	.	.	PUNCT	PUNCT	_	7	punct	_	_
 # sent_id = 341									
 									
-									
 # text = אבל הנוסחה בעינה עומדת.									
-									
 									
 1	אבל	אבל	CCONJ	CCONJ	_	5	cc	_	_
 2-3	הנוסחה	_	_	_	_	_	_	_	_
@@ -12610,9 +11928,7 @@
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 342									
 									
-									
 # text = לכן יעוררו מידה גדולה של סקרנות המושלים החדשים של קליפורניה, של טקסס, של פלורידה, של אילינוי ושל מישיגן.									
-									
 									
 1	לכן	לכן	CCONJ	CCONJ	_	2	cc	_	_
 2	יעוררו	עורר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PIEL|Number=Plur|Person=3|Tense=Fut|Voice=Act	0	root	_	_
@@ -12644,9 +11960,7 @@
 25	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 343									
 									
-									
 # text = מכל המושלים האלה בולטת אן ריצארדס.									
-									
 									
 1-2	מכל	_	_	_	_	_	_	_	_
 1	מ	מ	ADP	ADP	_	4	case	_	_
@@ -12663,9 +11977,7 @@
 10	.	.	PUNCT	PUNCT	_	7	punct	_	_
 # sent_id = 344									
 									
-									
 # text = בגיל 85 היא רשאית לטעון לתואר הפוליטיקאית הבכירה ביותר בארה"ב.									
-									
 									
 1-2	בגיל	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -12690,9 +12002,7 @@
 16	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 345									
 									
-									
 # text = היא נבחרה השבוע למושלת טקסס, מקץ מערכת הבחירות המכוערת והדרמטית ביותר של 0991.									
-									
 									
 1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	נבחרה	נבחר	VERB	VERB	Gender=Fem|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
@@ -12722,9 +12032,7 @@
 21	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 346									
 									
-									
 # text = ריצארדס הגיעה לראשונה אל התודעה הלאומית בארה"ב, כאשר הוזמנה לשאת את הנאום המרכזי בוועידת המפלגה הדמוקרטית, ערב הבחירות לנשיאות של 8891.									
-									
 									
 1	ריצארדס	ריצארדס	PROPN	PROPN	_	2	nsubj	_	_
 2	הגיעה	הגיע	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -12773,9 +12081,7 @@
 35	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 347									
 									
-									
 # text = הדמוקרטים היו באווירת אופוריה, והניחו שמועמדם דוקאקיס לא יצטרך אפילו לרוץ לבית הלבן.									
-									
 									
 1-2	הדמוקרטים	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -12809,9 +12115,7 @@
 24	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 348									
 									
-									
 # text = הוא יוכל ללכת לשם בנחת, בגלל הבוז והלעג שעורר היריב הרפובליקאי גורג בוש.									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	יוכל	יכול	AUX	AUX	Gender=Masc|Number=Sing|Person=2|Tense=Fut|VerbType=Mod	3	aux	_	_
@@ -12845,9 +12149,7 @@
 23	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 349									
 									
-									
 # text = ריצארדס הצחיקה מיליוני אמריקאים בנאום שזור עקיצות לגלגניות על בוש.									
-									
 									
 1	ריצארדס	ריצארדס	PROPN	PROPN	_	2	nsubj	_	_
 2	הצחיקה	הצחיק	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -12864,9 +12166,7 @@
 12	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 350									
 									
-									
 # text = "גורג המסכן", אמרה ריצארדס בהגיה הטקסאנית הרכה שלה, "הוא לא אשם, הוא נולד עם רגל כסף בפה".									
-									
 									
 1	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
 2	גורג	גורג	PROPN	PROPN	_	0	root	_	_
@@ -12909,9 +12209,7 @@
 33	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 351									
 									
-									
 # text = זה היה רמז הן להיותו בן טובים, והן ליכולתו יוצאת הדופן להגיד את הדברים הלא-נכונים בזמן הלא-נכון ובמקום הלא-נכון.									
-									
 									
 1	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 2	היה	היה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	3	cop	_	_
@@ -12967,9 +12265,7 @@
 42	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 352									
 									
-									
 # text = בוש טען לימים כי ההתקפה ההיא נסכה בו את הנחישות להשיב לדמוקרטים במתקפת נגד, שזכר תוקפנותה מעורר עד עכשיו אי-נוחות ניכרת בין משקיפים פוליטים.									
-									
 									
 1	בוש	בוש	PROPN	PROPN	_	2	dep	_	_
 2	טען	טען	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -13021,9 +12317,7 @@
 39	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 353									
 									
-									
 # text = מאז היתה ריצארדס דמות שנויה במחלוקת.									
-									
 									
 1	מאז	מאז	ADV	ADV	_	4	advmod	_	_
 2	היתה	היה	VERB	VERB	Gender=Fem|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	4	cop	_	_
@@ -13036,9 +12330,7 @@
 8	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 354									
 									
-									
 # text = כאשר החליטה להתמודד על מועמדות מפלגתה למושל, התייצבו נגדה שני דמוקרטים אחרים, שהפיצו ידיעות כי היא השתמשה בעבר בסמים.									
-									
 									
 1	כאשר	כאשר	SCONJ	SCONJ	_	2	mark	_	_
 2	החליטה	החליט	VERB	VERB	Gender=Fem|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	12	advcl	_	_
@@ -13078,9 +12370,7 @@
 30	.	.	PUNCT	PUNCT	_	12	punct	_	_
 # sent_id = 355									
 									
-									
 # text = ריצארדס לא טמנה את ידה בצלחת.									
-									
 									
 1	ריצארדס	ריצארדס	PROPN	PROPN	_	3	nsubj	_	_
 2	לא	לא	ADV	ADV	Polarity=Neg	3	advmod	_	_
@@ -13097,9 +12387,7 @@
 11	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 356									
 									
-									
 # text = היא אמנם יצאה מן המערכה הדמוקרטית בניצחון, אבל גם בשן ועין.									
-									
 									
 1	היא	הוא	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	אמנם	אמנם	ADV	ADV	_	3	advmod	_	_
@@ -13126,9 +12414,7 @@
 18	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 357									
 									
-									
 # text = איש בטקסס לא פיקפק שיריבה הרפובליקאי, קלייטון ויליאמס, חוואי ואיש נפט, יביס אותה בקלות.									
-									
 									
 1	איש	איש	NOUN	NOUN	Gender=Masc|Number=Sing	5	nsubj	_	_
 2-3	בטקסס	_	_	_	_	_	_	_	_
@@ -13164,9 +12450,7 @@
 26	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 358									
 									
-									
 # text = הוא הופיע בתשדירי הבחירות שלו רכוב על סוס, עם מגבעת רחבת תיתורת, ופרט על נימי המאציזמו הטקסני.									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	הופיע	הופיע	VERB	VERB	Gender=Masc|HebBinyan=HIFIL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -13202,9 +12486,7 @@
 26	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 359									
 									
-									
 # text = הוא גם התחיל למעוד מעידות מילוליות שערורייתיות.									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	גם	גם	ADV	ADV	_	3	advmod	_	_
@@ -13216,9 +12498,7 @@
 8	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 360									
 									
-									
 # text = הוא יעץ לנשים, שאם הן נופלות קרבן לאונס והן חסרות אונים, "מוטב לשתוק וליהנות".									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	יעץ	יעץ	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Tense=Past	0	root	_	_
@@ -13252,9 +12532,7 @@
 25	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 361									
 									
-									
 # text = הוא דיבר בפומבי על ניסיונו כאיש צעיר בבתי-בושת מקסיקאיים.									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	דיבר	דיבר	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -13279,9 +12557,7 @@
 17	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 362									
 									
-									
 # text = הוא סירב ללחוץ את ידה של ריצארדס ברבים, וקרא לה בפניה שקרנית".									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	סירב	סירב	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -13314,9 +12590,7 @@
 24	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 363									
 									
-									
 # text = פעם אחרת שאל בחיוך גדול, האם חזרה להיות אלכוהוליסטית (ריצארדס הודתה שעברה טיפול נגד אלכוהוליזם בתקופה מסוימת של חייה).									
-									
 									
 1	פעם	פעם	NOUN	NOUN	Gender=Fem|Number=Sing	3	dep	_	_
 2	אחרת	אחר	ADJ	ADJ	Gender=Fem|Number=Sing	1	amod	_	_
@@ -13352,9 +12626,7 @@
 28	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 364									
 									
-									
 # text = יתרונו העצום של ויליאמס בסקרים פחת והלך, והרפובליקאים מרטו בייאוש את שערותיהם.									
-									
 									
 1-3	יתרונו	_	_	_	_	_	_	_	_
 1	יתרון_	יתרון	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Sing	11	nsubj	_	_
@@ -13390,9 +12662,7 @@
 25	.	.	PUNCT	PUNCT	_	11	punct	_	_
 # sent_id = 365									
 									
-									
 # text = הם התחננו לפני ויליאמס לשתוק.									
-									
 									
 1	הם	הוא	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
 2	התחננו	התחנן	VERB	VERB	Gender=Fem,Masc|HebBinyan=HITPAEL|Number=Plur|Person=3|Tense=Past	0	root	_	_
@@ -13402,9 +12672,7 @@
 6	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 366									
 									
-									
 # text = הוא לא הצליח.									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	לא	לא	ADV	ADV	Polarity=Neg	3	advmod	_	_
@@ -13412,9 +12680,7 @@
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 367									
 									
-									
 # text = בינואר תקבל לידיה ריצארדס את האחריות המינהלית הגדולה ביותר שנמסרה אי-פעם לידי אשה בתולדות ארה"ב.									
-									
 									
 1-2	בינואר	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -13452,9 +12718,7 @@
 27	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 368									
 									
-									
 # text = אשה אחרת, דיאן פיינסטיין, ראש העיר לשעבר של סן פרנסיסקו, חצי-יהודיה, נוצחה בהפרש קטן בבחירות למושל קליפורניה, הגדולה במדינות הברית.									
-									
 									
 1	אשה	איש	NOUN	NOUN	Gender=Fem|Number=Sing	19	nsubj	_	_
 2	אחרת	אחר	ADJ	ADJ	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
@@ -13501,9 +12765,7 @@
 36	.	.	PUNCT	PUNCT	_	19	punct	_	_
 # sent_id = 369									
 									
-									
 # text = אשה אחרת, קיי אור, איבדה את כהונת המושלת במדינת נבראסקה מקץ תקופת כהונה אחת.									
-									
 									
 1	אשה	איש	NOUN	NOUN	Gender=Fem|Number=Sing	7	nsubj	_	_
 2	אחרת	אחר	ADJ	ADJ	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
@@ -13530,9 +12792,7 @@
 20	.	.	PUNCT	PUNCT	_	7	punct	_	_
 # sent_id = 370									
 									
-									
 # text = אשה שלישית, מדלן קיונין, יהודייה מלאה, סיימה שש שנות כהונה כמושלת ורמונט, ולא העמידה את עצמה לבחירה חוזרת.									
-									
 									
 1	אשה	איש	NOUN	NOUN	Gender=Fem|Number=Sing	10	nsubj	_	_
 2	שלישית	שלישית	NUM	NUM	Gender=Fem|Number=Sing	1	amod	_	SpaceAfter=No
@@ -13565,9 +12825,7 @@
 26	.	.	PUNCT	PUNCT	_	10	punct	_	_
 # sent_id = 371									
 									
-									
 # text = נשים הפתיעו, ונבחרו למושלות במדינת קנזאס ובמדינת אורגון.									
-									
 									
 1	נשים	איש	NOUN	NOUN	Gender=Fem|Number=Plur	2	nsubj	_	_
 2	הפתיעו	הפתיע	VERB	VERB	Gender=Fem,Masc|HebBinyan=HIFIL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	SpaceAfter=No
@@ -13590,9 +12848,7 @@
 15	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 372									
 									
-									
 # text = בסך הכול יהיו איפוא בינואר הבא שלוש מושלות בארה"ב ושתי סנאטוריות.									
-									
 									
 1-2	בסך	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -13618,9 +12874,7 @@
 17	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 373									
 									
-									
 # text = אף אשה אחת לא הצליחה להיבחר השנה לסנאט.									
-									
 									
 1	אף	אף	DET	DET	Definite=Cons	2	det	_	_
 2	אשה	איש	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -13636,9 +12890,7 @@
 11	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 374									
 									
-									
 # text = לעומת זאת נשמרה רמת הייצוג היהודי.									
-									
 									
 1	לעומת	לעומת	ADP	ADP	_	2	case	_	_
 2	זאת	זאת	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	obl	_	_
@@ -13653,9 +12905,7 @@
 9	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 375									
 									
-									
 # text = לפני הבחירות היו שבעה סנאטורים, וגם אחריהם יש שבעה סנאטורים.									
-									
 									
 1	לפני	לפני	ADP	ADP	_	3	case	_	_
 2-3	הבחירות	_	_	_	_	_	_	_	_
@@ -13677,9 +12927,7 @@
 15	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 376									
 									
-									
 # text = אחד מהם, רודי בושוויץ, רפובליקן ממדינת מינסוטה, נוצח בבחירות, אבל את מקומו תופס יהודי אחר ממינסוטה, פול ולסטון.									
-									
 									
 1	אחד	אחד	NUM	NUM	Gender=Masc|Number=Sing	3	det	_	_
 2-3	מהם	_	_	_	_	_	_	_	SpaceAfter=No
@@ -13719,9 +12967,7 @@
 31	.	.	PUNCT	PUNCT	_	13	punct	_	_
 # sent_id = 377									
 									
-									
 # text = יהדותו של וולסטון נעשתה נושא מרכזי בשלושת הימים האחרונים של מערכת הבחירות.									
-									
 									
 1-3	יהדותו	_	_	_	_	_	_	_	_
 1	יהדות_	יהדות	NOUN	NOUN	Definite=Def|Gender=Fem|Number=Sing	6	nsubj	_	_
@@ -13749,9 +12995,7 @@
 19	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 378									
 									
-									
 # text = בושוויץ ניסה לשכנע יהודים במינסוטה להצביע נגד וולסטון, באשר אין הוא יהודי נאמן, וילדיו אינם גדלים כיהודים.									
-									
 									
 1	בושוויץ	בושוויץ	PROPN	PROPN	_	2	nsubj	_	_
 2	ניסה	ניסה	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -13783,9 +13027,7 @@
 25	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 379									
 									
-									
 # text = מומחים פוליטיים במינסוטה העריכו ביום ד כי ההתקפה על נאמנויותיו הדתיות של וולסטון היתה גורם מרכזי בתבוסת בושוויץ.									
-									
 									
 1	מומחים	מומחה	NOUN	NOUN	Gender=Masc|Number=Plur	5	nsubj	_	_
 2	פוליטיים	פוליטי	ADJ	ADJ	Gender=Masc|Number=Plur	1	amod	_	_
@@ -13821,9 +13063,7 @@
 26	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 380									
 									
-									
 # text = לפני ההתקפה הוביל בושוויץ ביתרון של 9%.									
-									
 									
 1	לפני	לפני	ADP	ADP	_	3	case	_	_
 2-3	ההתקפה	_	_	_	_	_	_	_	_
@@ -13840,9 +13080,7 @@
 11	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 381									
 									
-									
 # text = בתוך 84 שעות התפוגג היתרון.									
-									
 									
 1	בתוך	בתוך	ADP	ADP	_	3	case	_	_
 2	84	84	NUM	NUM	_	3	nummod	_	_
@@ -13854,9 +13092,7 @@
 7	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 382									
 									
-									
 # text = במוצאי הבחירות, לפני שהודה בתבוסתו, הופיע בושוויץ בשידור טלוויזיה והטיל את האשמה בקשייו על שורה של גורמים חיצוניים.									
-									
 									
 1-2	במוצאי	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -13901,9 +13137,7 @@
 33	.	.	PUNCT	PUNCT	_	14	punct	_	_
 # sent_id = 383									
 									
-									
 # text = הוא לא חשב שהיה משהו פגום בהתנהגותו שלו.									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	לא	לא	ADV	ADV	Polarity=Neg	3	advmod	_	_
@@ -13924,9 +13158,7 @@
 14	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 384									
 									
-									
 # text = וולסטון, פרופסור למדע המדינה באוניברסיטה מקומית, השכיל לנצל מצב רוח לאומי בארה"ב נגד בעלי כהונות פוליטיות.									
-									
 									
 1	וולסטון	וולסטון	PROPN	PROPN	_	12	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	1	punct	_	_
@@ -13957,9 +13189,7 @@
 23	.	.	PUNCT	PUNCT	_	12	punct	_	_
 # sent_id = 385									
 									
-									
 # text = תשדירי הבחירות שלו תוארו כשנונים ביותר בארה"ב.									
-									
 									
 1	תשדירי	תשדיר	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	6	nsubj	_	_
 2-3	הבחירות	_	_	_	_	_	_	_	_
@@ -13980,9 +13210,7 @@
 13	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 386									
 									
-									
 # text = שניים מהם היו מערכונים קומיים.									
-									
 									
 1	שניים	שניים	NUM	NUM	Gender=Masc|Number=Plur	3	det	_	_
 2-3	מהם	_	_	_	_	_	_	_	_
@@ -13994,9 +13222,7 @@
 7	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 387									
 									
-									
 # text = באחד נראה וולסטון מחפש את רודי בושוויץ על פני כל מינסוטה, בניסיון לקיים אתו ויכוח פומבי.									
-									
 									
 1-2	באחד	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -14024,9 +13250,7 @@
 21	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 388									
 									
-									
 # text = בשני הוא נראה רץ בקפיצות נוירוטיות על פני ציוני דרך בחייו, ומתנצל שאין לו זמן ללכת בנחת מפני שתקציב הפרסום שלו עומד להיגמר.									
-									
 									
 1-3	בשני	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	3	case	_	_
@@ -14078,9 +13302,7 @@
 38	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 389									
 									
-									
 # text = בושוויץ לא סבל מבעיות כאלה.									
-									
 									
 1	בושוויץ	בושוויץ	PROPN	PROPN	_	3	dep	_	_
 2	לא	לא	ADV	ADV	Polarity=Neg	3	advmod	_	_
@@ -14095,9 +13317,7 @@
 9	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 390									
 									
-									
 # text = הוא מולטי-מיליונר, המסוגל תמיד להלוות לעצמו כסף.									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	מולטי	מולטי	ADV	ADV	HebSource=ConvUncertainHead|Prefix=Yes	4	compound:affix	_	SpaceAfter=No
@@ -14116,9 +13336,7 @@
 13	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 391									
 									
-									
 # text = חוץ מזה, מכוח מעמדו כסנאטור הצליח לאסוף תרומות של 7 מיליון דולר.									
-									
 									
 1	חוץ	חוץ	ADV	ADV	_	3	case	_	_
 2-3	מזה	_	_	_	_	_	_	_	SpaceAfter=No
@@ -14145,9 +13363,7 @@
 19	.	.	PUNCT	PUNCT	_	12	punct	_	_
 # sent_id = 392									
 									
-									
 # text = וולסטון היה המועמד היחיד לסנאט השבוע שהצליח להביס סנאטור מכהן.									
-									
 									
 1	וולסטון	וולסטון	PROPN	PROPN	_	4	nsubj	_	_
 2	היה	היה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	4	cop	_	_
@@ -14171,9 +13387,7 @@
 16	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 393									
 									
-									
 # text = "יתרון הכהונה" הוא עכשיו כל כך מוחלט, עד שבכמה מירוצים לא טרחה המפלגה היריבה להציג אפילו מועמד נומינלי.									
-									
 									
 1	"	"	PUNCT	PUNCT	_	2	punct	_	SpaceAfter=No
 2	יתרון	יתרון	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	10	nsubj:cop	_	_
@@ -14208,9 +13422,7 @@
 27	.	.	PUNCT	PUNCT	_	10	punct	_	_
 # sent_id = 394									
 									
-									
 # text = סנאטורים וצירי בית נבחרים מנצלים את הכהונה כדי לאסוף כמויות עצומות של כסף, ולהטביע בהן כל יריב פוטנציאלי.									
-									
 									
 1	סנאטורים	סנטור	NOUN	NOUN	Gender=Masc|Number=Plur	6	nsubj	_	_
 2-3	וצירי	_	_	_	_	_	_	_	_
@@ -14242,9 +13454,7 @@
 24	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 395									
 									
-									
 # text = תמוהה, בלשון המעטה, הערתו של הנשיא מיטראן לפני שבועות אחדים בלבד, שלדעתו העמדתו של בוסקה לדין תגרום נזק ציבורי.									
-									
 									
 1	תמוהה	תמוה	ADJ	ADJ	Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	1	punct	_	_
@@ -14288,9 +13498,7 @@
 34	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 396									
 									
-									
 # text = דמות מרכזית אחרת בפרשה זו, דרקייה דה פלפואה, מי שהיה הנציב הכללי לשאלות היהודים, נמלט מארצו אחרי שחרורה.									
-									
 									
 1	דמות	דמות	NOUN	NOUN	Gender=Fem|Number=Sing	24	nsubj	_	_
 2	מרכזית	מרכזי	ADJ	ADJ	Gender=Fem|Number=Sing	1	amod	_	_
@@ -14335,9 +13543,7 @@
 33	.	.	PUNCT	PUNCT	_	24	punct	_	_
 # sent_id = 397									
 									
-									
 # text = שלא בפניו נידון למוות, אך הדבר לא הפריע לו לחיות בגלות נינוחה בספרד.									
-									
 									
 1	שלא	שלא	ADV	ADV	_	2	advmod	_	_
 2-5	בפניו	_	_	_	_	_	_	_	_
@@ -14371,9 +13577,7 @@
 24	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 398									
 									
-									
 # text = ב8791 הכריז בראיון ענק לשבועון "לאקספרס", שאמנם באושוויץ עסקו הנאצים בהגזה, אך לא בהגזת בני-אדם, אלא בהגזת כינים.									
-									
 									
 1-2	ב8791	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -14422,9 +13626,7 @@
 36	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 399									
 									
-									
 # text = הוא מת לפני כמה שנים בספרד.									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	מת	מת	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -14437,9 +13639,7 @@
 8	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 400									
 									
-									
 # text = הוא לא הטריד את הממסד הצרפתי בהצהרות מביכות, ושלטונות צרפת לא טרחו שיוסגר לידיהם לצורך העמדתו לדין.									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	לא	לא	ADV	ADV	Polarity=Neg	3	advmod	_	_
@@ -14483,9 +13683,7 @@
 31	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 401									
 									
-									
 # text = שתי פרשיות אחרות, נוסף על זו של רנה בוסקה, נמצאות אף הן כיום בדיון משפטי מוקדם שנמשך זמן רב: זו של מוריס פאפון וזו של פול טובייה.									
-									
 									
 1	שתי	שתי	NUM	NUM	Definite=Cons|Gender=Fem|Number=Plur	2	nummod	_	_
 2	פרשיות	פרשייה	NOUN	NOUN	Gender=Fem|Number=Plur	12	nsubj	_	_
@@ -14526,9 +13724,7 @@
 34	.	.	PUNCT	PUNCT	_	12	punct	_	_
 # sent_id = 402									
 									
-									
 # text = פאפון, שכאמור שימש ממונה על מחוז זירונד בזמן המלחמה, הורה על ביצוע האקציות נגד היהודים ביולי 2491.									
-									
 									
 1	פאפון	פאפון	PROPN	PROPN	_	15	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	1	punct	_	_
@@ -14564,9 +13760,7 @@
 26	.	.	PUNCT	PUNCT	_	15	punct	_	_
 # sent_id = 403									
 									
-									
 # text = אחרי המלחמה, בשנת 8591, הוא היה ממונה על מחוז פאריס.									
-									
 									
 1	אחרי	אחרי	ADP	ADP	_	3	case	_	_
 2-3	המלחמה	_	_	_	_	_	_	_	SpaceAfter=No
@@ -14587,12 +13781,10 @@
 15	.	.	PUNCT	PUNCT	_	11	punct	_	_
 # sent_id = 404									
 									
-									
 # text = מאוחר יותר שימש שר בממשלת ריימון באר בימי נשיאותו של ואלרי זיסקאר-דאסטאן.									
 									
-									
 1	מאוחר	מאוחר	ADV	ADV	_	3	advmod:phrase	_	_
-2	יותר	יותר	ADV	ADV	HebSource=ConvUncertainHead	1	advmod	_	_
+2	יותר	יותר	ADV	ADV	HebSource=ConvUncertainHead	1	fixed	_	_
 3	שימש	שימש	VERB	VERB	Gender=Masc|HebBinyan=PIEL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
 4	שר	שר	NOUN	NOUN	Gender=Masc|Number=Sing	3	obj	_	_
 5-6	בממשלת	_	_	_	_	_	_	_	_
@@ -14615,9 +13807,7 @@
 19	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 405									
 									
-									
 # text = ב3891, בעקבות חקירה מחודשת, נקבע כי יש מקום להגיש נגדו כתב אישום בגין סיוע למעצרם של יהודים כדרישת הגרמנים.									
-									
 									
 1-2	ב3891	_	_	_	_	_	_	_	SpaceAfter=No
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -14655,9 +13845,7 @@
 29	.	.	PUNCT	PUNCT	_	8	punct	_	_
 # sent_id = 406									
 									
-									
 # text = ב4891 הודיע לו שופט-חוקר כי הוגשו נגדו תלונות נוספות.									
-									
 									
 1-2	ב4891	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -14679,9 +13867,7 @@
 15	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 407									
 									
-									
 # text = עד היום נמצאות תלונות הללו בשלב מוקדם של דיון בפני שופט-חוקר.									
-									
 									
 1	עד	עד	ADP	ADP	_	2	case	_	_
 2	היום	היום	ADV	ADV	_	3	obl	_	_
@@ -14701,9 +13887,7 @@
 15	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 408									
 									
-									
 # text = בעקבות המשפט נגד ראש הגסטאפו בלין, קלאוס ברבי, עלה מחדש שמו של פול טביה.									
-									
 									
 1	בעקבות	בעקבות	ADP	ADP	_	3	case	_	_
 2-3	המשפט	_	_	_	_	_	_	_	_
@@ -14733,9 +13917,7 @@
 22	.	.	PUNCT	PUNCT	_	14	punct	_	_
 # sent_id = 409									
 									
-									
 # text = הוא היה ממפקדי המיליציה הצרפתית הידועה לשמצה בליון, נטל חלק פעיל באקציות של הגסטאפו נגד לוחמי מחתרת ויהודים, עינה עצורים, שדד את רכושם, והורה על הוצאתם להורג של כמה מקורבנותיו בלי משפט.									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	היה	היה	VERB	VERB	Gender=Masc|Number=Sing|Person=3|Polarity=Pos|Tense=Past|VerbType=Cop	4	cop	_	_
@@ -14810,9 +13992,7 @@
 57	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 410									
 									
-									
 # text = אחרי השחרור נעלמו עקבותיו.									
-									
 									
 1	אחרי	אחרי	ADP	ADP	_	3	case	_	_
 2-3	השחרור	_	_	_	_	_	_	_	_
@@ -14826,9 +14006,7 @@
 8	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 411									
 									
-									
 # text = בית משפט בליון דן אותו למוות שלא בפניו.									
-									
 									
 1	בית	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	5	nsubj	_	_
 2	משפט	משפט	NOUN	NOUN	Gender=Masc|Number=Sing	1	compound:smixut	_	_
@@ -14852,9 +14030,7 @@
 16	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 412									
 									
-									
 # text = בשנת 1972 גילה תחקיר עיתונאי שבנובמבר 1971 העניק לו הנשיא זורז פומפידו חנינה, וכי במשך כל השנים נהנה הפושע מחסות ראשי הכנסייה הקתולית בצרפת ובאיטליה.									
-									
 									
 1-2	בשנת	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -14911,9 +14087,7 @@
 41	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 413									
 									
-									
 # text = בשנת 3891 נתחדשה החקירה נגד טובייה, אך הוא שוב נעלם.									
-									
 									
 1-2	בשנת	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -14933,9 +14107,7 @@
 14	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 414									
 									
-									
 # text = בספטמבר 1984 פורסמה בעיתון אזורי מודעה על מותו כביכול, ואף נמצא "מקום קבורתו".									
-									
 									
 1-2	בספטמבר	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -14968,9 +14140,7 @@
 24	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 415									
 									
-									
 # text = אך עדיין מחפשים אחרי טובייה החי.									
-									
 									
 1	אך	אך	CCONJ	CCONJ	_	3	cc	_	_
 2	עדיין	עדיין	ADV	ADV	_	3	advmod	_	_
@@ -14983,9 +14153,7 @@
 8	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 416									
 									
-									
 # text = אין פלא שפרשת בוסקה הזכירה גם את פרשיות פאפון וטובייה.									
-									
 									
 1	אין	אין	VERB	VERB	HebExistential=True	0	root	_	_
 2	פלא	פלא	NOUN	NOUN	Gender=Masc|Number=Sing	1	nsubj	_	_
@@ -15004,9 +14172,7 @@
 13	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 417									
 									
-									
 # text = במסיבת עיתונאים שנערכה ב81 באוקטובר השנה בפאריס דיבר נשיא הליגה לזכויות האדם, עו"ד איב זפה, על "חוסר הרצון הפוליטי להביא לידי בירור את שלוש הפרשיות של בוסקה, פאפון וטובייה".									
-									
 									
 1-2	במסיבת	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -15070,9 +14236,7 @@
 48	.	.	PUNCT	PUNCT	_	14	punct	_	_
 # sent_id = 418									
 									
-									
 # text = הוא אמר: "שלושה תיקים אלה נמצאים בנקודה מתה.									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	אמר	אמר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	SpaceAfter=No
@@ -15089,9 +14253,7 @@
 12	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 419									
 									
-									
 # text = אין זה מקרה ששלושת האנשים הללו לא נשפטו עד כה.									
-									
 									
 1	אין	_	ADV	ADV	Polarity=Neg	3	advmod	_	_
 2	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
@@ -15110,9 +14272,7 @@
 13	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 420									
 									
-									
 # text = אישים אלה מילאו תפקידים רמים ובעלי חשיבות בפוליטיקה, במינהל ובעולם העסקים.									
-									
 									
 1	אישים	אישים	NOUN	NOUN	Gender=Masc|Number=Plur	3	nsubj	_	_
 2	אלה	אלה	PRON	PRON	Gender=Masc|Number=Plur|Person=3|PronType=Dem	1	det	_	_
@@ -15142,9 +14302,7 @@
 21	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 421									
 									
-									
 # text = אני סבור שהם נהנים מהזדהות מעמדית אמיתית.									
-									
 									
 1	אני	הוא	PRON	PRON	Gender=Fem,Masc|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	סבור	סבר	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
@@ -15160,9 +14318,7 @@
 10	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 422									
 									
-									
 # text = לא תובעים לדין שר או ממונה על המשטרה, משום שהוא שייך לחוג של אנשים שאינו רוצה שיכבסו את הכביסה המלוכלכת".									
-									
 									
 1	לא	לא	ADV	ADV	Polarity=Neg	2	advmod	_	_
 2	תובעים	תבע	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Plur|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
@@ -15205,9 +14361,7 @@
 31	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 423									
 									
-									
 # text = ומה בינתיים?									
-									
 									
 1-2	ומה	_	_	_	_	_	_	_	_
 1	ו	ו	CCONJ	CCONJ	_	2	cc	_	_
@@ -15216,9 +14370,7 @@
 4	?	?	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 424									
 									
-									
 # text = פאפון, טובייה ובוסקה חופשיים.									
-									
 									
 1	פאפון	פאפון	PROPN	PROPN	_	6	nsubj	_	SpaceAfter=No
 2	,	,	PUNCT	PUNCT	_	1	punct	_	_
@@ -15230,9 +14382,7 @@
 7	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 425									
 									
-									
 # text = כל אחד מהם מתקרב לגיל שמונים.									
-									
 									
 1	כל	כול	DET	DET	Definite=Cons	2	det	_	_
 2	אחד	אחד	NUM	NUM	Gender=Masc|Number=Sing	5	nsubj	_	_
@@ -15247,9 +14397,7 @@
 9	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 426									
 									
-									
 # text = הרושם הוא שהממסד הצרפתי מצפה שימותו בשקט.									
-									
 									
 1-2	הרושם	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -15272,9 +14420,7 @@
 14	.	.	PUNCT	PUNCT	_	9	punct	_	_
 # sent_id = 427									
 									
-									
 # text = מה שברור, שהוא אינו מעוניין בהעמדתם לדין.									
-									
 									
 1	מה	מה	ADV	ADV	PronType=Int	8	nsubj	_	_
 2-3	שברור	_	_	_	_	_	_	_	SpaceAfter=No
@@ -15298,9 +14444,7 @@
 16	.	.	PUNCT	PUNCT	_	8	punct	_	_
 # sent_id = 428									
 									
-									
 # text = הוא חושש מחשיפת סודות החבויים בכספות, מפני עדויות חדשות, ומפני זכרונות העלולים לגלות שלדים החבויים שנים כה רבות בארונות שונים.									
-									
 									
 1	הוא	הוא	PRON	PRON	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	חושש	חשש	VERB	VERB	Gender=Masc|HebBinyan=PAAL|Number=Sing|Person=1,2,3|VerbForm=Part|Voice=Act	0	root	_	_
@@ -15341,9 +14485,7 @@
 30	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 429									
 									
-									
 # text = ארבע וחצי שעות צעדו אתמול בירושלים עשרות אלפים אחרי ארונו של מאיר כהנא במסע הלווייה פרוע, רצוף קריאות הסתה לפגיעות בערבים, בעיתונאים ובשוטרים.									
-									
 									
 1	ארבע	ארבע	NUM	NUM	Gender=Fem|Number=Sing	4	nummod	_	_
 2-3	וחצי	_	_	_	_	_	_	_	_
@@ -15391,9 +14533,7 @@
 36	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 430									
 									
-									
 # text = בשעה 1200, כשהחל הקהל להתפזר, מנתה המשטרה שלושה שוטרים פצועים, אחד מהם קשה, וארבעה ערבים עוברי-אורח שנפצעו אף הם.									
-									
 									
 1-2	בשעה	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -15437,9 +14577,7 @@
 33	.	.	PUNCT	PUNCT	_	11	punct	_	_
 # sent_id = 431									
 									
-									
 # text = בשעה 1400 עדיין נמצא קהל הרבבות תחת שליטה ובקרה.									
-									
 									
 1-2	בשעה	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -15459,9 +14597,7 @@
 13	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 432									
 									
-									
 # text = החל משעות הצהרים התקבצו אלפים סביב ישיבת הרעיון היהודי בשכונת שמואל הנביא.									
-									
 									
 1	החל	_	ADP	ADP	_	3	case	_	_
 2-3	משעות	_	_	_	_	_	_	_	_
@@ -15490,9 +14626,7 @@
 19	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 433									
 									
-									
 # text = בני משפחת כהנא ישבו על מרפסת המשקיפה על פתח הישיבה.									
-									
 									
 1	בני	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	nsubj	_	_
 2	משפחת	משפחה	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Sing	1	compound:smixut	_	_
@@ -15511,9 +14645,7 @@
 13	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 434									
 									
-									
 # text = צלמי עיתונות רבים נדחקו על גג בטון סמוך.									
-									
 									
 1	צלמי	צלם	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	4	nsubj	_	_
 2	עיתונות	עיתונות	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
@@ -15526,9 +14658,7 @@
 9	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 435									
 									
-									
 # text = צוותי תקשורת אחרים הושמו מאחורי גדירות משטרה.									
-									
 									
 1	צוותי	צוות	NOUN	NOUN	Definite=Cons|Gender=Fem|Number=Plur	4	nsubj	_	_
 2	תקשורת	תקשורת	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
@@ -15540,9 +14670,7 @@
 8	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 436									
 									
-									
 # text = בשעה 1500 הגיע הארון למקום.									
-									
 									
 1-2	בשעה	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -15559,9 +14687,7 @@
 10	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 437									
 									
-									
 # text = מהרמקול בקע קולו של אחד מתלמידי הישיבה, שקרא פסוקי תהילים.									
-									
 									
 1-3	מהרמקול	_	_	_	_	_	_	_	_
 1	מ	מ	ADP	ADP	_	3	case	_	_
@@ -15589,9 +14715,7 @@
 19	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 438									
 									
-									
 # text = הציבור חזר אחריו בדבקות.									
-									
 									
 1-2	הציבור	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -15606,9 +14730,7 @@
 8	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 439									
 									
-									
 # text = קהל הרבבות כלל כיפות סרוגות, חרדים, יהודים דתיים מארה"ב ואנשי שכונות.									
-									
 									
 1	קהל	קהל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	4	nsubj	_	_
 2-3	הרבבות	_	_	_	_	_	_	_	_
@@ -15632,9 +14754,7 @@
 17	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 440									
 									
-									
 # text = אנשי החברה קדישא ביקשו להעביר את אלונקת הנפטר מהרכב אל הישיבה.									
-									
 									
 1	אנשי	איש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	nsubj	_	_
 2-3	החברה	_	_	_	_	_	_	_	_
@@ -15659,9 +14779,7 @@
 17	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 441									
 									
-									
 # text = למעלה מחצי שעה הם ניסו לעשות זאת, אך ללא הצלחה.									
-									
 									
 1	למעלה	למעלה	ADV	ADV	HebSource=ConvUncertainHead	3	dep	_	_
 2-3	מחצי	_	_	_	_	_	_	_	_
@@ -15679,9 +14797,7 @@
 13	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 442									
 									
-									
 # text = בני המשפחה, הרבנים, ראשי כך ואפילו הרב הראשי לישראל, הראשון לציון הרב מרדכי אליהו, התחננו בפני הקהל לפנות מעט דרך, אך לשווא.									
-									
 									
 1	בני	בן	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	28	nsubj	_	_
 2-3	המשפחה	_	_	_	_	_	_	_	SpaceAfter=No
@@ -15735,9 +14851,7 @@
 39	.	.	PUNCT	PUNCT	_	28	punct	_	_
 # sent_id = 443									
 									
-									
 # text = מאות צרו על רכב החברה קדישא, תוך שהם דוחפים איש את רעהו ומשלחים קללות וגידופים לעבר אנשי התקשורת הרבים.									
-									
 									
 1	מאות	מאות	NUM	NUM	Gender=Fem|Number=Plur	2	nsubj	_	_
 2	צרו	צר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -15774,9 +14888,7 @@
 27	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 444									
 									
-									
 # text = השר יובל נאמן וסגניתו גאולה כהן, שביקשו להספיד את הרב כהנא, גורשו מהמקום.									
-									
 									
 1-2	השר	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -15809,9 +14921,7 @@
 24	.	.	PUNCT	PUNCT	_	20	punct	_	_
 # sent_id = 445									
 									
-									
 # text = בקהל נראו חבר הכנסת אליקים העצני, השר יצחק פרץ, הח"ך לשעבר מאיר כהן אבידוב, ד"ר ישראל אלדד ודמויות רבות נוספות מחוגי הימין.									
-									
 									
 1-3	בקהל	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	3	case	_	_
@@ -15856,9 +14966,7 @@
 34	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 446									
 									
-									
 # text = ב2115 ניסה רכב החברה קדישא לדחוף בעדינות את הצרים עליו.									
-									
 									
 1-2	ב2115	_	_	_	_	_	_	_	_
 1	ב	ב	ADP	ADP	_	2	case	_	_
@@ -15883,9 +14991,7 @@
 16	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 447									
 									
-									
 # text = התוצאה: פצוע שנדרס.									
-									
 									
 1-2	התוצאה	_	_	_	_	_	_	_	SpaceAfter=No
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -15898,9 +15004,7 @@
 7	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 448									
 									
-									
 # text = לקול צפירות האמבולנס שמיהר עמו לבית החולים, פתח הרב הראשי את שורת ההספדים.									
-									
 									
 1-2	לקול	_	_	_	_	_	_	_	_
 1	ל	ל	ADP	ADP	_	2	case	_	_
@@ -15937,9 +15041,7 @@
 24	.	.	PUNCT	PUNCT	_	15	punct	_	_
 # sent_id = 449									
 									
-									
 # text = הרב הראשי עמד על תכונותיו של כהנא: "החסד שלו, הצדקה שלו וראיית החיים שלו", ואחר כך פונה לקהל: "הקב"ה יקום דמו.									
-									
 									
 1-2	הרב	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -16003,9 +15105,7 @@
 46	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 450									
 									
-									
 # text = לא להפריע לכוחות הביטחון.									
-									
 									
 1	לא	לא	ADV	ADV	Polarity=Neg	0	root	_	_
 2	להפריע	הפריע	VERB	VERB	HebBinyan=HIFIL|HebSource=ConvUncertainHead|VerbForm=Inf|Voice=Act	1	dep	_	_
@@ -16018,9 +15118,7 @@
 7	.	.	PUNCT	PUNCT	HebSource=ConvUncertainHead	1	dep	_	_
 # sent_id = 451									
 									
-									
 # text = להשאיר את הנקמה לאלוקים".									
-									
 									
 1	להשאיר	השאיר	VERB	VERB	HebBinyan=HIFIL|VerbForm=Inf|Voice=Act	0	root	_	_
 2	את	את	ADP	ADP	Case=Acc	4	case:acc	_	_
@@ -16034,9 +15132,7 @@
 8	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 452									
 									
-									
 # text = הרב נחמן כהנא, אחיו של מאיר כהנא, הזכיר לציבור תוך בכי, כי "דמו של כהנא נשפך על רקע הר-הבית.									
-									
 									
 1-2	הרב	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -16079,9 +15175,7 @@
 34	.	.	PUNCT	PUNCT	_	13	punct	_	_
 # sent_id = 453									
 									
-									
 # text = הדם הזה רותח.									
-									
 									
 1-2	הדם	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -16093,9 +15187,7 @@
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 454									
 									
-									
 # text = על הדם הזה אין כפרה".									
-									
 									
 1	על	על	ADP	ADP	_	3	case	_	_
 2-3	הדם	_	_	_	_	_	_	_	_
@@ -16110,9 +15202,7 @@
 9	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 455									
 									
-									
 # text = רק בדבריו של הרב אברהם טולדאנו, משגיח בישיבת הרעיון היהודי ומספר 4 ברשימת כך לכנסת, היו כבר הוראות מעשיות: "אלוקים ייקום דמו ואנו ניקום אותו.									
-									
 									
 1	רק	רק	ADV	ADV	_	2	advmod	_	_
 2-5	בדבריו	_	_	_	_	_	_	_	_
@@ -16172,9 +15262,7 @@
 45	.	.	PUNCT	PUNCT	_	29	punct	_	_
 # sent_id = 456									
 									
-									
 # text = אל נקמות ה.									
-									
 									
 1	אל	אל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Sing	0	root	_	_
 2	נקמות	נקמה	NOUN	NOUN	Gender=Fem|Number=Plur	1	compound:smixut	_	_
@@ -16182,9 +15270,7 @@
 4	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 457									
 									
-									
 # text = עכשיו עת להרוג.									
-									
 									
 1	עכשיו	עכשיו	ADV	ADV	_	2	advmod	_	_
 2	עת	עת	NOUN	NOUN	Gender=Fem|Number=Sing	0	root	_	_
@@ -16192,9 +15278,7 @@
 4	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 458									
 									
-									
 # text = זו העת להרוג רבותי.									
-									
 									
 1	זו	זו	PRON	PRON	Gender=Fem|Number=Sing|Person=3|PronType=Dem	3	nsubj	_	_
 2-3	העת	_	_	_	_	_	_	_	_
@@ -16208,9 +15292,7 @@
 8	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 459									
 									
-									
 # text = נצפה לשלום, אך אינך יכול להגיע לשלום, שלא דרך המלחמה.									
-									
 									
 1	נצפה	ציפה	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=1|Tense=Fut	0	root	_	_
 2-3	לשלום	_	_	_	_	_	_	_	SpaceAfter=No
@@ -16233,9 +15315,7 @@
 16	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 460									
 									
-									
 # text = עת לטוב ועת לרע: אינך יכול להגיע לטוב, אם אתה לא מבער את הרע.									
-									
 									
 1	עת	עת	NOUN	NOUN	Gender=Fem|Number=Sing	3	nsubj	_	_
 2-3	לטוב	_	_	_	_	_	_	_	_
@@ -16267,9 +15347,7 @@
 23	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 461									
 									
-									
 # text = זה הרגע.									
-									
 									
 1	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 2-3	הרגע	_	_	_	_	_	_	_	SpaceAfter=No
@@ -16278,9 +15356,7 @@
 4	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 462									
 									
-									
 # text = זה הזמן לנקום נקמתו של כל יהודי".									
-									
 									
 1	זה	זה	PRON	PRON	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 2-3	הזמן	_	_	_	_	_	_	_	_
@@ -16298,9 +15374,7 @@
 12	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 463									
 									
-									
 # text = דבריו של יקותיאל בן-יעקב, איש כך המקורב ביותר לרב כהנא, הם המפורשים ביותר, והוא פנה אל רבו, כאילו עוד היה חי: "הרב כהנא רצחו אותך פעמיים.									
-									
 									
 1-3	דבריו	_	_	_	_	_	_	_	_
 1	דבר_	דבר	NOUN	NOUN	Definite=Def|Gender=Masc|Number=Plur	22	nsubj:cop	_	_
@@ -16358,9 +15432,7 @@
 46	.	.	PUNCT	PUNCT	_	22	punct	_	_
 # sent_id = 464									
 									
-									
 # text = כאן בארץ פסלו אותך ובארה"ב רצחו אותך.									
-									
 									
 1	כאן	כאן	ADV	ADV	_	5	advmod	_	_
 2-4	בארץ	_	_	_	_	_	_	_	_
@@ -16382,9 +15454,7 @@
 14	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 465									
 									
-									
 # text = התקשורת העויינת ממשיכה לרצוח אותך פעם שלישית.									
-									
 									
 1-2	התקשורת	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -16402,9 +15472,7 @@
 11	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 466									
 									
-									
 # text = נבכה ונפסיק לבכות ונקיים את התורה שלימדת אותנו נקמה.									
-									
 									
 1	נבכה	בכה	VERB	VERB	Gender=Fem,Masc|Number=Plur|Person=1|Tense=Fut	0	root	_	_
 2-3	ונפסיק	_	_	_	_	_	_	_	_
@@ -16428,9 +15496,7 @@
 15	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 467									
 									
-									
 # text = ניתן את רשות הדיבור לחבר תת-מקלע לחבר סכין.									
-									
 									
 1	ניתן	נתן	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=1|Tense=Fut|Voice=Act	0	root	_	_
 2	את	את	ADP	ADP	Case=Acc	3	case:acc	_	_
@@ -16453,9 +15519,7 @@
 16	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 468									
 									
-									
 # text = שלום הרב כהנא".									
-									
 									
 1	שלום	שלום	NOUN	NOUN	Gender=Masc|Number=Sing	0	root	_	_
 2-3	הרב	_	_	_	_	_	_	_	_
@@ -16466,9 +15530,7 @@
 6	.	.	PUNCT	PUNCT	_	1	punct	_	_
 # sent_id = 469									
 									
-									
 # text = אט אט התחיל ההמון לצעוד אל מחוץ לסמטאות לעבר הכביש הראשי.									
-									
 									
 1	אט	אט	ADV	ADV	_	3	advmod	_	_
 2	אט	אט	ADV	ADV	_	1	fixed	_	_
@@ -16495,9 +15557,7 @@
 18	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 470									
 									
-									
 # text = תחילה בשקט ואחר כך תוך קריאות גוברות והולכות: "מוות לערבים", "מוות לשמאלנים", "רוצים נקמה".									
-									
 									
 1	תחילה	תחילה	ADV	ADV	_	2	advmod	_	_
 2-3	בשקט	_	_	_	_	_	_	_	_
@@ -16537,9 +15597,7 @@
 31	.	.	PUNCT	PUNCT	_	14	punct	_	_
 # sent_id = 471									
 									
-									
 # text = הקהל הזה היה צמא לדם והוא חיפש ערבים.									
-									
 									
 1-2	הקהל	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -16560,15 +15618,13 @@
 13	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 472									
 									
-									
 # text = מדי פעם בפעם פרצה קבוצה של כמה מאות הצידה כאשר נדמה היה שגילתה ערבי.									
 									
-									
 1	מדי	מדי	ADV	ADV	_	5	advmod:phrase	_	_
-2	פעם	פעם	ADV	ADV	HebSource=ConvUncertainHead	1	advmod	_	_
+2	פעם	פעם	ADV	ADV	HebSource=ConvUncertainHead	1	fixed	_	_
 3-4	בפעם	_	_	_	_	_	_	_	_
-3	ב	ב	ADP	ADP	HebSource=ConvUncertainHead	1	dep	_	_
-4	פעם	פעם	ADV	ADV	HebSource=ConvUncertainHead	1	advmod	_	_
+3	ב	ב	ADP	ADP	HebSource=ConvUncertainHead	1	fixed	_	_
+4	פעם	פעם	ADV	ADV	HebSource=ConvUncertainHead	1	fixed	_	_
 5	פרצה	פרץ	VERB	VERB	Gender=Fem|HebBinyan=PAAL|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
 6	קבוצה	קבוצה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
 7	של	של	ADP	ADP	Case=Gen	9	case:gen	_	_
@@ -16585,9 +15641,7 @@
 17	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 473									
 									
-									
 # text = אבל האכזבה רבה.									
-									
 									
 1	אבל	אבל	CCONJ	CCONJ	_	4	cc	_	_
 2-3	האכזבה	_	_	_	_	_	_	_	_
@@ -16597,9 +15651,7 @@
 5	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 474									
 									
-									
 # text = בעלי מפעלים רבים על נתיב ההלווייה נעלו את פועליהם מאחורי סוגר ובריח.									
-									
 									
 1	בעלי	בעל	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	8	nsubj	_	_
 2	מפעלים	מפעל	NOUN	NOUN	Gender=Masc|Number=Plur	1	compound:smixut	_	_
@@ -16623,9 +15675,7 @@
 17	.	.	PUNCT	PUNCT	_	8	punct	_	_
 # sent_id = 475									
 									
-									
 # text = אחדים מהם עשו שטות והציצו מבעד לחלונות; בתוך דקות נופצו שמשות.									
-									
 									
 1	אחדים	אחדים	NUM	NUM	_	3	det	_	_
 2-3	מהם	_	_	_	_	_	_	_	_
@@ -16649,9 +15699,7 @@
 17	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 476									
 									
-									
 # text = מאחור צרו מאות על בניין הטלוויזיה.									
-									
 									
 1	מאחור	מאחור	ADV	ADV	_	2	advmod	_	_
 2	צרו	צר	VERB	VERB	Gender=Fem,Masc|HebBinyan=PAAL|Number=Plur|Person=3|Tense=Past|Voice=Act	0	root	_	_
@@ -16664,9 +15712,7 @@
 8	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 477									
 									
-									
 # text = פרשי משטרה דחקו אותם לאחור.									
-									
 									
 1	פרשי	פרש	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	3	nsubj	_	_
 2	משטרה	משטרה	NOUN	NOUN	Gender=Fem|Number=Sing	1	compound:smixut	_	_
@@ -16678,9 +15724,7 @@
 7	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 478									
 									
-									
 # text = שוטר נפגע מאבן בראשו.									
-									
 									
 1	שוטר	שוטר	NOUN	NOUN	Gender=Masc|Number=Sing	2	nsubj	_	_
 2	נפגע	נפגע	VERB	VERB	Gender=Masc|HebBinyan=NIFAL|Number=Sing|Person=3|Tense=Past|Voice=Mid	0	root	_	_
@@ -16695,9 +15739,7 @@
 9	.	.	PUNCT	PUNCT	_	2	punct	_	_
 # sent_id = 479									
 									
-									
 # text = קבוצה אחרת של מפגינים פרצה למרכז המסחרי סנטר 1, ליד התחנה המרכזית.									
-									
 									
 1	קבוצה	קבוצה	NOUN	NOUN	Gender=Fem|Number=Sing	5	nsubj	_	_
 2	אחרת	אחר	ADJ	ADJ	Gender=Fem|Number=Sing	1	amod	_	_
@@ -16724,9 +15766,7 @@
 19	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 480									
 									
-									
 # text = יושבי בתי הקפה נבעתו.									
-									
 									
 1	יושבי	יושב	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	5	nsubj	_	_
 2	בתי	בית	NOUN	NOUN	Definite=Cons|Gender=Masc|Number=Plur	1	compound:smixut	_	_
@@ -16737,9 +15777,7 @@
 6	.	.	PUNCT	PUNCT	_	5	punct	_	_
 # sent_id = 481									
 									
-									
 # text = אם עם תינוקתה פרצה בזעקות.									
-									
 									
 1	אם	אם	NOUN	NOUN	Gender=Fem|Number=Sing	6	nsubj	_	_
 2	עם	עם	ADP	ADP	_	3	case	_	_
@@ -16754,9 +15792,7 @@
 9	.	.	PUNCT	PUNCT	_	6	punct	_	_
 # sent_id = 482									
 									
-									
 # text = מיד אחר כך נופצו חלונות ראווה של חנויות במרכז.									
-									
 									
 1	מיד	מייד	ADV	ADV	_	2	advmod	_	_
 2	אחר	אחר	ADP	ADP	_	3	case	_	_
@@ -16773,9 +15809,7 @@
 12	.	.	PUNCT	PUNCT	_	4	punct	_	_
 # sent_id = 483									
 									
-									
 # text = השוטרים הגיעו רק אחרי כמה דקות.									
-									
 									
 1-2	השוטרים	_	_	_	_	_	_	_	_
 1	ה	ה	DET	DET	PronType=Art	2	det:def	_	_
@@ -16788,9 +15822,7 @@
 8	.	.	PUNCT	PUNCT	_	3	punct	_	_
 # sent_id = 484									
 									
-									
 # text = מול בית מספר 3 ברחוב גבעת שאול אני עד לאירוע החמור ביותר.									
-									
 									
 1	מול	מול	ADP	ADP	_	2	case	_	_
 2	בית	בית	NOUN	NOUN	Gender=Masc|Number=Sing	10	nmod	_	_
