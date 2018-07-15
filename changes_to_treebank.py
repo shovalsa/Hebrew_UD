@@ -5,7 +5,6 @@ import numpy as np
 from collections import Counter
 import re
 
-dummy = 'dummy_treebank.csv'
 dev_treebank = 'he_htb-ud-dev.conllu'
 training_treebank = 'he_htb-ud-train.conllu'
 test_treebank = 'he_htb-ud-test.conllu'
@@ -173,7 +172,10 @@ def advmod_phrase_to_fixed(data):
             data.at[v.name, 'DEPREL'] = 'fixed'
     return data
 
-
+def inspect(data):
+    roots = get_elements(data, 'DEPREL', 'root')
+    for i, v in roots.iterrows():
+        print(get_head(data, v)['FORM'], " ", v['FORM'])
 
 def make_changes(filepath):
     suit_for_pandas(filepath)
@@ -186,6 +188,8 @@ def make_changes(filepath):
     data = change_COL1xCOL2(data, 'XPOSTAG', 'DEPREL', 'PRON', 'amod', new_col2_value='det')
     data = change_COL1xFEATS(data, 'DEPREL', 'Prefix=Yes', new_col1_value="compound:affix")
     data = change_COL1xFEATS(data, 'DEPREL', 'VerbType=Cop', old_col1_value='aux', new_col1_value='cop')
+    data = change_COL1xFEATS(data, 'UPOSTAG', 'VerbType=Cop', old_col1_value='VERB', new_col1_value='AUX')
+    data = change_COL1xFEATS(data, 'XPOSTAG', 'VerbType=Cop', old_col1_value='VERB', new_col1_value='AUX')
     data = naive_change_value(data, 'DEPREL', 'conj:discourse', 'parataxis')
     data = change_COL1xCOL2(data, 'UPOSTAG', 'DEPREL', 'ADV', 'obl:tmod', new_col2_value='advmod')
     data = change_COL1xCOL2(data, 'XPOSTAG', 'DEPREL', 'ADV', 'obl:tmod', new_col2_value='advmod')
@@ -199,10 +203,13 @@ def make_changes(filepath):
     data = change_dependent(data, 'UPOSTAG', 'ADV', 'DEPREL', 'dep', 'advmod', 'advmod:phrase')
     data = flip_aux_xcomp_for_modals(data)
     data = advmod_phrase_to_fixed(data)
+    data = naive_change_value(data, 'DEPREL', 'advmod:phrase', 'advmod')
     # data.drop(columns=['SENTENCE'])
     data.to_csv('fixed_%s' % filepath, sep='\t', index=False, header=False, quoting=csv.QUOTE_NONE)
 
-make_changes(test_treebank)
+
+if __name__ == "__main__":
+    make_changes(training_treebank)
 
 
 
