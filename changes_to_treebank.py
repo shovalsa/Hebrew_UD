@@ -18,8 +18,9 @@ def suit_for_pandas(filepath):
     for line in source.readlines():
         if 'sent_id' in line:
             sent_id = "".join([x for x in line if x.isnumeric()])
+            output.write('\n')
         if line[0] == '#':
-            output.write(line + "\t"*9 + "\n")
+            output.write(line + "\t"*9 + '\n')
         elif line.strip() != '':
             # output.write(sent_id + ',' + line)
             output.write(line)
@@ -179,7 +180,7 @@ def inspect(data):
 
 def make_changes(filepath):
     suit_for_pandas(filepath)
-    data = pd.read_csv("modified_%s" % filepath, sep='\t', quoting=csv.QUOTE_NONE)
+    data = pd.read_csv("modified_%s" % filepath, sep='\t', quoting=csv.QUOTE_NONE,  skip_blank_lines=True)
     # data = add_sentence(data)
     data = naive_change_value(data, 'DEPREL', 'iobj', 'obl')
     data = naive_change_value(data, 'DEPREL', 'acl:inf', 'acl')
@@ -205,7 +206,23 @@ def make_changes(filepath):
     data = advmod_phrase_to_fixed(data)
     data = naive_change_value(data, 'DEPREL', 'advmod:phrase', 'advmod')
     # data.drop(columns=['SENTENCE'])
-    data.to_csv('fixed_%s' % filepath, sep='\t', index=False, header=False, quoting=csv.QUOTE_NONE)
+    data.to_csv('modified_%s' % filepath, sep='\t', index=False, header=False, quoting=csv.QUOTE_NONE)
+    add_empty_lines(filepath)
+
+def add_empty_lines(filepath):
+    newfile = open('fixed_%s' % filepath, 'w')
+    with open('modified_%s' % filepath, 'r') as f:
+        f = f.readlines()
+        for line in f:
+            if 'sent_id' in line:
+                newfile.write('\n')
+                newfile.write(line)
+            elif line.strip() == '':
+                pass
+            else:
+                newfile.write(line)
+
+
 
 
 if __name__ == "__main__":
