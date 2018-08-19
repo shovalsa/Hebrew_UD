@@ -1,0 +1,991 @@
+{
+    "\u05d1": {
+        "1": {
+            "\u05d1": "PREPOSITION"
+        },
+        "3": {
+            "\u05d1": "PREPOSITION",
+            "\u05d4": "DEF"
+        }
+    },
+    "\u05db\u05e9\u05de\u05d4": {
+        "1": {
+            "\u05d4": "DEF",
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05de": "PREPOSITION"
+        }
+    },
+    "\u05dc\u05db\u05e9\u05d1": {
+        "1": {
+            "\u05dc\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d1": "PREPOSITION"
+        },
+        "3": {
+            "\u05dc\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d1": "PREPOSITION",
+            "\u05d4": "DEF"
+        }
+    },
+    "\u05de\u05e9": {
+        "1": {
+            "\u05de\u05e9": "TEMP-SUBCONJ"
+        }
+    },
+    "\u05d5\u05dc\u05db\u05e9\u05dc": {
+        "1": {
+            "\u05dc\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ",
+            "\u05dc": "PREPOSITION"
+        },
+        "3": {
+            "\u05dc\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d4": "DEF",
+            "\u05d5": "CONJ",
+            "\u05dc": "PREPOSITION"
+        }
+    },
+    "\u05d5\u05e9\u05db\u05e9\u05db": {
+        "1": {
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ",
+            "\u05db": "PREPOSITION",
+            "\u05e9": "REL-SUBCONJ"
+        },
+        "3": {
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ",
+            "\u05db": "ADVERB",
+            "\u05e9": "REL-SUBCONJ"
+        },
+        "5": {
+            "\u05d4": "DEF",
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ",
+            "\u05db": "PREPOSITION",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05db\u05e9\u05db": {
+        "1": {
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05db": "PREPOSITION"
+        },
+        "3": {
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05db": "ADVERB"
+        },
+        "5": {
+            "\u05d4": "DEF",
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05db": "PREPOSITION"
+        },
+        "7": {
+            "\u05d4": "DEF",
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05db": "ADVERB"
+        }
+    },
+    "\u05db": {
+        "1": {
+            "\u05db": "PREPOSITION"
+        },
+        "3": {
+            "\u05db": "ADVERB"
+        },
+        "5": {
+            "\u05d4": "DEF",
+            "\u05db": "PREPOSITION"
+        }
+    },
+    "\u05d5\u05de\u05e9\u05de": {
+        "1": {
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ",
+            "\u05de": "PREPOSITION"
+        }
+    },
+    "\u05e9\u05de\u05db": {
+        "1": {
+            "\u05de": "PREPOSITION",
+            "\u05db": "ADVERB",
+            "\u05e9": "REL-SUBCONJ"
+        },
+        "3": {
+            "\u05d4": "DEF",
+            "\u05de": "PREPOSITION",
+            "\u05db": "ADVERB",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05e9\u05dc\u05db\u05e9\u05d4": {
+        "1": {
+            "\u05dc\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d4": "DEF",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05e9\u05de\u05e9\u05db": {
+        "1": {
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05db": "PREPOSITION",
+            "\u05e9": "REL-SUBCONJ"
+        },
+        "3": {
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05db": "ADVERB",
+            "\u05e9": "REL-SUBCONJ"
+        },
+        "5": {
+            "\u05d4": "DEF",
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05db": "PREPOSITION",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05d5\u05dc\u05db\u05e9": {
+        "1": {
+            "\u05dc\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ"
+        }
+    },
+    "\u05e9\u05d1": {
+        "1": {
+            "\u05d1": "PREPOSITION",
+            "\u05e9": "REL-SUBCONJ"
+        },
+        "3": {
+            "\u05d1": "PREPOSITION",
+            "\u05d4": "DEF",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05e9\u05db\u05e9\u05de": {
+        "1": {
+            "\u05de": "PREPOSITION",
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05d5\u05d1\u05db": {
+        "1": {
+            "\u05d1": "PREPOSITION",
+            "\u05d5": "CONJ",
+            "\u05db": "ADVERB"
+        }
+    },
+    "\u05d5\u05e9\u05de": {
+        "1": {
+            "\u05de": "PREPOSITION",
+            "\u05d5": "CONJ",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05e9\u05dc": {
+        "1": {
+            "\u05dc": "PREPOSITION",
+            "\u05e9": "REL-SUBCONJ"
+        },
+        "3": {
+            "\u05d4": "DEF",
+            "\u05dc": "PREPOSITION",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05d5\u05e9\u05de\u05e9\u05dc": {
+        "1": {
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05dc": "PREPOSITION",
+            "\u05d5": "CONJ",
+            "\u05e9": "REL-SUBCONJ"
+        },
+        "3": {
+            "\u05d4": "DEF",
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05dc": "PREPOSITION",
+            "\u05d5": "CONJ",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05de\u05e9\u05d1": {
+        "1": {
+            "\u05d1": "PREPOSITION",
+            "\u05de\u05e9": "TEMP-SUBCONJ"
+        },
+        "3": {
+            "\u05d1": "PREPOSITION",
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05d4": "DEF"
+        }
+    },
+    "\u05e9\u05d4": {
+        "1": {
+            "\u05d4": "DEF",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05de\u05e9\u05dc": {
+        "1": {
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05dc": "PREPOSITION"
+        },
+        "3": {
+            "\u05d4": "DEF",
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05dc": "PREPOSITION"
+        }
+    },
+    "\u05d5\u05de\u05e9\u05db": {
+        "1": {
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ",
+            "\u05db": "PREPOSITION"
+        },
+        "3": {
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ",
+            "\u05db": "ADVERB"
+        },
+        "5": {
+            "\u05d4": "DEF",
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ",
+            "\u05db": "PREPOSITION"
+        }
+    },
+    "\u05dc\u05db": {
+        "1": {
+            "\u05db": "ADVERB",
+            "\u05dc": "PREPOSITION"
+        },
+        "3": {
+            "\u05d4": "DEF",
+            "\u05db": "ADVERB",
+            "\u05dc": "PREPOSITION"
+        }
+    },
+    "\u05d5\u05e9\u05db\u05e9\u05d4": {
+        "1": {
+            "\u05d4": "DEF",
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05dc": {
+        "1": {
+            "\u05dc": "PREPOSITION"
+        },
+        "3": {
+            "\u05d4": "DEF",
+            "\u05dc": "PREPOSITION"
+        }
+    },
+    "\u05d5\u05db\u05e9\u05dc": {
+        "1": {
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ",
+            "\u05dc": "PREPOSITION"
+        },
+        "3": {
+            "\u05d4": "DEF",
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ",
+            "\u05dc": "PREPOSITION"
+        }
+    },
+    "\u05d5\u05dc\u05db\u05e9\u05db": {
+        "1": {
+            "\u05dc\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ",
+            "\u05db": "PREPOSITION"
+        }
+    },
+    "\u05d5\u05db\u05e9\u05db": {
+        "1": {
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ",
+            "\u05db": "PREPOSITION"
+        },
+        "3": {
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ",
+            "\u05db": "ADVERB"
+        },
+        "5": {
+            "\u05d4": "DEF",
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ",
+            "\u05db": "PREPOSITION"
+        }
+    },
+    "\u05d5": {
+        "1": {
+            "\u05d5": "CONJ"
+        }
+    },
+    "\u05e9": {
+        "1": {
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05e9\u05db\u05e9\u05d4": {
+        "1": {
+            "\u05d4": "DEF",
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05e9\u05db\u05e9\u05db": {
+        "1": {
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05db": "PREPOSITION",
+            "\u05e9": "REL-SUBCONJ"
+        },
+        "3": {
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05db": "ADVERB",
+            "\u05e9": "REL-SUBCONJ"
+        },
+        "5": {
+            "\u05d4": "DEF",
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05db": "PREPOSITION",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05d5\u05e9\u05de\u05e9": {
+        "1": {
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05d5\u05e9\u05dc\u05db\u05e9": {
+        "1": {
+            "\u05dc\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05d5\u05de\u05db": {
+        "1": {
+            "\u05d5": "CONJ",
+            "\u05db": "ADVERB",
+            "\u05de": "PREPOSITION"
+        },
+        "3": {
+            "\u05d4": "DEF",
+            "\u05d5": "CONJ",
+            "\u05db": "ADVERB",
+            "\u05de": "PREPOSITION"
+        }
+    },
+    "\u05d5\u05dc\u05db\u05e9\u05d4": {
+        "1": {
+            "\u05dc\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d4": "DEF",
+            "\u05d5": "CONJ"
+        }
+    },
+    "\u05d5\u05db\u05db": {
+        "1": {
+            "\u05d5": "CONJ",
+            "\u05db": "ADVERB"
+        },
+        "3": {
+            "\u05d4": "DEF",
+            "\u05d5": "CONJ",
+            "\u05db": "ADVERB"
+        }
+    },
+    "\u05db\u05e9\u05de": {
+        "1": {
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05de": "PREPOSITION"
+        }
+    },
+    "\u05de\u05e9\u05de\u05d4": {
+        "1": {
+            "\u05d4": "DEF",
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05de": "PREPOSITION"
+        }
+    },
+    "\u05e9\u05de": {
+        "1": {
+            "\u05de": "PREPOSITION",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05dc\u05db\u05e9\u05d4": {
+        "1": {
+            "\u05dc\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d4": "DEF"
+        }
+    },
+    "\u05db\u05db": {
+        "1": {
+            "\u05db": "ADVERB"
+        },
+        "3": {
+            "\u05d4": "DEF",
+            "\u05db": "ADVERB"
+        }
+    },
+    "\u05d5\u05e9\u05d4": {
+        "1": {
+            "\u05d4": "DEF",
+            "\u05d5": "CONJ",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05d5\u05e9\u05db\u05db": {
+        "1": {
+            "\u05d5": "CONJ",
+            "\u05db": "ADVERB",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05db\u05e9\u05d4": {
+        "1": {
+            "\u05d4": "DEF",
+            "\u05db\u05e9": "TEMP-SUBCONJ"
+        }
+    },
+    "\u05e9\u05dc\u05db": {
+        "1": {
+            "\u05dc": "PREPOSITION",
+            "\u05db": "ADVERB",
+            "\u05e9": "REL-SUBCONJ"
+        },
+        "3": {
+            "\u05d4": "DEF",
+            "\u05dc": "PREPOSITION",
+            "\u05db": "ADVERB",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05de\u05db": {
+        "1": {
+            "\u05db": "ADVERB",
+            "\u05de": "PREPOSITION"
+        },
+        "3": {
+            "\u05d4": "DEF",
+            "\u05db": "ADVERB",
+            "\u05de": "PREPOSITION"
+        }
+    },
+    "\u05d5\u05e9\u05dc\u05db": {
+        "1": {
+            "\u05dc": "PREPOSITION",
+            "\u05d5": "CONJ",
+            "\u05db": "ADVERB",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05de\u05e9\u05de": {
+        "1": {
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05de": "PREPOSITION"
+        }
+    },
+    "\u05e9\u05de\u05d4": {
+        "1": {
+            "\u05d4": "DEF",
+            "\u05de": "PREPOSITION",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05e9\u05db\u05db": {
+        "1": {
+            "\u05db": "ADVERB",
+            "\u05e9": "REL-SUBCONJ"
+        },
+        "3": {
+            "\u05d4": "DEF",
+            "\u05db": "ADVERB",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05d5\u05d4": {
+        "1": {
+            "\u05d4": "DEF",
+            "\u05d5": "CONJ"
+        }
+    },
+    "\u05de\u05d4": {
+        "1": {
+            "\u05d4": "DEF",
+            "\u05de": "PREPOSITION"
+        }
+    },
+    "\u05d5\u05de\u05d4": {
+        "1": {
+            "\u05d4": "DEF",
+            "\u05d5": "CONJ",
+            "\u05de": "PREPOSITION"
+        }
+    },
+    "\u05d5\u05dc\u05db": {
+        "1": {
+            "\u05d5": "CONJ",
+            "\u05db": "ADVERB",
+            "\u05dc": "PREPOSITION"
+        },
+        "3": {
+            "\u05d4": "DEF",
+            "\u05d5": "CONJ",
+            "\u05db": "ADVERB",
+            "\u05dc": "PREPOSITION"
+        }
+    },
+    "\u05d5\u05de\u05e9\u05dc": {
+        "1": {
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ",
+            "\u05dc": "PREPOSITION"
+        },
+        "3": {
+            "\u05d4": "DEF",
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ",
+            "\u05dc": "PREPOSITION"
+        }
+    },
+    "\u05d5\u05e9\u05de\u05d4": {
+        "1": {
+            "\u05d4": "DEF",
+            "\u05de": "PREPOSITION",
+            "\u05d5": "CONJ",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05d5\u05e9\u05db\u05e9\u05d1": {
+        "1": {
+            "\u05d1": "PREPOSITION",
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ",
+            "\u05e9": "REL-SUBCONJ"
+        },
+        "3": {
+            "\u05d1": "PREPOSITION",
+            "\u05d4": "DEF",
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05d5\u05e9\u05dc": {
+        "1": {
+            "\u05dc": "PREPOSITION",
+            "\u05d5": "CONJ",
+            "\u05e9": "REL-SUBCONJ"
+        },
+        "3": {
+            "\u05d4": "DEF",
+            "\u05dc": "PREPOSITION",
+            "\u05d5": "CONJ",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05e9\u05dc\u05db\u05e9\u05dc": {
+        "1": {
+            "\u05dc\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05dc": "PREPOSITION",
+            "\u05e9": "REL-SUBCONJ"
+        },
+        "3": {
+            "\u05dc\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d4": "DEF",
+            "\u05dc": "PREPOSITION",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05d5\u05db\u05e9": {
+        "1": {
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ"
+        }
+    },
+    "\u05e9\u05de\u05e9\u05d1": {
+        "1": {
+            "\u05d1": "PREPOSITION",
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05e9": "REL-SUBCONJ"
+        },
+        "3": {
+            "\u05d1": "PREPOSITION",
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05d4": "DEF",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05d5\u05db\u05e9\u05d1": {
+        "1": {
+            "\u05d1": "PREPOSITION",
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ"
+        },
+        "3": {
+            "\u05d1": "PREPOSITION",
+            "\u05d4": "DEF",
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ"
+        }
+    },
+    "\u05e9\u05de\u05e9\u05d4": {
+        "1": {
+            "\u05d4": "DEF",
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05d5\u05de": {
+        "1": {
+            "\u05d5": "CONJ",
+            "\u05de": "PREPOSITION"
+        }
+    },
+    "\u05d5\u05db": {
+        "1": {
+            "\u05d5": "CONJ",
+            "\u05db": "PREPOSITION"
+        },
+        "3": {
+            "\u05d5": "CONJ",
+            "\u05db": "ADVERB"
+        },
+        "5": {
+            "\u05d4": "DEF",
+            "\u05d5": "CONJ",
+            "\u05db": "PREPOSITION"
+        },
+        "7": {
+            "\u05d4": "DEF",
+            "\u05d5": "CONJ",
+            "\u05db": "ADVERB"
+        }
+    },
+    "\u05d5\u05e9\u05de\u05db": {
+        "1": {
+            "\u05de": "PREPOSITION",
+            "\u05d5": "CONJ",
+            "\u05db": "ADVERB",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05d4": {
+        "1": {
+            "\u05d4": "REL"
+        }
+    },
+    "\u05d5\u05e9\u05de\u05e9\u05de": {
+        "1": {
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05de": "PREPOSITION",
+            "\u05d5": "CONJ",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05d5\u05e9\u05d1\u05db": {
+        "1": {
+            "\u05d1": "PREPOSITION",
+            "\u05d5": "CONJ",
+            "\u05db": "ADVERB",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05dc\u05db\u05e9\u05dc": {
+        "1": {
+            "\u05dc\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05dc": "PREPOSITION"
+        },
+        "3": {
+            "\u05dc\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d4": "DEF",
+            "\u05dc": "PREPOSITION"
+        }
+    },
+    "\u05e9\u05dc\u05db\u05e9": {
+        "1": {
+            "\u05dc\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05de\u05e9\u05d4": {
+        "1": {
+            "\u05d4": "DEF",
+            "\u05de\u05e9": "TEMP-SUBCONJ"
+        }
+    },
+    "\u05d5\u05e9\u05d1": {
+        "1": {
+            "\u05d1": "PREPOSITION",
+            "\u05d5": "CONJ",
+            "\u05e9": "REL-SUBCONJ"
+        },
+        "3": {
+            "\u05d1": "PREPOSITION",
+            "\u05d4": "DEF",
+            "\u05d5": "CONJ",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05d1\u05db": {
+        "1": {
+            "\u05d1": "PREPOSITION",
+            "\u05db": "ADVERB"
+        },
+        "3": {
+            "\u05d1": "PREPOSITION",
+            "\u05d4": "DEF",
+            "\u05db": "ADVERB"
+        }
+    },
+    "\u05dc\u05db\u05e9": {
+        "1": {
+            "\u05dc\u05db\u05e9": "TEMP-SUBCONJ"
+        }
+    },
+    "\u05d5\u05de\u05e9\u05d4": {
+        "1": {
+            "\u05d4": "DEF",
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ"
+        }
+    },
+    "\u05e9\u05de\u05e9": {
+        "1": {
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05e9\u05de\u05e9\u05de": {
+        "1": {
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05de": "PREPOSITION",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05d5\u05e9\u05db": {
+        "1": {
+            "\u05d5": "CONJ",
+            "\u05db": "PREPOSITION",
+            "\u05e9": "REL-SUBCONJ"
+        },
+        "3": {
+            "\u05d5": "CONJ",
+            "\u05db": "ADVERB",
+            "\u05e9": "REL-SUBCONJ"
+        },
+        "5": {
+            "\u05d4": "DEF",
+            "\u05d5": "CONJ",
+            "\u05db": "PREPOSITION",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05d5\u05de\u05e9": {
+        "1": {
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ"
+        }
+    },
+    "\u05e9\u05de\u05e9\u05dc": {
+        "1": {
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05dc": "PREPOSITION",
+            "\u05e9": "REL-SUBCONJ"
+        },
+        "3": {
+            "\u05d4": "DEF",
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05dc": "PREPOSITION",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05db\u05e9\u05dc": {
+        "1": {
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05dc": "PREPOSITION"
+        },
+        "3": {
+            "\u05d4": "DEF",
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05dc": "PREPOSITION"
+        }
+    },
+    "\u05d5\u05d1": {
+        "1": {
+            "\u05d1": "PREPOSITION",
+            "\u05d5": "CONJ"
+        },
+        "3": {
+            "\u05d1": "PREPOSITION",
+            "\u05d4": "DEF",
+            "\u05d5": "CONJ"
+        }
+    },
+    "\u05e9\u05db": {
+        "1": {
+            "\u05db": "PREPOSITION",
+            "\u05e9": "REL-SUBCONJ"
+        },
+        "3": {
+            "\u05db": "ADVERB",
+            "\u05e9": "REL-SUBCONJ"
+        },
+        "5": {
+            "\u05d4": "DEF",
+            "\u05db": "PREPOSITION",
+            "\u05e9": "REL-SUBCONJ"
+        },
+        "7": {
+            "\u05d4": "DEF",
+            "\u05db": "ADVERB",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05d5\u05e9": {
+        "1": {
+            "\u05d5": "CONJ",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05d5\u05de\u05e9\u05d1": {
+        "1": {
+            "\u05d1": "PREPOSITION",
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ"
+        },
+        "3": {
+            "\u05d1": "PREPOSITION",
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05d4": "DEF",
+            "\u05d5": "CONJ"
+        }
+    },
+    "\u05de": {
+        "1": {
+            "\u05de": "PREPOSITION"
+        }
+    },
+    "\u05d5\u05db\u05e9\u05de": {
+        "1": {
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ",
+            "\u05de": "PREPOSITION"
+        }
+    },
+    "\u05d5\u05e9\u05db\u05e9": {
+        "1": {
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05de\u05e9\u05db": {
+        "1": {
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05db": "PREPOSITION"
+        },
+        "3": {
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05db": "ADVERB"
+        },
+        "5": {
+            "\u05d4": "DEF",
+            "\u05de\u05e9": "TEMP-SUBCONJ",
+            "\u05db": "PREPOSITION"
+        }
+    },
+    "\u05db\u05e9": {
+        "1": {
+            "\u05db\u05e9": "TEMP-SUBCONJ"
+        }
+    },
+    "\u05e9\u05db\u05e9": {
+        "1": {
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05db\u05e9\u05d1": {
+        "1": {
+            "\u05d1": "PREPOSITION",
+            "\u05db\u05e9": "TEMP-SUBCONJ"
+        },
+        "3": {
+            "\u05d1": "PREPOSITION",
+            "\u05d4": "DEF",
+            "\u05db\u05e9": "TEMP-SUBCONJ"
+        }
+    },
+    "\u05d5\u05dc": {
+        "1": {
+            "\u05d5": "CONJ",
+            "\u05dc": "PREPOSITION"
+        },
+        "3": {
+            "\u05d4": "DEF",
+            "\u05d5": "CONJ",
+            "\u05dc": "PREPOSITION"
+        }
+    },
+    "\u05e9\u05db\u05e9\u05dc": {
+        "1": {
+            "\u05dc": "PREPOSITION",
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05e9": "REL-SUBCONJ"
+        },
+        "3": {
+            "\u05d4": "DEF",
+            "\u05dc": "PREPOSITION",
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05e9\u05db\u05e9\u05d1": {
+        "1": {
+            "\u05d1": "PREPOSITION",
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05e9": "REL-SUBCONJ"
+        },
+        "3": {
+            "\u05d1": "PREPOSITION",
+            "\u05d4": "DEF",
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05e9\u05d1\u05db": {
+        "1": {
+            "\u05d1": "PREPOSITION",
+            "\u05db": "ADVERB",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05d5\u05e9\u05db\u05e9\u05dc": {
+        "1": {
+            "\u05dc": "PREPOSITION",
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ",
+            "\u05e9": "REL-SUBCONJ"
+        },
+        "3": {
+            "\u05d4": "DEF",
+            "\u05dc": "PREPOSITION",
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ",
+            "\u05e9": "REL-SUBCONJ"
+        }
+    },
+    "\u05d5\u05db\u05e9\u05d4": {
+        "1": {
+            "\u05d4": "DEF",
+            "\u05db\u05e9": "TEMP-SUBCONJ",
+            "\u05d5": "CONJ"
+        }
+    }
+}
