@@ -41,8 +41,15 @@ import time
 import csv
 import json
 
-def get_prefixes():
-    prefixes = open('/home/shoval/repos/openU/data/bgulex/bgupreflex_withdef.utf8.hr', 'r').readlines()
+
+def get_prefixes_dict():
+    """
+    :return: a dictionary in which the key is the prefix (unsegmented) and the value is  a dict of possible segmentations. ex.
+ול
+1 {'ו': 'CONJ', 'ל': 'PREPOSITION'}
+3 {'ו': 'CONJ', 'ל': 'PREPOSITION', 'ה': 'DEF'}
+    """
+    prefixes = open('../data/bgulex/bgupreflex_withdef.utf8.hr', 'r', encoding='utf8').readlines()
     prefixes = [line.split(" ") for line in prefixes]
     prefixes_dict = {}
     for p in prefixes:
@@ -60,16 +67,13 @@ def get_prefixes():
     return prefixes_dict
 
 
-prefixes = get_prefixes()
-# for p in prefixes:
-#     print(p)
-
 def get_conversion_table():
-    csvfile = open('/home/shoval/repos/openU/data/bgulex/conversion_spmrl_to_ud.csv', 'r')
+    csvfile = open('../data/bgulex/conversion_spmrl_to_ud.csv', 'r', encoding='utf8')
     conversion_table = csv.DictReader(csvfile, delimiter=',', quotechar='"', skipinitialspace=True)
     conversion_table = [dict for dict in conversion_table]
 
     return conversion_table
+
 
 def convert_atts(list_of_atts):
     conversion_table = get_conversion_table()
@@ -128,7 +132,7 @@ def make_lexicon_dict(lexicon_path) -> dict:
 
 
 def make_lex_list(lexicon_path) -> list:
-    lexicon = open(lexicon_path, 'r').readlines()
+    lexicon = open(lexicon_path, 'r', encoding='utf8').readlines()
     lexicon = [line.split(" ") for line in lexicon]
     lex_list = []
     for word in lexicon:
@@ -156,7 +160,7 @@ def make_lex_list(lexicon_path) -> list:
 
 def make_csv(lex_filepath):
     conv_lex = make_lex_list(lex_filepath)
-    with open('/home/shoval/repos/openU/data/bgulex/heblex.csv', 'w') as csvfile:
+    with open('../data/bgulex/heblex.csv', 'w', encoding='utf8') as csvfile:
         fieldnames = ['form', 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
 
@@ -170,22 +174,36 @@ def make_csv(lex_filepath):
 
 def make_json(lex_filepath):
     converted_lex = make_lexicon_dict(lex_filepath)
-    with open('/home/shoval/repos/openU/data/bgulex/heblex.json', 'w', encoding="utf-8") as j:
+    with open('../data/bgulex/heblex.json', 'w', encoding="utf-8") as j:
         json.dump(converted_lex, j, indent=4)
 
 
-def get_lexicon_csv(filepath):
-    with open(filepath, 'r') as csvfile:
+def get_lexicon_csv_as_dictreader(filepath):
+    with open(filepath, 'r', encoding="utf-8") as csvfile:
         fieldnames = ['form', 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]
-        lexicon = csv.DictReader(csvfile, fieldnames, delimiter=',', quotechar='"', skipinitialspace=True)
+        lexicon = csv.DictReader(csvfile, fieldnames, delimiter=';', quotechar='"', skipinitialspace=True)
         return [row for row in lexicon]
 
+def get_lexicon_csv_as_list(filepath):
+    csvfile = open(filepath, 'r', encoding="utf-8")
+    lexicon = csv.reader(csvfile, delimiter=';')
+    return lexicon
+
+def convert_lexicon_to_dict(lexicon):
+    main_dict = {}
+    for row in lexicon:
+        main_dict[row[0]] = row[1]
+        for item in row:
+            pri
+
+    return main_dict
+
 def get_lexicon_json(filepath):
-    with open(filepath, 'r') as jsonfile:
+    with open(filepath, 'r', encoding="utf-8") as jsonfile:
         return json.load(jsonfile)
 
 def segment_sentence(sentence) -> list:
-    prefixes = get_prefixes()
+    prefixes = get_prefixes_dict()
     tokens = sentence.split(" ")
     after_segmentation = []
     for token in tokens:
@@ -204,31 +222,46 @@ def segment_sentence(sentence) -> list:
     return after_segmentation
 
 
+def get_items_from_lex(segmented_text, lexicon, prefixes):
+    syntax = []
+    for tup in segmented_text:
+        if tup[0] == 'lexical_word':
+            for row in lexicon:
+                if row[0] == tup[1]:
+                    syntax.append(row)
+                    break
 
 
-# csv_lexicon = get_lexicon_csv('/home/shoval/repos/openU/data/bgulex/heblex.csv')
-start_time = time.time()
-json_lexicon = get_lexicon_json('/home/shoval/repos/openU/data/bgulex/heblex.json')
-prefixes = get_prefixes()
-print(time.time() - start_time)
-start_time = time.time()
 
-segmented = segment_sentence(sentence="אני בבית")
-for s in segmented:
-    if s[0] == 'morpheme':
-        for v in prefixes[s[1]].values():
-            for morph, tag in v.items():
-                print(morph, '\t', tag)
-    elif s[1] in json_lexicon:
-        for version in json_lexicon[s[1]].values():
-            if version['PREFIX'] != '':
-                print(version['PREFIX'])
-            print(version['UPOSTAG'], '\t', version['FEATS'], '\t', version['LEMMA'])
-            if version['SUFFIX'] != '':
-                print(version['SUFFIX'])
+
+
+csv_lexicon = get_lexicon_csv_as_list('../data/bgulex/heblex.csv')
+
+prefixes = get_prefixes_dict()
+dict_lex = convert_lexicon_to_dict(csv_lexicon)
+for k, v in dict_lex.items():
+    print(k, ": ", v)
+
+
+segmented = segment_sentence(sentence="יש משקאות משכרים על המדף")
+# print(segmented)
+# print(get_items_from_lex(segmented))
+def tmp():
+    json_lexicon = get_lexicon_json('../data/bgulex/heblex.json')
+    for s in segmented:
+        if s[0] == 'morpheme':
+            for v in prefixes[s[1]].values():
+                for morph, tag in v.items():
+                    print(morph, '\t', tag)
+        elif s[1] in json_lexicon:
+            for version in json_lexicon[s[1]].values():
+                if version['PREFIX'] != '':
+                    print(version['PREFIX'])
+                print(version['UPOSTAG'], '\t', version['FEATS'], '\t', version['LEMMA'])
+                if version['SUFFIX'] != '':
+                    print(version['SUFFIX'])
 
         # print(s)
     else:
         print(s[1], 'UNK')
 
-print(time.time() - start_time)
