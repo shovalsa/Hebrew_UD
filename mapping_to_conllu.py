@@ -130,4 +130,6 @@ def main():
     columns = ['ID', 'FORM', 'LEMMA', 'CPOSTAG', 'POSTAG', 'FEATS', 'DEPREL', 'DEPS', 'MISC']
     df.to_csv('fixed_map.conllu', sep='\t', index=False, header=False, quoting=csv.QUOTE_NONE, escapechar='\\', columns=columns)
     print('Successfully converted .mapping to .conllu')
-main()
+
+if __name__ == "__main__":
+    main()

@@ -215,12 +215,15 @@ def add_empty_lines(filepath):
         f = f.readlines()
         for line in f:
             if 'sent_id' in line:
-                newfile.write('\n')
-                newfile.write(line)
+                if f[0] == line:
+                    newfile.write(line.strip() + '\n')
+                else:
+                    newfile.write('\n')
+                    newfile.write(line.strip() + '\n')
             elif line.strip() == '':
                 pass
             else:
-                newfile.write(line)
+                newfile.write(line.strip() + '\n')
 
 
 
