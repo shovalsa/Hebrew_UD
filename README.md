@@ -15,6 +15,7 @@ A tool for investigation and conversion of the treebank. e.g. allows retrieval o
 ### lattices_builder.py
 takes a raw sentence and builds a "lattices" file - one which all possible parses of each token are listed.
 For example, the sentence שלום, היום יום יפה would yield the following lattice (in a conll-ul format):
+```
 FROM    TO   FORM    LEMMA   UPOS  CPOS   FEATURES    MISC    ANCHORS
 0	1	ש	ש	REL	REL	_	1
 0	2	שלום	שליו	NN	NN	gen=M|num=S|suf_gen=M|suf_num=P|suf_per=3	1
@@ -44,3 +45,4 @@ FROM    TO   FORM    LEMMA   UPOS  CPOS   FEATURES    MISC    ANCHORS
 7	8	יפה	ייפה	VB	VB	gen=M|num=S|per=3|tense=PAST	5
 7	8	יפה	ייפה	VB	VB	gen=M|num=S|per=2|tense=IMPERATIVE	5
 8	9	0	_	yyDOT	yyDOT	_	6
+```
