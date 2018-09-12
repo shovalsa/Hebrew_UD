@@ -16,33 +16,30 @@ A tool for investigation and conversion of the treebank. e.g. allows retrieval o
 takes a raw sentence and builds a "lattices" file - one which all possible parses of each token are listed.
 For example, the sentence שלום, היום יום יפה would yield the following lattice (in a conll-ul format):
 ```
-FROM    TO   FORM    LEMMA   UPOS  CPOS   FEATURES    MISC    ANCHORS
-0	1	ש	ש	REL	REL	_	1
-0	2	שלום	שליו	NN	NN	gen=M|num=S|suf_gen=M|suf_num=P|suf_per=3	1
-0	2	שלום	שלום	NN	NN	gen=M|num=S	1
-0	2	שלום	שלום	INTJ	INTJ	_	1
-0	2	שלום	שלום	NNT	NNT	gen=M|num=S	1
-0	2	שלום	שלום	NNP	NNP	gen=M|num=S	1
-1	2	לום	לום	NNT	NNT	gen=M|num=S	1
-1	2	לום	לום	NN	NN	gen=M|num=S	1
-2	3	,	_	yyCM	yyCM	_	2
-3	4	ה	ה	DEF	DEF	_	3
-3	5	ה	ה	REL	REL	_	3
-3	6	היום	היום	RB	RB	_	3
-4	6	יום	יום	NNT	NNT	gen=M|num=S	3
-4	6	יום	יום	NN	NN	gen=M|num=S	3
-5	6	יום	יום	NNT	NNT	gen=M|num=S	3
-5	6	יום	יום	NN	NN	gen=M|num=S	3
-6	7	יום	יום	NNT	NNT	gen=M|num=S	4
-6	7	יום	יום	NN	NN	gen=M|num=S	4
-7	8	יפה	יפה	JJ	JJ	gen=F|num=S	5
-7	8	יפה	יפה	VB	VB	gen=M|num=S|per=3|tense=PAST	5
-7	8	יפה	יפה	JJT	JJT	gen=M|num=S	5
-7	8	יפה	יפה	JJ	JJ	gen=M|num=S	5
-7	8	יפה	יפה	RB	RB	_	5
-7	8	יפה	יפה	INTJ	INTJ	_	5
-7	8	יפה	יפה	NNP	NNP	gen=F|num=S	5
-7	8	יפה	ייפה	VB	VB	gen=M|num=S|per=3|tense=PAST	5
-7	8	יפה	ייפה	VB	VB	gen=M|num=S|per=2|tense=IMPERATIVE	5
-8	9	0	_	yyDOT	yyDOT	_	6
+FROM   TO     FORM   LEMMA  UPOS  CPOS  FEATURES                    MISC    ANCHORS
+0-5 בצלם
+0      5      BCLM   BCLM   PROPN   -
+0      1      B      B      ADP     -                                       goldid=1
+0      3      BCL    BCL    NOUN    -   Gender=Masc|Number=Sing
+1      2      H      H      DET     -   PronType=Art                        goldid=2
+1      3      CL     CL     NOUN    -   Gender=Masc|Number=Sing
+2      3      CL     CL     NOUN    -   Gender=Masc|Number=Sing             goldid=3
+2      5      CLM    CILM   VERB    -   Gender=Masc|Number=Si...
+2      5      CLM    CILM   VERB    -   Gender=Masc|Mood=Imp...
+2      5      CLM    CLM    NOUN    -   Definite=Cons|Gender=Mas...
+2      5      CLM    CLM    NOUN    -   Gender=Masc|Number=Sing
+3      4      FL     FL     ADP     -                                       goldid=4
+4      5      HM     ANI    PRON    -   Gender=Masc|Number=Plur|Person=3    goldid=5
+5-7    הנעים
+5      7      HNEIM  HNEIM  VERB    -   Gender=Masc...
+5      6      H      H      DET     -   PronType=Art                        goldid=6
+5      6      H      H      SCONJ   -
+6      7      NEIM   NEIM   ADJ     -   Gender=Masc|Number=Sing             goldid=7
+6      7      NEIM   NEIM   ADJ     -   Definite=Cons|Gender=...
+6      7      NEIM   NEIM   ADV     -   Polarity=Neg
+6      7      NEIM   NEIM   AUX     -   Gender=Masc|Number=Sing...
+6      7      NEIM   NEIM   PROPN   -
+6      7      NEIM   NEIM   VERB    -   Gender=Masc|Tense=Part|VerbForm=Part
+6      7      NEIM   NEIM   VERB    -   Gender=Masc|VerbForm=Part
+
 ```
