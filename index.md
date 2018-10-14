@@ -16,19 +16,18 @@ udver: '2'
 * According to typographical rules, many punctuation marks are attached to the preceding space-delimited word. We always represent them as separate tokens (words); this holds even for hyphenated compounds such as בין-משרדית ‘inter-office’ (three tokens). 
 * Abbreviations marked with double quotation mark, such as צה”ל ‘IDF’, are not tokenized, and are considered a single token.
 * Some function words in Hebrew (commonly known as משהוכלב) are attached as prefixes to the following token, but we represent them as separate tokens:
-  * Oblique case markers:  מ, כ, ל, ב ( ‘of’, ‘as’, ‘to’ and ‘in’ respectively). 
+  * Oblique case markers:  ב, ל, כ, מ ( ‘of’, ‘as’, ‘to’ and ‘in’ respectively). 
   * The conjunction marker ו - ‘and’
   * The definite determiner ה - ‘the’
   * The subordination marker ש - ‘that’ 
-  * Combinations of the above
-  Note that not all elements are overt.The definite marker _ה, when appearing after the case markers ב or ל, is covert e.g. בבית may be analyzed as both ‘at home’ -> ב_+ה_+בית ‘in+the+home’ and ‘at a house’ -> ב_+בית ‘at+house’. As a result, there is inherent ambiguity in space-delimited tokens in Hebrew where tokens starting with _ב or ל can carry two different analyses, with or without the definite marker.
+  * Combinations of the above. Note that not all elements are overt. The definite marker \_ה, when appearing after the case markers ב or ל, is covert e.g. בבית may be analyzed as both ‘_at home_’ -> ב\_+ה\_+בית ‘in+the+home’ and ‘_at a house_’ -> ב\_+בית ‘at+house’. As a result, there is inherent ambiguity in space-delimited tokens in Hebrew where tokens starting with \_ב or ל can carry two different analyses, with or without the definite marker.
 * We also separate pronominal clitics to their lemmas in the following cases
   * Prepositions and case markers:
-    שלנו ‘our’ -> של_ + _אנחנו  ‘of we’
+    שלנו ‘our’ -> של\_ + \_אנחנו  ‘_of we_’
   * Verbs inflected to mark their accusative object
-    אהבתיה ‘I loved her’ ->   אהבתי_  + _את_ + _היא  loved+acc+her’.
+    אהבתיה ‘_I loved her_’ ->   אהבתי\_  + \_את\_ + \_היא  loved+acc+her’.
   * Genitive Nouns
-    ספרו ‘his book’ -> ספר_ + _של_ + _הוא ‘book+of+he’.
+    ספרו ‘_his book_’ -> ספר\_ + \_של\_ + \_הוא ‘_book+of+he_’.
   To indicate in the FORM column that these case markers and pronominal in fact undergo morphological fusion in the raw text, we distinguish them from the standard pronominals and case markers using underscore at the direction of fused elements.
 
 
@@ -57,7 +56,7 @@ udver: '2'
 * [Person]('http://universaldependencies.org/u/feat/Person.html'): Finite verbs ([VERB]('http://universaldependencies.org/u/pos/VERB.html') or [AUX]('http://universaldependencies.org/u/pos/AUX.html')) and pronouns ([PRON]('http://universaldependencies.org/u/pos/PRON.html')) are marked for 1, 2 or 3 person in the case of  first, second and third person respectively. Verbs are also marked , or Person=1,2,3 when on the case of  lemmas unspecified for person (for example in present tense).
 * [Polarity]('http://universaldependencies.org/u/feat/Polarity.html'): neg or pos are given to copular verbs according to their polarity (negative/positive).
 * [Prefix]('http://universaldependencies.org/u/feat/Prefix.html'): Yes is given to non-standalone adverbials ([ADV]('http://universaldependencies.org/u/pos/ADV.html')) which are either loan prefixes (e.g. מולטי ‘multi’, אנטי ‘anti’ etc.) or Hebrew adverbials with the same function (e.g. בלתי, אי ‘non’)
-* [PronType]('http://universaldependencies.org/u/feat/PronType.html'): relevant for pronouns ([PRON]('http://universaldependencies.org/u/pos/PRON.html')) and determiners ([DET]('http://universaldependencies.org/u/pos/DET.html')). PronType can take the following values: Prs for personal pronouns (e.g. אתה ‘you’, היא ‘she’ etc), Dem for demonstrative pronouns ( זה ‘it’, ‘this’), Int for interrogative pronouns (אילו ‘which ones’ מיהו ‘who’), and Ind for indefinite pronouns (e.g איכשהו, מישהו somehow, someone). When describing determiners, PronType can be either Art for articles (in hebrew there is a definite article ה_ ‘the’), or Int for interrogative determiners (מי, כיצד, האם, ‘who’, ‘how’ ‘whether’ respectively). Note that in Hebrew האם ‘whether’ can also appear in the matrix clause.
+* [PronType]('http://universaldependencies.org/u/feat/PronType.html'): relevant for pronouns ([PRON]('http://universaldependencies.org/u/pos/PRON.html')) and determiners ([DET]('http://universaldependencies.org/u/pos/DET.html')). PronType can take the following values: Prs for personal pronouns (e.g. אתה ‘you’, היא ‘she’ etc), Dem for demonstrative pronouns ( זה ‘it’, ‘this’), Int for interrogative pronouns (אילו ‘which ones’ מיהו ‘who’), and Ind for indefinite pronouns (e.g איכשהו, מישהו somehow, someone). When describing determiners, PronType can be either Art for articles (in hebrew there is a definite article ה\_ ‘the’), or Int for interrogative determiners (מי, כיצד, האם, ‘who’, ‘how’ ‘whether’ respectively). Note that in Hebrew האם ‘whether’ can also appear in the matrix clause.
 * [Reflex]('http://universaldependencies.org/u/feat/Reflex.html'): [PRON]('http://universaldependencies.org/u/pos/PRON.html') can take a Reflex=Yes feature that indicates  reflexivity (e.g. עצמי ‘myself’).
 * [Tense]('http://universaldependencies.org/u/feat/Tense.html'): marks a [VERB]('http://universaldependencies.org/u/pos/VERB.html') when it is either Past or Fut (future). Present tense is not explicitly marked with this particular feature.
 * [VerbForm]('http://universaldependencies.org/u/feat/VerbForm.html'): marks a verb if it is either in infinitive form (inf) or participle (part).
@@ -113,5 +112,5 @@ Non-verbal Clauses
 ## Treebanks
 
 Currently, Hebrew has a single treebank:
-* [Hebrew HTB]('http://universaldependencies.org/treebanks/he_htb/index.html')
+* [Hebrew HTB]('http://universaldependencies.org/treebanks/he\_htb/index.html')
 
