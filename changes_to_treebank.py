@@ -256,8 +256,12 @@ def make_changes(filepath):
     data = pd.read_csv("modified_%s" % filepath, sep='\t', quoting=csv.QUOTE_NONE,  skip_blank_lines=True)
     """
     add changes here:
+    make new or get from one of the blocks above.
     """
-    # make new or get from one of the blocks above.
+    data.at[data['FEATS'].str.contains('HebExistential=True', na=False), 'UPOSTAG'] = 'VERB'
+    data.at[data['FEATS'].str.contains('HebExistential=True', na=False), 'XPOSTAG'] = 'VERB'
+
+
     """
     end of periodical changes
     """
@@ -271,7 +275,7 @@ def inspect(filepath):
     return pd.read_csv("modified_%s" % filepath, sep='\t', quoting=csv.QUOTE_NONE,  skip_blank_lines=True, names=header)
 
 
-def get_context(data, dependent):
+def get_context(dependent):
     """
     shows the head and the sentence of the given dependent
     :param data:
@@ -284,9 +288,12 @@ def get_context(data, dependent):
     context = [get_head(data, dependent)['FORM'], sentence['INDEX']]
     return context
 
+def get_series_context(series):
+    for i, row in series.iterrows():
+        print(get_context(row))
+
 if __name__ == "__main__":
-    # make_changes(dev_treebank)
-    data = inspect(dev_treebank)
-
-
+    make_changes(test_treebank)
+    # suit_for_pandas(training_treebank)
+    # data = inspect(test_treebank)
 
